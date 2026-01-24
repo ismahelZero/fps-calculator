@@ -231,10 +231,10 @@
 
           <div
             class="mt-2 flex cursor-pointer select-none items-center justify-center gap-3"
-            @click="cycleRam"
           >
             <button
               class="text-2xl text-slate-600 transition-colors hover:text-white"
+              @click="cycleRam(-1)"
             >
               ‹
             </button>
@@ -243,6 +243,7 @@
             </p>
             <button
               class="text-2xl text-slate-600 transition-colors hover:text-white"
+              @click="cycleRam(1)"
             >
               ›
             </button>
@@ -456,10 +457,10 @@ const switchGpu = (newGpu: any) => {
   isEditingGpu.value = false
 }
 
-const cycleRam = () => {
+const cycleRam = (val: number) => {
   const options = [8, 16, 32, 64]
   const currentIndex = options.indexOf(ram.value)
-  const nextIndex = (currentIndex + 1) % options.length
+  const nextIndex = (currentIndex + val) % options.length
   ram.value = options[nextIndex]
 }
 

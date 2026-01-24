@@ -1,4 +1,6 @@
 import { useAffiliate } from './useAffiliate'
+import allCpus from '~/data/cpus.json'
+import allGpus from '~/data/gpus.json'
 
 export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
   const { getLink } = useAffiliate()
@@ -32,12 +34,42 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
 
   let cpuBottleneck = 0
   let cpuStatus = 'Good'
+  let recommendedCpu = null
+
   if (cpu) {
-    if (cpu.score < game.requirements.cpu.rec) {
-      const gap = game.requirements.cpu.rec - cpu.score
-      cpuBottleneck = Math.min(Math.round(gap * 1.5), 50)
+    const requiredScore = game.requirements.cpu.rec || 40
+
+    if (cpu.score < requiredScore) {
+      const gap = requiredScore - cpu.score
+      cpuBottleneck = Math.min(Math.round(gap * 1.5), 60)
       cpuStatus = 'Bottleneck'
+
       fps = Math.floor(fps * (1 - cpuBottleneck / 100))
+
+      const isAmd =
+        cpu.name.toLowerCase().includes('amd') ||
+        cpu.name.toLowerCase().includes('ryzen')
+      const isIntel =
+        cpu.name.toLowerCase().includes('intel') ||
+        cpu.name.toLowerCase().includes('core')
+
+      let candidates = allCpus.filter(c => c.score >= requiredScore + 10)
+
+      const brandCandidates = candidates.filter(c => {
+        if (isAmd) return c.name.toLowerCase().includes('amd')
+        if (isIntel) return c.name.toLowerCase().includes('intel')
+        return true
+      })
+
+      if (brandCandidates.length > 0) {
+        candidates = brandCandidates
+      }
+
+      recommendedCpu = candidates.sort((a, b) => a.score - b.score)[0]
+
+      if (!recommendedCpu) {
+        recommendedCpu = allCpus.sort((a, b) => b.score - a.score)[0]
+      }
     }
   }
 
@@ -65,37 +97,50 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
 
   const vramWarning =
     gpu.vram < 8 && settings === 'Ultra'
-      ? `Note: ${game.name} prefers 8GB+ VRAM. You have ${gpu.vram}GB.`
+      ? `Note: ${game.name} prefers 8GB+ VRAM for Ultra textures. You have ${gpu.vram}GB.`
       : null
 
   const upgrades = []
+
   if (ram < game.requirements.ram.rec) {
+    const targetRam = game.requirements.ram.rec
     upgrades.push({
       type: 'RAM',
-      title: `Upgrade to ${game.requirements.ram.rec}GB RAM`,
-      reason: `You have ${ram}GB. This game runs best with ${game.requirements.ram.rec}GB.`,
-      link: getLink(`${game.requirements.ram.rec}GB DDR4 RAM Kit`),
-      btnText: `Find ${game.requirements.ram.rec}GB RAM`
-    })
-  }
-  if (cpuBottleneck > 15) {
-    upgrades.push({
-      type: 'CPU',
-      title: 'Upgrade Processor (CPU)',
-      reason: `Your ${cpu.name} is slowing you down by ${cpuBottleneck}%.`,
-      link: getLink('Intel Core i5-13600K Processor'),
-      btnText: 'Find Better CPU'
+      title: `Upgrade to ${targetRam}GB RAM`,
+      reason: `You have ${ram}GB. This game runs significantly smoother with ${targetRam}GB.`,
+      link: getLink(`${targetRam}GB DDR4 RAM Kit Desktop`), // Dynamic search link
+      btnText: `Find ${targetRam}GB Kits`
     })
   }
 
-  if (settings === 'Low' || settings === 'Medium') {
+  if (cpuBottleneck > 10 && recommendedCpu) {
     upgrades.push({
-      type: 'GPU',
-      title: 'Upgrade Graphics Card',
-      reason: 'Your GPU is the main limit for Ultra settings.',
-      link: getLink('GeForce RTX 4060 Graphics Card'),
-      btnText: 'Shop RTX 4060'
+      type: 'CPU',
+      title: `Upgrade to ${recommendedCpu.name}`,
+      reason: `Eliminate your ${cpuBottleneck}% bottleneck to unlock your GPU's potential.`,
+      link: recommendedCpu.affiliateLink || getLink(recommendedCpu.name),
+      btnText: `Check ${recommendedCpu.name} Price`
     })
+  }
+
+  const targetGpuScore = game.requirements.gpu.high
+
+  if (gpu.score < targetGpuScore) {
+    const betterGpus = allGpus
+      .filter(g => g.score >= targetGpuScore)
+      .sort((a, b) => a.score - b.score)
+
+    const recommendedGpu = betterGpus[0]
+
+    if (recommendedGpu) {
+      upgrades.push({
+        type: 'GPU',
+        title: `Consider the ${recommendedGpu.name}`,
+        reason: `Your current GPU limits you to ${settings} settings. This card handles High/Ultra.`,
+        link: recommendedGpu.affiliateLink || getLink(recommendedGpu.name),
+        btnText: `Shop ${recommendedGpu.name}`
+      })
+    }
   }
 
   return {
