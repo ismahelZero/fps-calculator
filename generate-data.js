@@ -174,7 +174,7 @@ const gpus = [
 const processedGPUs = gpus.map(gpu => ({
   ...gpu,
   slug: gpu.id,
-  affiliateLink: `https://amazon.com/s?k=${gpu.name.replace(/ /g, '+')}&tag=YOUR_TAG_HERE`
+  affiliateLink: `https://amazon.com/s?k=${gpu.name.replace(/ /g, '+')}&tag=myfps-20`
 }))
 
 // --- 2. THE GAME DATABASE (TIER SYSTEM) ---
