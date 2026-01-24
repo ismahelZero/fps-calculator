@@ -38,16 +38,6 @@ export default defineNuxtConfig({
     name: 'MyFPS'
   },
 
-  sitemap: {
-    urls: async () => {
-      return games.map(game => ({
-        loc: `/best-gpu-for-${game.slug}`,
-        changefreq: 'weekly',
-        priority: 0.9
-      }))
-    }
-  },
-
   nitro: {
     prerender: {
       routes: (() => {
