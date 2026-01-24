@@ -174,22 +174,19 @@ const checkPerformance = () => {
       >
         <span>Trending:</span>
         <NuxtLink
-          to="/optimize/cyberpunk-2077-2-0/rtx-3060"
+          v-if="gamesData[0] && gpusData[1]"
+          :to="`/optimize/${gamesData[0].slug}/${gpusData[1].slug}`"
           class="border-b border-indigo-400/30 text-indigo-400 transition-colors hover:text-white"
         >
-          Cyberpunk on RTX 3060
+          {{ gamesData[0].name }} on {{ gpusData[1].name }}
         </NuxtLink>
+
         <NuxtLink
-          to="/optimize/elden-ring/gtx-1660-ti"
+          v-if="gamesData[2] && gpusData[0]"
+          :to="`/optimize/${gamesData[2].slug}/${gpusData[0].slug}`"
           class="border-b border-indigo-400/30 text-indigo-400 transition-colors hover:text-white"
         >
-          Elden Ring on GTX 1660 Ti
-        </NuxtLink>
-        <NuxtLink
-          to="/optimize/starfield/rtx-4090"
-          class="border-b border-indigo-400/30 text-indigo-400 transition-colors hover:text-white"
-        >
-          Starfield on RTX 4090
+          {{ gamesData[2].name }} on {{ gpusData[0].name }}
         </NuxtLink>
       </div>
     </div>
