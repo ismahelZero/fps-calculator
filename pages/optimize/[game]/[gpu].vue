@@ -13,15 +13,82 @@
     <main
       class="w-full max-w-4xl rounded-3xl border border-dark-700 bg-dark-800/80 p-8 shadow-2xl backdrop-blur-sm"
     >
-      <div class="mb-10 text-center">
-        <h1 class="mb-2 font-display text-3xl font-bold md:text-5xl">
-          <span class="text-primary">{{ game.name }}</span>
+      <div class="relative z-20 mb-10 text-center">
+        <div
+          class="mb-2 flex flex-wrap items-center justify-center gap-3 font-display text-3xl font-bold md:text-5xl"
+        >
+          <div ref="gameWrapper" class="group relative">
+            <span
+              v-if="!isEditingGame"
+              @click="openEditor('game')"
+              class="flex cursor-pointer items-center gap-2 border-b-2 border-transparent text-primary transition-all hover:border-primary hover:opacity-80"
+            >
+              {{ game.name }}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-slate-400 opacity-0 transition-opacity group-hover:opacity-100"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+                />
+              </svg>
+            </span>
+            <div v-else class="w-64 md:w-80">
+              <FSelect
+                v-model="tempGame"
+                :options="games"
+                display-key="name"
+                placeholder="Search Game..."
+                @update:modelValue="switchGame"
+                class="text-lg"
+              />
+            </div>
+          </div>
+
           <span class="px-2 font-sans text-2xl font-normal text-slate-500"
             >on</span
           >
-          <span class="text-white">{{ gpu.name }}</span>
-        </h1>
-        <p class="mt-2 text-slate-400">System Performance Report</p>
+
+          <div ref="gpuWrapper" class="group relative">
+            <span
+              v-if="!isEditingGpu"
+              @click="openEditor('gpu')"
+              class="flex cursor-pointer items-center gap-2 border-b-2 border-transparent text-white transition-all hover:border-white hover:opacity-80"
+            >
+              {{ gpu.name }}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-slate-400 opacity-0 transition-opacity group-hover:opacity-100"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+                />
+              </svg>
+            </span>
+            <div v-else class="w-64 md:w-80">
+              <FSelect
+                v-model="tempGpu"
+                :options="gpus"
+                display-key="name"
+                placeholder="Search GPU..."
+                @update:modelValue="switchGpu"
+                class="text-lg"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="mb-12 flex flex-col items-center justify-center">
@@ -73,44 +140,120 @@
         </div>
       </div>
 
-      <div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
+      <div class="mb-8 grid grid-cols-1 gap-6 md:grid-cols-2">
         <div
-          class="rounded-2xl border border-dark-700 bg-dark-900/50 p-6 text-center"
+          ref="cpuWrapper"
+          class="flex flex-col justify-between rounded-2xl border border-dark-700 bg-dark-900/50 p-6 transition-colors hover:bg-dark-900/70"
         >
-          <p
-            class="font-display text-xs font-bold uppercase tracking-widest text-slate-500"
-          >
-            CPU Status
-          </p>
-          <div v-if="cpu">
+          <div class="mb-4 flex items-center justify-between">
             <p
-              class="mt-2 line-clamp-1 font-display text-xl font-bold text-white"
+              class="font-display text-xs font-bold uppercase tracking-widest text-slate-500"
             >
-              {{ cpu.name }}
+              Processor (CPU)
             </p>
-            <p
-              v-if="result.cpu.bottleneck > 0"
-              class="mt-1 text-sm font-bold text-error"
-            >
-              {{ result.cpu.bottleneck }}% Bottleneck
-            </p>
-            <p v-else class="mt-1 text-sm font-bold text-success">Good Match</p>
           </div>
+
+          <div v-if="isEditingCpu || !selectedCpu">
+            <p v-if="!selectedCpu" class="mb-3 text-sm text-slate-400">
+              Select CPU to check bottleneck:
+            </p>
+            <FSelect
+              v-model="selectedCpu"
+              :options="cpus"
+              display-key="name"
+              placeholder="Search CPU Model..."
+              class="w-full"
+              @update:modelValue="isEditingCpu = false"
+            />
+          </div>
+
           <div v-else>
-            <p class="mt-4 text-sm text-slate-600">No CPU Selected</p>
+            <div
+              class="flex cursor-pointer items-end justify-between"
+              @click="openEditor('cpu')"
+            >
+              <span
+                class="mr-2 line-clamp-1 border-b border-dashed border-slate-600 font-bold text-white transition-colors hover:border-white"
+              >
+                {{ selectedCpu.name }}
+              </span>
+              <span
+                class="text-sm font-bold"
+                :class="
+                  result.cpu.bottleneck > 10 ? 'text-error' : 'text-success'
+                "
+              >
+                {{
+                  result.cpu.bottleneck > 0
+                    ? `-${result.cpu.bottleneck}% Loss`
+                    : 'Optimal'
+                }}
+              </span>
+            </div>
+
+            <div
+              class="mt-3 h-2 w-full overflow-hidden rounded-full bg-dark-700"
+            >
+              <div
+                class="h-full rounded-full transition-all duration-700 ease-out"
+                :class="
+                  result.cpu.bottleneck > 10
+                    ? 'bg-error shadow-[0_0_10px_red]'
+                    : 'bg-success shadow-[0_0_10px_green]'
+                "
+                :style="{
+                  width:
+                    result.cpu.bottleneck > 0
+                      ? `${Math.min(result.cpu.bottleneck, 100)}%`
+                      : '100%'
+                }"
+              ></div>
+            </div>
+
+            <p class="mt-3 text-xs text-slate-400">
+              {{
+                result.cpu.bottleneck > 10
+                  ? 'CPU is limiting performance.'
+                  : 'Excellent CPU match.'
+              }}
+            </p>
           </div>
         </div>
+
         <div
-          class="rounded-2xl border border-dark-700 bg-dark-900/50 p-6 text-center"
+          class="group relative flex flex-col justify-center rounded-2xl border border-dark-700 bg-dark-900/50 p-6 text-center"
         >
           <p
             class="font-display text-xs font-bold uppercase tracking-widest text-slate-500"
           >
-            RAM Status
+            Memory (RAM)
           </p>
-          <p class="mt-2 font-display text-xl font-bold text-white">
-            {{ ram }} GB
+
+          <div
+            class="mt-2 flex cursor-pointer select-none items-center justify-center gap-3"
+            @click="cycleRam"
+          >
+            <button
+              class="text-2xl text-slate-600 transition-colors hover:text-white"
+            >
+              ‹
+            </button>
+            <p class="w-16 font-display text-xl font-bold text-white">
+              {{ ram }} GB
+            </p>
+            <button
+              class="text-2xl text-slate-600 transition-colors hover:text-white"
+            >
+              ›
+            </button>
+          </div>
+
+          <p
+            class="mt-1 text-[10px] text-slate-500 opacity-0 transition-opacity group-hover:opacity-100"
+          >
+            Click arrows to change
           </p>
+
           <p
             v-if="result.ram === 'Critical'"
             class="mt-1 text-sm font-bold text-error"
@@ -211,71 +354,131 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import gpus from '~/data/gpus.json'
 import games from '~/data/games.json'
 import cpus from '~/data/cpus.json'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useOptimization } from '@/composables/useOptimization'
 import { createError, useSeoMeta, useHead } from 'nuxt/app'
 
 const route = useRoute()
+const router = useRouter()
+
 const { game: gameSlug, gpu: gpuSlug } = route.params
 const { cpu: cpuId, ram: ramAmount } = route.query
 
 const game = games.find(g => g.slug === gameSlug)
 const gpu = gpus.find(g => g.slug === gpuSlug)
-const cpu = cpus.find(c => c.id === cpuId) || null
-const ram = Number(ramAmount) || 16
 
 if (!game || !gpu) {
   throw createError({ statusCode: 404, statusMessage: 'Combination Not Found' })
 }
 
-const result = useOptimization(gpu, cpu, ram, game)
+const isEditingGame = ref(false)
+const isEditingGpu = ref(false)
+const isEditingCpu = ref(false)
 
-// State for AI Toggle
+const gameWrapper = ref<HTMLElement | null>(null)
+const gpuWrapper = ref<HTMLElement | null>(null)
+const cpuWrapper = ref<HTMLElement | null>(null)
+
+const tempGame = ref(game)
+const tempGpu = ref(gpu)
+const selectedCpu = ref(cpus.find(c => c.id === cpuId) || null)
+const ram = ref(Number(ramAmount) || 16)
 const useAi = ref(false)
 
-// --- SEO META TAGS ---
-useSeoMeta({
-  title: `${game.name} System Requirements on ${gpu.name}`,
-  description: `Can ${gpu.name} run ${game.name}? Yes! It achieves ${result.fps} FPS at ${result.settings} settings. Check full performance benchmarks here.`,
-  ogTitle: `${game.name} on ${gpu.name} - FPS Test`,
-  ogDescription: `Performance results: ${result.fps} FPS on ${result.settings} settings.`
-})
-
-// --- SCHEMA MARKUP (Rich Snippets) ---
-const schema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: `Can I run ${game.name} on ${gpu.name}?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Yes, the ${gpu.name} can run ${game.name} at an estimated ${result.fps} FPS on ${result.settings} settings.`
-      }
-    },
-    {
-      '@type': 'Question',
-      name: `What FPS will I get in ${game.name} with ${gpu.name}?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `You can expect around ${result.fps} FPS at ${result.settings} graphics settings.`
-      }
-    }
-  ]
+const openEditor = (type: 'game' | 'gpu' | 'cpu') => {
+  isEditingGame.value = type === 'game'
+  isEditingGpu.value = type === 'gpu'
+  isEditingCpu.value = type === 'cpu'
 }
 
-useHead({
-  script: [
-    {
-      key: 'schema-faq',
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify(schema)
+const handleClickOutside = (event: MouseEvent) => {
+  const target = event.target as Node
+
+  if (!document.body.contains(target)) return
+
+  if (
+    isEditingGame.value &&
+    gameWrapper.value &&
+    !gameWrapper.value.contains(target)
+  ) {
+    isEditingGame.value = false
+  }
+
+  if (
+    isEditingGpu.value &&
+    gpuWrapper.value &&
+    !gpuWrapper.value.contains(target)
+  ) {
+    isEditingGpu.value = false
+  }
+
+  if (
+    isEditingCpu.value &&
+    cpuWrapper.value &&
+    !cpuWrapper.value.contains(target) &&
+    selectedCpu.value
+  ) {
+    isEditingCpu.value = false
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('click', handleClickOutside)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('click', handleClickOutside)
+})
+
+const switchGame = (newGame: any) => {
+  if (newGame && newGame.slug !== game.slug) {
+    router.push({
+      name: 'optimize-game-gpu',
+      params: { game: newGame.slug, gpu: gpu.slug },
+      query: route.query
+    })
+  }
+  isEditingGame.value = false
+}
+
+const switchGpu = (newGpu: any) => {
+  if (newGpu && newGpu.slug !== gpu.slug) {
+    router.push({
+      name: 'optimize-game-gpu',
+      params: { game: game.slug, gpu: newGpu.slug },
+      query: route.query
+    })
+  }
+  isEditingGpu.value = false
+}
+
+const cycleRam = () => {
+  const options = [8, 16, 32, 64]
+  const currentIndex = options.indexOf(ram.value)
+  const nextIndex = (currentIndex + 1) % options.length
+  ram.value = options[nextIndex]
+}
+
+watch([selectedCpu, ram], () => {
+  router.replace({
+    query: {
+      ...route.query,
+      cpu: selectedCpu.value?.id,
+      ram: ram.value.toString()
     }
-  ]
+  })
+})
+
+const result = computed(() =>
+  useOptimization(gpu, selectedCpu.value, ram.value, game)
+)
+
+useSeoMeta({
+  title: `${game.name} on ${gpu.name} - FPS & Settings`,
+  description: `Benchmarks for ${game.name} on ${gpu.name}. Expected FPS: ${result.value.fps}. Bottleneck check included.`
 })
 </script>
