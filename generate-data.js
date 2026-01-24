@@ -881,18 +881,24 @@ const gameList = [
 ]
 
 // --- 3. THE BUILDER LOGIC ---
-const processedGames = gameList.map(game => ({
-  id: game.name
+const processedGames = gameList.map(game => {
+  const slug = game.name
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, ''),
-  name: game.name,
-  slug: game.name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, ''),
-  requirements: tiers[game.tier]
-}))
+    .replace(/^-|-$/g, '')
+
+  return {
+    id: game.name
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, ''),
+    name: game.name,
+    slug: slug,
+    requirements: tiers[game.tier],
+    imageLow: `/images/games/${slug}-low.jpg`,
+    imageUltra: `/images/games/${slug}-ultra.jpg`
+  }
+})
 
 // --- 4. OUTPUT TO FILES ---
 fs.writeFileSync('data/gpus.json', JSON.stringify(processedGPUs, null, 2))

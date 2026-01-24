@@ -24,21 +24,22 @@
         <p class="mt-2 text-slate-400">System Performance Report</p>
       </div>
 
-      <div class="mb-8 flex flex-col items-center justify-center">
+      <div class="mb-12 flex flex-col items-center justify-center">
         <div
-          class="relative w-full max-w-md rounded-3xl border border-dark-700 bg-dark-900/80 p-8 text-center shadow-2xl"
+          class="relative w-full max-w-md rounded-3xl border border-dark-700 bg-dark-900/80 p-8 text-center shadow-2xl transition-all hover:border-primary/30"
         >
           <div v-if="result.ai.enabled" class="absolute right-4 top-4">
             <button
               @click="useAi = !useAi"
-              class="border-dark-600 flex items-center gap-2 rounded-full border bg-dark-800 px-3 py-1 text-xs font-bold transition-all hover:bg-dark-700"
-              :class="{
-                'border-primary text-primary': useAi,
-                'text-slate-500': !useAi
-              }"
+              class="flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-bold transition-all"
+              :class="
+                useAi
+                  ? 'border-primary bg-primary/10 text-primary'
+                  : 'border-dark-600 bg-dark-800 text-slate-500 hover:border-slate-400'
+              "
             >
               <span
-                class="h-2 w-2 rounded-full"
+                class="h-2 w-2 rounded-full transition-colors"
                 :class="
                   useAi ? 'bg-primary shadow-[0_0_8px_cyan]' : 'bg-slate-600'
                 "
@@ -66,8 +67,8 @@
             {{ result.settings }} Settings
           </p>
 
-          <p v-if="useAi" class="mt-2 text-xs text-primary">
-            *With {{ result.ai.tech }} Balanced Mode
+          <p v-if="useAi" class="mt-2 animate-pulse text-xs text-primary">
+            *Boosted by {{ result.ai.tech }} Balanced Mode
           </p>
         </div>
       </div>
@@ -134,6 +135,29 @@
         >
           ⚠️ {{ result.vramWarning }}
         </div>
+      </div>
+
+      <div class="mb-12">
+        <h3
+          class="mb-6 text-center font-display text-lg font-bold uppercase tracking-widest text-slate-300"
+        >
+          Visual Quality Comparison
+        </h3>
+        <FVisualSlider
+          :before-image="
+            game.imageLow ||
+            'https://placehold.co/800x400/1e293b/FFFFFF/png?text=Low+Settings'
+          "
+          :after-image="
+            game.imageUltra ||
+            'https://placehold.co/800x400/0f172a/06b6d4/png?text=Ultra+Settings'
+          "
+          before-label="Low Settings"
+          after-label="Ultra Settings"
+        />
+        <p class="mt-4 text-center text-xs text-slate-500">
+          Drag the slider to compare visual fidelity.
+        </p>
       </div>
 
       <div v-if="result.upgrades.length > 0" class="mb-8">

@@ -19,7 +19,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/cyberpunk-2077-2-0-low.jpg",
+    "imageUltra": "/images/games/cyberpunk-2077-2-0-ultra.jpg"
   },
   {
     "id": "alan-wake-2",
@@ -41,7 +43,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/alan-wake-2-low.jpg",
+    "imageUltra": "/images/games/alan-wake-2-ultra.jpg"
   },
   {
     "id": "black-myth-wukong",
@@ -63,7 +67,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/black-myth-wukong-low.jpg",
+    "imageUltra": "/images/games/black-myth-wukong-ultra.jpg"
   },
   {
     "id": "senua-s-saga-hellblade-ii",
@@ -85,7 +91,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/senua-s-saga-hellblade-ii-low.jpg",
+    "imageUltra": "/images/games/senua-s-saga-hellblade-ii-ultra.jpg"
   },
   {
     "id": "dragon-s-dogma-2",
@@ -107,7 +115,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/dragon-s-dogma-2-low.jpg",
+    "imageUltra": "/images/games/dragon-s-dogma-2-ultra.jpg"
   },
   {
     "id": "ark-survival-ascended",
@@ -129,7 +139,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/ark-survival-ascended-low.jpg",
+    "imageUltra": "/images/games/ark-survival-ascended-ultra.jpg"
   },
   {
     "id": "avatar-frontiers-of-pandora",
@@ -151,7 +163,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/avatar-frontiers-of-pandora-low.jpg",
+    "imageUltra": "/images/games/avatar-frontiers-of-pandora-ultra.jpg"
   },
   {
     "id": "cities-skylines-ii",
@@ -173,7 +187,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/cities-skylines-ii-low.jpg",
+    "imageUltra": "/images/games/cities-skylines-ii-ultra.jpg"
   },
   {
     "id": "microsoft-flight-simulator-2024",
@@ -195,7 +211,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/microsoft-flight-simulator-2024-low.jpg",
+    "imageUltra": "/images/games/microsoft-flight-simulator-2024-ultra.jpg"
   },
   {
     "id": "star-wars-outlaws",
@@ -217,7 +235,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/star-wars-outlaws-low.jpg",
+    "imageUltra": "/images/games/star-wars-outlaws-ultra.jpg"
   },
   {
     "id": "immortals-of-aveum",
@@ -239,7 +259,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/immortals-of-aveum-low.jpg",
+    "imageUltra": "/images/games/immortals-of-aveum-ultra.jpg"
   },
   {
     "id": "lords-of-the-fallen-2023",
@@ -261,7 +283,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/lords-of-the-fallen-2023-low.jpg",
+    "imageUltra": "/images/games/lords-of-the-fallen-2023-ultra.jpg"
   },
   {
     "id": "metro-exodus-enhanced-edition",
@@ -283,7 +307,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/metro-exodus-enhanced-edition-low.jpg",
+    "imageUltra": "/images/games/metro-exodus-enhanced-edition-ultra.jpg"
   },
   {
     "id": "portal-with-rtx",
@@ -305,7 +331,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/portal-with-rtx-low.jpg",
+    "imageUltra": "/images/games/portal-with-rtx-ultra.jpg"
   },
   {
     "id": "minecraft-rtx-on",
@@ -327,7 +355,9 @@
         "rec": 32
       },
       "storage": 100
-    }
+    },
+    "imageLow": "/images/games/minecraft-rtx-on-low.jpg",
+    "imageUltra": "/images/games/minecraft-rtx-on-ultra.jpg"
   },
   {
     "id": "starfield",
@@ -349,7 +379,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/starfield-low.jpg",
+    "imageUltra": "/images/games/starfield-ultra.jpg"
   },
   {
     "id": "hogwarts-legacy",
@@ -371,7 +403,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/hogwarts-legacy-low.jpg",
+    "imageUltra": "/images/games/hogwarts-legacy-ultra.jpg"
   },
   {
     "id": "the-last-of-us-part-i",
@@ -393,7 +427,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/the-last-of-us-part-i-low.jpg",
+    "imageUltra": "/images/games/the-last-of-us-part-i-ultra.jpg"
   },
   {
     "id": "red-dead-redemption-2",
@@ -415,7 +451,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/red-dead-redemption-2-low.jpg",
+    "imageUltra": "/images/games/red-dead-redemption-2-ultra.jpg"
   },
   {
     "id": "god-of-war-ragnarok",
@@ -437,7 +475,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/god-of-war-ragnarok-low.jpg",
+    "imageUltra": "/images/games/god-of-war-ragnarok-ultra.jpg"
   },
   {
     "id": "horizon-forbidden-west",
@@ -459,7 +499,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/horizon-forbidden-west-low.jpg",
+    "imageUltra": "/images/games/horizon-forbidden-west-ultra.jpg"
   },
   {
     "id": "ghost-of-tsushima",
@@ -481,7 +523,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/ghost-of-tsushima-low.jpg",
+    "imageUltra": "/images/games/ghost-of-tsushima-ultra.jpg"
   },
   {
     "id": "elden-ring",
@@ -503,7 +547,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/elden-ring-low.jpg",
+    "imageUltra": "/images/games/elden-ring-ultra.jpg"
   },
   {
     "id": "baldur-s-gate-3",
@@ -525,7 +571,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/baldur-s-gate-3-low.jpg",
+    "imageUltra": "/images/games/baldur-s-gate-3-ultra.jpg"
   },
   {
     "id": "helldivers-2",
@@ -547,7 +595,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/helldivers-2-low.jpg",
+    "imageUltra": "/images/games/helldivers-2-ultra.jpg"
   },
   {
     "id": "final-fantasy-xvi",
@@ -569,7 +619,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/final-fantasy-xvi-low.jpg",
+    "imageUltra": "/images/games/final-fantasy-xvi-ultra.jpg"
   },
   {
     "id": "final-fantasy-vii-rebirth",
@@ -591,7 +643,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/final-fantasy-vii-rebirth-low.jpg",
+    "imageUltra": "/images/games/final-fantasy-vii-rebirth-ultra.jpg"
   },
   {
     "id": "resident-evil-4-remake",
@@ -613,7 +667,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/resident-evil-4-remake-low.jpg",
+    "imageUltra": "/images/games/resident-evil-4-remake-ultra.jpg"
   },
   {
     "id": "dead-space-remake",
@@ -635,7 +691,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/dead-space-remake-low.jpg",
+    "imageUltra": "/images/games/dead-space-remake-ultra.jpg"
   },
   {
     "id": "silent-hill-2-remake",
@@ -657,7 +715,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/silent-hill-2-remake-low.jpg",
+    "imageUltra": "/images/games/silent-hill-2-remake-ultra.jpg"
   },
   {
     "id": "tekken-8",
@@ -679,7 +739,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/tekken-8-low.jpg",
+    "imageUltra": "/images/games/tekken-8-ultra.jpg"
   },
   {
     "id": "mortal-kombat-1",
@@ -701,7 +763,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/mortal-kombat-1-low.jpg",
+    "imageUltra": "/images/games/mortal-kombat-1-ultra.jpg"
   },
   {
     "id": "street-fighter-6",
@@ -723,7 +787,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/street-fighter-6-low.jpg",
+    "imageUltra": "/images/games/street-fighter-6-ultra.jpg"
   },
   {
     "id": "armored-core-vi",
@@ -745,7 +811,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/armored-core-vi-low.jpg",
+    "imageUltra": "/images/games/armored-core-vi-ultra.jpg"
   },
   {
     "id": "a-plague-tale-requiem",
@@ -767,7 +835,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/a-plague-tale-requiem-low.jpg",
+    "imageUltra": "/images/games/a-plague-tale-requiem-ultra.jpg"
   },
   {
     "id": "control",
@@ -789,7 +859,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/control-low.jpg",
+    "imageUltra": "/images/games/control-ultra.jpg"
   },
   {
     "id": "returnal",
@@ -811,7 +883,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/returnal-low.jpg",
+    "imageUltra": "/images/games/returnal-ultra.jpg"
   },
   {
     "id": "warhammer-40k-darktide",
@@ -833,7 +907,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/warhammer-40k-darktide-low.jpg",
+    "imageUltra": "/images/games/warhammer-40k-darktide-ultra.jpg"
   },
   {
     "id": "warhammer-40k-space-marine-2",
@@ -855,7 +931,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/warhammer-40k-space-marine-2-low.jpg",
+    "imageUltra": "/images/games/warhammer-40k-space-marine-2-ultra.jpg"
   },
   {
     "id": "s-t-a-l-k-e-r-2",
@@ -877,7 +955,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/s-t-a-l-k-e-r-2-low.jpg",
+    "imageUltra": "/images/games/s-t-a-l-k-e-r-2-ultra.jpg"
   },
   {
     "id": "total-war-warhammer-iii",
@@ -899,7 +979,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/total-war-warhammer-iii-low.jpg",
+    "imageUltra": "/images/games/total-war-warhammer-iii-ultra.jpg"
   },
   {
     "id": "forza-motorsport-2023",
@@ -921,7 +1003,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/forza-motorsport-2023-low.jpg",
+    "imageUltra": "/images/games/forza-motorsport-2023-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-mirage",
@@ -943,7 +1027,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-mirage-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-mirage-ultra.jpg"
   },
   {
     "id": "skull-and-bones",
@@ -965,7 +1051,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/skull-and-bones-low.jpg",
+    "imageUltra": "/images/games/skull-and-bones-ultra.jpg"
   },
   {
     "id": "suicide-squad-kill-the-justice-league",
@@ -987,7 +1075,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/suicide-squad-kill-the-justice-league-low.jpg",
+    "imageUltra": "/images/games/suicide-squad-kill-the-justice-league-ultra.jpg"
   },
   {
     "id": "gotham-knights",
@@ -1009,7 +1099,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/gotham-knights-low.jpg",
+    "imageUltra": "/images/games/gotham-knights-ultra.jpg"
   },
   {
     "id": "marvel-s-spider-man-2",
@@ -1031,7 +1123,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/marvel-s-spider-man-2-low.jpg",
+    "imageUltra": "/images/games/marvel-s-spider-man-2-ultra.jpg"
   },
   {
     "id": "marvel-s-spider-man-remastered",
@@ -1053,7 +1147,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/marvel-s-spider-man-remastered-low.jpg",
+    "imageUltra": "/images/games/marvel-s-spider-man-remastered-ultra.jpg"
   },
   {
     "id": "marvel-s-miles-morales",
@@ -1075,7 +1171,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/marvel-s-miles-morales-low.jpg",
+    "imageUltra": "/images/games/marvel-s-miles-morales-ultra.jpg"
   },
   {
     "id": "uncharted-legacy-of-thieves",
@@ -1097,7 +1195,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/uncharted-legacy-of-thieves-low.jpg",
+    "imageUltra": "/images/games/uncharted-legacy-of-thieves-ultra.jpg"
   },
   {
     "id": "ratchet-clank-rift-apart",
@@ -1119,7 +1219,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/ratchet-clank-rift-apart-low.jpg",
+    "imageUltra": "/images/games/ratchet-clank-rift-apart-ultra.jpg"
   },
   {
     "id": "dying-light-2",
@@ -1141,7 +1243,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/dying-light-2-low.jpg",
+    "imageUltra": "/images/games/dying-light-2-ultra.jpg"
   },
   {
     "id": "far-cry-6",
@@ -1163,7 +1267,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/far-cry-6-low.jpg",
+    "imageUltra": "/images/games/far-cry-6-ultra.jpg"
   },
   {
     "id": "watch-dogs-legion",
@@ -1185,7 +1291,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/watch-dogs-legion-low.jpg",
+    "imageUltra": "/images/games/watch-dogs-legion-ultra.jpg"
   },
   {
     "id": "just-cause-4",
@@ -1207,7 +1315,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/just-cause-4-low.jpg",
+    "imageUltra": "/images/games/just-cause-4-ultra.jpg"
   },
   {
     "id": "the-witcher-3-next-gen",
@@ -1229,7 +1339,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/the-witcher-3-next-gen-low.jpg",
+    "imageUltra": "/images/games/the-witcher-3-next-gen-ultra.jpg"
   },
   {
     "id": "kingdom-come-deliverance",
@@ -1251,7 +1363,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/kingdom-come-deliverance-low.jpg",
+    "imageUltra": "/images/games/kingdom-come-deliverance-ultra.jpg"
   },
   {
     "id": "mount-blade-ii-bannerlord",
@@ -1273,7 +1387,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/mount-blade-ii-bannerlord-low.jpg",
+    "imageUltra": "/images/games/mount-blade-ii-bannerlord-ultra.jpg"
   },
   {
     "id": "rust",
@@ -1295,7 +1411,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/rust-low.jpg",
+    "imageUltra": "/images/games/rust-ultra.jpg"
   },
   {
     "id": "dayz",
@@ -1317,7 +1435,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/dayz-low.jpg",
+    "imageUltra": "/images/games/dayz-ultra.jpg"
   },
   {
     "id": "scum",
@@ -1339,7 +1459,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/scum-low.jpg",
+    "imageUltra": "/images/games/scum-ultra.jpg"
   },
   {
     "id": "escape-from-tarkov",
@@ -1361,7 +1483,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/escape-from-tarkov-low.jpg",
+    "imageUltra": "/images/games/escape-from-tarkov-ultra.jpg"
   },
   {
     "id": "hunt-showdown",
@@ -1383,7 +1507,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/hunt-showdown-low.jpg",
+    "imageUltra": "/images/games/hunt-showdown-ultra.jpg"
   },
   {
     "id": "squad",
@@ -1405,7 +1531,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/squad-low.jpg",
+    "imageUltra": "/images/games/squad-ultra.jpg"
   },
   {
     "id": "hell-let-loose",
@@ -1427,7 +1555,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/hell-let-loose-low.jpg",
+    "imageUltra": "/images/games/hell-let-loose-ultra.jpg"
   },
   {
     "id": "ready-or-not",
@@ -1449,7 +1579,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/ready-or-not-low.jpg",
+    "imageUltra": "/images/games/ready-or-not-ultra.jpg"
   },
   {
     "id": "gray-zone-warfare",
@@ -1471,7 +1603,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/gray-zone-warfare-low.jpg",
+    "imageUltra": "/images/games/gray-zone-warfare-ultra.jpg"
   },
   {
     "id": "manor-lords",
@@ -1493,7 +1627,9 @@
         "rec": 16
       },
       "storage": 80
-    }
+    },
+    "imageLow": "/images/games/manor-lords-low.jpg",
+    "imageUltra": "/images/games/manor-lords-ultra.jpg"
   },
   {
     "id": "grand-theft-auto-v",
@@ -1515,7 +1651,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/grand-theft-auto-v-low.jpg",
+    "imageUltra": "/images/games/grand-theft-auto-v-ultra.jpg"
   },
   {
     "id": "call-of-duty-modern-warfare-iii",
@@ -1537,7 +1675,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/call-of-duty-modern-warfare-iii-low.jpg",
+    "imageUltra": "/images/games/call-of-duty-modern-warfare-iii-ultra.jpg"
   },
   {
     "id": "call-of-duty-warzone",
@@ -1559,7 +1699,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/call-of-duty-warzone-low.jpg",
+    "imageUltra": "/images/games/call-of-duty-warzone-ultra.jpg"
   },
   {
     "id": "apex-legends",
@@ -1581,7 +1723,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/apex-legends-low.jpg",
+    "imageUltra": "/images/games/apex-legends-ultra.jpg"
   },
   {
     "id": "overwatch-2",
@@ -1603,7 +1747,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/overwatch-2-low.jpg",
+    "imageUltra": "/images/games/overwatch-2-ultra.jpg"
   },
   {
     "id": "rainbow-six-siege",
@@ -1625,7 +1771,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/rainbow-six-siege-low.jpg",
+    "imageUltra": "/images/games/rainbow-six-siege-ultra.jpg"
   },
   {
     "id": "destiny-2",
@@ -1647,7 +1795,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/destiny-2-low.jpg",
+    "imageUltra": "/images/games/destiny-2-ultra.jpg"
   },
   {
     "id": "warframe",
@@ -1669,7 +1819,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/warframe-low.jpg",
+    "imageUltra": "/images/games/warframe-ultra.jpg"
   },
   {
     "id": "the-finals",
@@ -1691,7 +1843,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/the-finals-low.jpg",
+    "imageUltra": "/images/games/the-finals-ultra.jpg"
   },
   {
     "id": "xdefiant",
@@ -1713,7 +1867,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/xdefiant-low.jpg",
+    "imageUltra": "/images/games/xdefiant-ultra.jpg"
   },
   {
     "id": "battlefield-2042",
@@ -1735,7 +1891,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/battlefield-2042-low.jpg",
+    "imageUltra": "/images/games/battlefield-2042-ultra.jpg"
   },
   {
     "id": "battlefield-v",
@@ -1757,7 +1915,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/battlefield-v-low.jpg",
+    "imageUltra": "/images/games/battlefield-v-ultra.jpg"
   },
   {
     "id": "battlefield-1",
@@ -1779,7 +1939,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/battlefield-1-low.jpg",
+    "imageUltra": "/images/games/battlefield-1-ultra.jpg"
   },
   {
     "id": "star-wars-jedi-survivor",
@@ -1801,7 +1963,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/star-wars-jedi-survivor-low.jpg",
+    "imageUltra": "/images/games/star-wars-jedi-survivor-ultra.jpg"
   },
   {
     "id": "star-wars-jedi-fallen-order",
@@ -1823,7 +1987,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/star-wars-jedi-fallen-order-low.jpg",
+    "imageUltra": "/images/games/star-wars-jedi-fallen-order-ultra.jpg"
   },
   {
     "id": "hitman-3",
@@ -1845,7 +2011,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/hitman-3-low.jpg",
+    "imageUltra": "/images/games/hitman-3-ultra.jpg"
   },
   {
     "id": "deathloop",
@@ -1867,7 +2035,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/deathloop-low.jpg",
+    "imageUltra": "/images/games/deathloop-ultra.jpg"
   },
   {
     "id": "prey",
@@ -1889,7 +2059,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/prey-low.jpg",
+    "imageUltra": "/images/games/prey-ultra.jpg"
   },
   {
     "id": "dishonored-2",
@@ -1911,7 +2083,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/dishonored-2-low.jpg",
+    "imageUltra": "/images/games/dishonored-2-ultra.jpg"
   },
   {
     "id": "doom-eternal",
@@ -1933,7 +2107,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/doom-eternal-low.jpg",
+    "imageUltra": "/images/games/doom-eternal-ultra.jpg"
   },
   {
     "id": "wolfenstein-ii-the-new-colossus",
@@ -1955,7 +2131,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/wolfenstein-ii-the-new-colossus-low.jpg",
+    "imageUltra": "/images/games/wolfenstein-ii-the-new-colossus-ultra.jpg"
   },
   {
     "id": "monster-hunter-world",
@@ -1977,7 +2155,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/monster-hunter-world-low.jpg",
+    "imageUltra": "/images/games/monster-hunter-world-ultra.jpg"
   },
   {
     "id": "monster-hunter-rise",
@@ -1999,7 +2179,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/monster-hunter-rise-low.jpg",
+    "imageUltra": "/images/games/monster-hunter-rise-ultra.jpg"
   },
   {
     "id": "dark-souls-iii",
@@ -2021,7 +2203,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/dark-souls-iii-low.jpg",
+    "imageUltra": "/images/games/dark-souls-iii-ultra.jpg"
   },
   {
     "id": "sekiro-shadows-die-twice",
@@ -2043,7 +2227,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/sekiro-shadows-die-twice-low.jpg",
+    "imageUltra": "/images/games/sekiro-shadows-die-twice-ultra.jpg"
   },
   {
     "id": "lies-of-p",
@@ -2065,7 +2251,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/lies-of-p-low.jpg",
+    "imageUltra": "/images/games/lies-of-p-ultra.jpg"
   },
   {
     "id": "nioh-2",
@@ -2087,7 +2275,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/nioh-2-low.jpg",
+    "imageUltra": "/images/games/nioh-2-ultra.jpg"
   },
   {
     "id": "wo-long-fallen-dynasty",
@@ -2109,7 +2299,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/wo-long-fallen-dynasty-low.jpg",
+    "imageUltra": "/images/games/wo-long-fallen-dynasty-ultra.jpg"
   },
   {
     "id": "devil-may-cry-5",
@@ -2131,7 +2323,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/devil-may-cry-5-low.jpg",
+    "imageUltra": "/images/games/devil-may-cry-5-ultra.jpg"
   },
   {
     "id": "resident-evil-village",
@@ -2153,7 +2347,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/resident-evil-village-low.jpg",
+    "imageUltra": "/images/games/resident-evil-village-ultra.jpg"
   },
   {
     "id": "resident-evil-7",
@@ -2175,7 +2371,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/resident-evil-7-low.jpg",
+    "imageUltra": "/images/games/resident-evil-7-ultra.jpg"
   },
   {
     "id": "resident-evil-2-remake",
@@ -2197,7 +2395,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/resident-evil-2-remake-low.jpg",
+    "imageUltra": "/images/games/resident-evil-2-remake-ultra.jpg"
   },
   {
     "id": "resident-evil-3-remake",
@@ -2219,7 +2419,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/resident-evil-3-remake-low.jpg",
+    "imageUltra": "/images/games/resident-evil-3-remake-ultra.jpg"
   },
   {
     "id": "dead-island-2",
@@ -2241,7 +2443,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/dead-island-2-low.jpg",
+    "imageUltra": "/images/games/dead-island-2-ultra.jpg"
   },
   {
     "id": "back-4-blood",
@@ -2263,7 +2467,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/back-4-blood-low.jpg",
+    "imageUltra": "/images/games/back-4-blood-ultra.jpg"
   },
   {
     "id": "world-war-z",
@@ -2285,7 +2491,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/world-war-z-low.jpg",
+    "imageUltra": "/images/games/world-war-z-ultra.jpg"
   },
   {
     "id": "aliens-fireteam-elite",
@@ -2307,7 +2515,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/aliens-fireteam-elite-low.jpg",
+    "imageUltra": "/images/games/aliens-fireteam-elite-ultra.jpg"
   },
   {
     "id": "remnant-2",
@@ -2329,7 +2539,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/remnant-2-low.jpg",
+    "imageUltra": "/images/games/remnant-2-ultra.jpg"
   },
   {
     "id": "remnant-from-the-ashes",
@@ -2351,7 +2563,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/remnant-from-the-ashes-low.jpg",
+    "imageUltra": "/images/games/remnant-from-the-ashes-ultra.jpg"
   },
   {
     "id": "outriders",
@@ -2373,7 +2587,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/outriders-low.jpg",
+    "imageUltra": "/images/games/outriders-ultra.jpg"
   },
   {
     "id": "borderlands-3",
@@ -2395,7 +2611,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/borderlands-3-low.jpg",
+    "imageUltra": "/images/games/borderlands-3-ultra.jpg"
   },
   {
     "id": "tiny-tina-s-wonderlands",
@@ -2417,7 +2635,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/tiny-tina-s-wonderlands-low.jpg",
+    "imageUltra": "/images/games/tiny-tina-s-wonderlands-ultra.jpg"
   },
   {
     "id": "fallout-4",
@@ -2439,7 +2659,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/fallout-4-low.jpg",
+    "imageUltra": "/images/games/fallout-4-ultra.jpg"
   },
   {
     "id": "fallout-76",
@@ -2461,7 +2683,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/fallout-76-low.jpg",
+    "imageUltra": "/images/games/fallout-76-ultra.jpg"
   },
   {
     "id": "the-outer-worlds",
@@ -2483,7 +2707,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/the-outer-worlds-low.jpg",
+    "imageUltra": "/images/games/the-outer-worlds-ultra.jpg"
   },
   {
     "id": "mass-effect-legendary-edition",
@@ -2505,7 +2731,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/mass-effect-legendary-edition-low.jpg",
+    "imageUltra": "/images/games/mass-effect-legendary-edition-ultra.jpg"
   },
   {
     "id": "dragon-age-inquisition",
@@ -2527,7 +2755,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/dragon-age-inquisition-low.jpg",
+    "imageUltra": "/images/games/dragon-age-inquisition-ultra.jpg"
   },
   {
     "id": "skyrim-special-edition",
@@ -2549,7 +2779,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/skyrim-special-edition-low.jpg",
+    "imageUltra": "/images/games/skyrim-special-edition-ultra.jpg"
   },
   {
     "id": "no-man-s-sky",
@@ -2571,7 +2803,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/no-man-s-sky-low.jpg",
+    "imageUltra": "/images/games/no-man-s-sky-ultra.jpg"
   },
   {
     "id": "sea-of-thieves",
@@ -2593,7 +2827,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/sea-of-thieves-low.jpg",
+    "imageUltra": "/images/games/sea-of-thieves-ultra.jpg"
   },
   {
     "id": "grounded",
@@ -2615,7 +2851,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/grounded-low.jpg",
+    "imageUltra": "/images/games/grounded-ultra.jpg"
   },
   {
     "id": "subnautica-below-zero",
@@ -2637,7 +2875,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/subnautica-below-zero-low.jpg",
+    "imageUltra": "/images/games/subnautica-below-zero-ultra.jpg"
   },
   {
     "id": "satisfactory",
@@ -2659,7 +2899,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/satisfactory-low.jpg",
+    "imageUltra": "/images/games/satisfactory-ultra.jpg"
   },
   {
     "id": "forza-horizon-5",
@@ -2681,7 +2923,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/forza-horizon-5-low.jpg",
+    "imageUltra": "/images/games/forza-horizon-5-ultra.jpg"
   },
   {
     "id": "forza-horizon-4",
@@ -2703,7 +2947,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/forza-horizon-4-low.jpg",
+    "imageUltra": "/images/games/forza-horizon-4-ultra.jpg"
   },
   {
     "id": "f1-24",
@@ -2725,7 +2971,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/f1-24-low.jpg",
+    "imageUltra": "/images/games/f1-24-ultra.jpg"
   },
   {
     "id": "need-for-speed-unbound",
@@ -2747,7 +2995,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/need-for-speed-unbound-low.jpg",
+    "imageUltra": "/images/games/need-for-speed-unbound-ultra.jpg"
   },
   {
     "id": "need-for-speed-heat",
@@ -2769,7 +3019,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/need-for-speed-heat-low.jpg",
+    "imageUltra": "/images/games/need-for-speed-heat-ultra.jpg"
   },
   {
     "id": "dirt-rally-2-0",
@@ -2791,7 +3043,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/dirt-rally-2-0-low.jpg",
+    "imageUltra": "/images/games/dirt-rally-2-0-ultra.jpg"
   },
   {
     "id": "assetto-corsa-competizione",
@@ -2813,7 +3067,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/assetto-corsa-competizione-low.jpg",
+    "imageUltra": "/images/games/assetto-corsa-competizione-ultra.jpg"
   },
   {
     "id": "beamng-drive",
@@ -2835,7 +3091,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/beamng-drive-low.jpg",
+    "imageUltra": "/images/games/beamng-drive-ultra.jpg"
   },
   {
     "id": "snowrunner",
@@ -2857,7 +3115,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/snowrunner-low.jpg",
+    "imageUltra": "/images/games/snowrunner-ultra.jpg"
   },
   {
     "id": "farming-simulator-22",
@@ -2879,7 +3139,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/farming-simulator-22-low.jpg",
+    "imageUltra": "/images/games/farming-simulator-22-ultra.jpg"
   },
   {
     "id": "euro-truck-simulator-2",
@@ -2901,7 +3163,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/euro-truck-simulator-2-low.jpg",
+    "imageUltra": "/images/games/euro-truck-simulator-2-ultra.jpg"
   },
   {
     "id": "american-truck-simulator",
@@ -2923,7 +3187,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/american-truck-simulator-low.jpg",
+    "imageUltra": "/images/games/american-truck-simulator-ultra.jpg"
   },
   {
     "id": "fifa-23-fc-24",
@@ -2945,7 +3211,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/fifa-23-fc-24-low.jpg",
+    "imageUltra": "/images/games/fifa-23-fc-24-ultra.jpg"
   },
   {
     "id": "nba-2k24",
@@ -2967,7 +3235,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/nba-2k24-low.jpg",
+    "imageUltra": "/images/games/nba-2k24-ultra.jpg"
   },
   {
     "id": "madden-nfl-24",
@@ -2989,7 +3259,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/madden-nfl-24-low.jpg",
+    "imageUltra": "/images/games/madden-nfl-24-ultra.jpg"
   },
   {
     "id": "pga-tour-2k23",
@@ -3011,7 +3283,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/pga-tour-2k23-low.jpg",
+    "imageUltra": "/images/games/pga-tour-2k23-ultra.jpg"
   },
   {
     "id": "wwe-2k24",
@@ -3033,7 +3307,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/wwe-2k24-low.jpg",
+    "imageUltra": "/images/games/wwe-2k24-ultra.jpg"
   },
   {
     "id": "civilization-vi",
@@ -3055,7 +3331,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/civilization-vi-low.jpg",
+    "imageUltra": "/images/games/civilization-vi-ultra.jpg"
   },
   {
     "id": "age-of-empires-iv",
@@ -3077,7 +3355,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/age-of-empires-iv-low.jpg",
+    "imageUltra": "/images/games/age-of-empires-iv-ultra.jpg"
   },
   {
     "id": "company-of-heroes-3",
@@ -3099,7 +3379,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/company-of-heroes-3-low.jpg",
+    "imageUltra": "/images/games/company-of-heroes-3-ultra.jpg"
   },
   {
     "id": "anno-1800",
@@ -3121,7 +3403,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/anno-1800-low.jpg",
+    "imageUltra": "/images/games/anno-1800-ultra.jpg"
   },
   {
     "id": "frostpunk-2",
@@ -3143,7 +3427,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/frostpunk-2-low.jpg",
+    "imageUltra": "/images/games/frostpunk-2-ultra.jpg"
   },
   {
     "id": "jurassic-world-evolution-2",
@@ -3165,7 +3451,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/jurassic-world-evolution-2-low.jpg",
+    "imageUltra": "/images/games/jurassic-world-evolution-2-ultra.jpg"
   },
   {
     "id": "planet-zoo",
@@ -3187,7 +3475,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/planet-zoo-low.jpg",
+    "imageUltra": "/images/games/planet-zoo-ultra.jpg"
   },
   {
     "id": "planet-coaster",
@@ -3209,7 +3499,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/planet-coaster-low.jpg",
+    "imageUltra": "/images/games/planet-coaster-ultra.jpg"
   },
   {
     "id": "sims-4-with-dlcs",
@@ -3231,7 +3523,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/sims-4-with-dlcs-low.jpg",
+    "imageUltra": "/images/games/sims-4-with-dlcs-ultra.jpg"
   },
   {
     "id": "genshin-impact",
@@ -3253,7 +3547,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/genshin-impact-low.jpg",
+    "imageUltra": "/images/games/genshin-impact-ultra.jpg"
   },
   {
     "id": "honkai-star-rail",
@@ -3275,7 +3571,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/honkai-star-rail-low.jpg",
+    "imageUltra": "/images/games/honkai-star-rail-ultra.jpg"
   },
   {
     "id": "wuthering-waves",
@@ -3297,7 +3595,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/wuthering-waves-low.jpg",
+    "imageUltra": "/images/games/wuthering-waves-ultra.jpg"
   },
   {
     "id": "tower-of-fantasy",
@@ -3319,7 +3619,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/tower-of-fantasy-low.jpg",
+    "imageUltra": "/images/games/tower-of-fantasy-ultra.jpg"
   },
   {
     "id": "zenless-zone-zero",
@@ -3341,7 +3643,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/zenless-zone-zero-low.jpg",
+    "imageUltra": "/images/games/zenless-zone-zero-ultra.jpg"
   },
   {
     "id": "persona-3-reload",
@@ -3363,7 +3667,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/persona-3-reload-low.jpg",
+    "imageUltra": "/images/games/persona-3-reload-ultra.jpg"
   },
   {
     "id": "persona-5-royal",
@@ -3385,7 +3691,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/persona-5-royal-low.jpg",
+    "imageUltra": "/images/games/persona-5-royal-ultra.jpg"
   },
   {
     "id": "yakuza-like-a-dragon",
@@ -3407,7 +3715,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/yakuza-like-a-dragon-low.jpg",
+    "imageUltra": "/images/games/yakuza-like-a-dragon-ultra.jpg"
   },
   {
     "id": "like-a-dragon-infinite-wealth",
@@ -3429,7 +3739,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/like-a-dragon-infinite-wealth-low.jpg",
+    "imageUltra": "/images/games/like-a-dragon-infinite-wealth-ultra.jpg"
   },
   {
     "id": "judgement",
@@ -3451,7 +3763,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/judgement-low.jpg",
+    "imageUltra": "/images/games/judgement-ultra.jpg"
   },
   {
     "id": "lost-judgment",
@@ -3473,7 +3787,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/lost-judgment-low.jpg",
+    "imageUltra": "/images/games/lost-judgment-ultra.jpg"
   },
   {
     "id": "tales-of-arise",
@@ -3495,7 +3811,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/tales-of-arise-low.jpg",
+    "imageUltra": "/images/games/tales-of-arise-ultra.jpg"
   },
   {
     "id": "granblue-fantasy-relink",
@@ -3517,7 +3835,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/granblue-fantasy-relink-low.jpg",
+    "imageUltra": "/images/games/granblue-fantasy-relink-ultra.jpg"
   },
   {
     "id": "blue-protocol",
@@ -3539,7 +3859,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/blue-protocol-low.jpg",
+    "imageUltra": "/images/games/blue-protocol-ultra.jpg"
   },
   {
     "id": "throne-and-liberty",
@@ -3561,7 +3883,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/throne-and-liberty-low.jpg",
+    "imageUltra": "/images/games/throne-and-liberty-ultra.jpg"
   },
   {
     "id": "black-desert-online",
@@ -3583,7 +3907,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/black-desert-online-low.jpg",
+    "imageUltra": "/images/games/black-desert-online-ultra.jpg"
   },
   {
     "id": "new-world",
@@ -3605,7 +3931,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/new-world-low.jpg",
+    "imageUltra": "/images/games/new-world-ultra.jpg"
   },
   {
     "id": "lost-ark",
@@ -3627,7 +3955,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/lost-ark-low.jpg",
+    "imageUltra": "/images/games/lost-ark-ultra.jpg"
   },
   {
     "id": "path-of-exile-2",
@@ -3649,7 +3979,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/path-of-exile-2-low.jpg",
+    "imageUltra": "/images/games/path-of-exile-2-ultra.jpg"
   },
   {
     "id": "diablo-iv",
@@ -3671,7 +4003,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/diablo-iv-low.jpg",
+    "imageUltra": "/images/games/diablo-iv-ultra.jpg"
   },
   {
     "id": "last-epoch",
@@ -3693,7 +4027,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/last-epoch-low.jpg",
+    "imageUltra": "/images/games/last-epoch-ultra.jpg"
   },
   {
     "id": "v-rising",
@@ -3715,7 +4051,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/v-rising-low.jpg",
+    "imageUltra": "/images/games/v-rising-ultra.jpg"
   },
   {
     "id": "enshrouded",
@@ -3737,7 +4075,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/enshrouded-low.jpg",
+    "imageUltra": "/images/games/enshrouded-ultra.jpg"
   },
   {
     "id": "palworld",
@@ -3759,7 +4099,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/palworld-low.jpg",
+    "imageUltra": "/images/games/palworld-ultra.jpg"
   },
   {
     "id": "valheim",
@@ -3781,7 +4123,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/valheim-low.jpg",
+    "imageUltra": "/images/games/valheim-ultra.jpg"
   },
   {
     "id": "sons-of-the-forest",
@@ -3803,7 +4147,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/sons-of-the-forest-low.jpg",
+    "imageUltra": "/images/games/sons-of-the-forest-ultra.jpg"
   },
   {
     "id": "the-forest",
@@ -3825,7 +4171,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/the-forest-low.jpg",
+    "imageUltra": "/images/games/the-forest-ultra.jpg"
   },
   {
     "id": "green-hell",
@@ -3847,7 +4195,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/green-hell-low.jpg",
+    "imageUltra": "/images/games/green-hell-ultra.jpg"
   },
   {
     "id": "raft",
@@ -3869,7 +4219,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/raft-low.jpg",
+    "imageUltra": "/images/games/raft-ultra.jpg"
   },
   {
     "id": "smalland",
@@ -3891,7 +4243,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/smalland-low.jpg",
+    "imageUltra": "/images/games/smalland-ultra.jpg"
   },
   {
     "id": "abiotic-factor",
@@ -3913,7 +4267,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/abiotic-factor-low.jpg",
+    "imageUltra": "/images/games/abiotic-factor-ultra.jpg"
   },
   {
     "id": "nightingale",
@@ -3935,7 +4291,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/nightingale-low.jpg",
+    "imageUltra": "/images/games/nightingale-ultra.jpg"
   },
   {
     "id": "icarus",
@@ -3957,7 +4315,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/icarus-low.jpg",
+    "imageUltra": "/images/games/icarus-ultra.jpg"
   },
   {
     "id": "conan-exiles",
@@ -3979,7 +4339,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/conan-exiles-low.jpg",
+    "imageUltra": "/images/games/conan-exiles-ultra.jpg"
   },
   {
     "id": "ark-survival-evolved",
@@ -4001,7 +4363,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/ark-survival-evolved-low.jpg",
+    "imageUltra": "/images/games/ark-survival-evolved-ultra.jpg"
   },
   {
     "id": "7-days-to-die",
@@ -4023,7 +4387,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/7-days-to-die-low.jpg",
+    "imageUltra": "/images/games/7-days-to-die-ultra.jpg"
   },
   {
     "id": "project-zomboid-heavily-modded",
@@ -4045,7 +4411,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/project-zomboid-heavily-modded-low.jpg",
+    "imageUltra": "/images/games/project-zomboid-heavily-modded-ultra.jpg"
   },
   {
     "id": "teardown",
@@ -4067,7 +4435,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/teardown-low.jpg",
+    "imageUltra": "/images/games/teardown-ultra.jpg"
   },
   {
     "id": "besiege",
@@ -4089,7 +4459,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/besiege-low.jpg",
+    "imageUltra": "/images/games/besiege-ultra.jpg"
   },
   {
     "id": "kerbal-space-program-2",
@@ -4111,7 +4483,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/kerbal-space-program-2-low.jpg",
+    "imageUltra": "/images/games/kerbal-space-program-2-ultra.jpg"
   },
   {
     "id": "space-engineers",
@@ -4133,7 +4507,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/space-engineers-low.jpg",
+    "imageUltra": "/images/games/space-engineers-ultra.jpg"
   },
   {
     "id": "stormworks",
@@ -4155,7 +4531,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/stormworks-low.jpg",
+    "imageUltra": "/images/games/stormworks-ultra.jpg"
   },
   {
     "id": "from-the-depths",
@@ -4177,7 +4555,9 @@
         "rec": 16
       },
       "storage": 60
-    }
+    },
+    "imageLow": "/images/games/from-the-depths-low.jpg",
+    "imageUltra": "/images/games/from-the-depths-ultra.jpg"
   },
   {
     "id": "counter-strike-2",
@@ -4199,7 +4579,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/counter-strike-2-low.jpg",
+    "imageUltra": "/images/games/counter-strike-2-ultra.jpg"
   },
   {
     "id": "valorant",
@@ -4221,7 +4603,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/valorant-low.jpg",
+    "imageUltra": "/images/games/valorant-ultra.jpg"
   },
   {
     "id": "league-of-legends",
@@ -4243,7 +4627,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/league-of-legends-low.jpg",
+    "imageUltra": "/images/games/league-of-legends-ultra.jpg"
   },
   {
     "id": "dota-2",
@@ -4265,7 +4651,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dota-2-low.jpg",
+    "imageUltra": "/images/games/dota-2-ultra.jpg"
   },
   {
     "id": "fortnite-performance-mode",
@@ -4287,7 +4675,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/fortnite-performance-mode-low.jpg",
+    "imageUltra": "/images/games/fortnite-performance-mode-ultra.jpg"
   },
   {
     "id": "rocket-league",
@@ -4309,7 +4699,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/rocket-league-low.jpg",
+    "imageUltra": "/images/games/rocket-league-ultra.jpg"
   },
   {
     "id": "team-fortress-2",
@@ -4331,7 +4723,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/team-fortress-2-low.jpg",
+    "imageUltra": "/images/games/team-fortress-2-ultra.jpg"
   },
   {
     "id": "overwatch-2-low-settings",
@@ -4353,7 +4747,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/overwatch-2-low-settings-low.jpg",
+    "imageUltra": "/images/games/overwatch-2-low-settings-ultra.jpg"
   },
   {
     "id": "paladins",
@@ -4375,7 +4771,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/paladins-low.jpg",
+    "imageUltra": "/images/games/paladins-ultra.jpg"
   },
   {
     "id": "smite",
@@ -4397,7 +4795,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/smite-low.jpg",
+    "imageUltra": "/images/games/smite-ultra.jpg"
   },
   {
     "id": "dead-by-daylight",
@@ -4419,7 +4819,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dead-by-daylight-low.jpg",
+    "imageUltra": "/images/games/dead-by-daylight-ultra.jpg"
   },
   {
     "id": "phasmophobia",
@@ -4441,7 +4843,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/phasmophobia-low.jpg",
+    "imageUltra": "/images/games/phasmophobia-ultra.jpg"
   },
   {
     "id": "lethal-company",
@@ -4463,7 +4867,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/lethal-company-low.jpg",
+    "imageUltra": "/images/games/lethal-company-ultra.jpg"
   },
   {
     "id": "content-warning",
@@ -4485,7 +4891,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/content-warning-low.jpg",
+    "imageUltra": "/images/games/content-warning-ultra.jpg"
   },
   {
     "id": "among-us",
@@ -4507,7 +4915,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/among-us-low.jpg",
+    "imageUltra": "/images/games/among-us-ultra.jpg"
   },
   {
     "id": "fall-guys",
@@ -4529,7 +4939,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/fall-guys-low.jpg",
+    "imageUltra": "/images/games/fall-guys-ultra.jpg"
   },
   {
     "id": "human-fall-flat",
@@ -4551,7 +4963,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/human-fall-flat-low.jpg",
+    "imageUltra": "/images/games/human-fall-flat-ultra.jpg"
   },
   {
     "id": "gang-beasts",
@@ -4573,7 +4987,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/gang-beasts-low.jpg",
+    "imageUltra": "/images/games/gang-beasts-ultra.jpg"
   },
   {
     "id": "party-animals",
@@ -4595,7 +5011,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/party-animals-low.jpg",
+    "imageUltra": "/images/games/party-animals-ultra.jpg"
   },
   {
     "id": "pummel-party",
@@ -4617,7 +5035,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/pummel-party-low.jpg",
+    "imageUltra": "/images/games/pummel-party-ultra.jpg"
   },
   {
     "id": "crab-game",
@@ -4639,7 +5059,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/crab-game-low.jpg",
+    "imageUltra": "/images/games/crab-game-ultra.jpg"
   },
   {
     "id": "garry-s-mod",
@@ -4661,7 +5083,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/garry-s-mod-low.jpg",
+    "imageUltra": "/images/games/garry-s-mod-ultra.jpg"
   },
   {
     "id": "left-4-dead-2",
@@ -4683,7 +5107,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/left-4-dead-2-low.jpg",
+    "imageUltra": "/images/games/left-4-dead-2-ultra.jpg"
   },
   {
     "id": "portal-2",
@@ -4705,7 +5131,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/portal-2-low.jpg",
+    "imageUltra": "/images/games/portal-2-ultra.jpg"
   },
   {
     "id": "half-life-2",
@@ -4727,7 +5155,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/half-life-2-low.jpg",
+    "imageUltra": "/images/games/half-life-2-ultra.jpg"
   },
   {
     "id": "black-mesa",
@@ -4749,7 +5179,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/black-mesa-low.jpg",
+    "imageUltra": "/images/games/black-mesa-ultra.jpg"
   },
   {
     "id": "deep-rock-galactic",
@@ -4771,7 +5203,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/deep-rock-galactic-low.jpg",
+    "imageUltra": "/images/games/deep-rock-galactic-ultra.jpg"
   },
   {
     "id": "risk-of-rain-2",
@@ -4793,7 +5227,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/risk-of-rain-2-low.jpg",
+    "imageUltra": "/images/games/risk-of-rain-2-ultra.jpg"
   },
   {
     "id": "gunfire-reborn",
@@ -4815,7 +5251,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/gunfire-reborn-low.jpg",
+    "imageUltra": "/images/games/gunfire-reborn-ultra.jpg"
   },
   {
     "id": "roboquest",
@@ -4837,7 +5275,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/roboquest-low.jpg",
+    "imageUltra": "/images/games/roboquest-ultra.jpg"
   },
   {
     "id": "borderlands-2",
@@ -4859,7 +5299,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/borderlands-2-low.jpg",
+    "imageUltra": "/images/games/borderlands-2-ultra.jpg"
   },
   {
     "id": "payday-2",
@@ -4881,7 +5323,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/payday-2-low.jpg",
+    "imageUltra": "/images/games/payday-2-ultra.jpg"
   },
   {
     "id": "killing-floor-2",
@@ -4903,7 +5347,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/killing-floor-2-low.jpg",
+    "imageUltra": "/images/games/killing-floor-2-ultra.jpg"
   },
   {
     "id": "warhammer-vermintide-2",
@@ -4925,7 +5371,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/warhammer-vermintide-2-low.jpg",
+    "imageUltra": "/images/games/warhammer-vermintide-2-ultra.jpg"
   },
   {
     "id": "insurgency-sandstorm",
@@ -4947,7 +5395,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/insurgency-sandstorm-low.jpg",
+    "imageUltra": "/images/games/insurgency-sandstorm-ultra.jpg"
   },
   {
     "id": "rising-storm-2-vietnam",
@@ -4969,7 +5419,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/rising-storm-2-vietnam-low.jpg",
+    "imageUltra": "/images/games/rising-storm-2-vietnam-ultra.jpg"
   },
   {
     "id": "chivalry-2",
@@ -4991,7 +5443,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/chivalry-2-low.jpg",
+    "imageUltra": "/images/games/chivalry-2-ultra.jpg"
   },
   {
     "id": "mordhau",
@@ -5013,7 +5467,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/mordhau-low.jpg",
+    "imageUltra": "/images/games/mordhau-ultra.jpg"
   },
   {
     "id": "for-honor",
@@ -5035,7 +5491,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/for-honor-low.jpg",
+    "imageUltra": "/images/games/for-honor-ultra.jpg"
   },
   {
     "id": "sea-of-thieves-low",
@@ -5057,7 +5515,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/sea-of-thieves-low-low.jpg",
+    "imageUltra": "/images/games/sea-of-thieves-low-ultra.jpg"
   },
   {
     "id": "world-of-tanks",
@@ -5079,7 +5539,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/world-of-tanks-low.jpg",
+    "imageUltra": "/images/games/world-of-tanks-ultra.jpg"
   },
   {
     "id": "world-of-warships",
@@ -5101,7 +5563,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/world-of-warships-low.jpg",
+    "imageUltra": "/images/games/world-of-warships-ultra.jpg"
   },
   {
     "id": "war-thunder",
@@ -5123,7 +5587,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/war-thunder-low.jpg",
+    "imageUltra": "/images/games/war-thunder-ultra.jpg"
   },
   {
     "id": "enlisted",
@@ -5145,7 +5611,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/enlisted-low.jpg",
+    "imageUltra": "/images/games/enlisted-ultra.jpg"
   },
   {
     "id": "crossout",
@@ -5167,7 +5635,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/crossout-low.jpg",
+    "imageUltra": "/images/games/crossout-ultra.jpg"
   },
   {
     "id": "eve-online",
@@ -5189,7 +5659,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/eve-online-low.jpg",
+    "imageUltra": "/images/games/eve-online-ultra.jpg"
   },
   {
     "id": "albion-online",
@@ -5211,7 +5683,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/albion-online-low.jpg",
+    "imageUltra": "/images/games/albion-online-ultra.jpg"
   },
   {
     "id": "runescape-rs3",
@@ -5233,7 +5707,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/runescape-rs3-low.jpg",
+    "imageUltra": "/images/games/runescape-rs3-ultra.jpg"
   },
   {
     "id": "old-school-runescape-hd-plugin",
@@ -5255,7 +5731,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/old-school-runescape-hd-plugin-low.jpg",
+    "imageUltra": "/images/games/old-school-runescape-hd-plugin-ultra.jpg"
   },
   {
     "id": "guild-wars-2",
@@ -5277,7 +5755,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/guild-wars-2-low.jpg",
+    "imageUltra": "/images/games/guild-wars-2-ultra.jpg"
   },
   {
     "id": "world-of-warcraft-retail",
@@ -5299,7 +5779,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/world-of-warcraft-retail-low.jpg",
+    "imageUltra": "/images/games/world-of-warcraft-retail-ultra.jpg"
   },
   {
     "id": "world-of-warcraft-classic",
@@ -5321,7 +5803,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/world-of-warcraft-classic-low.jpg",
+    "imageUltra": "/images/games/world-of-warcraft-classic-ultra.jpg"
   },
   {
     "id": "final-fantasy-xiv",
@@ -5343,7 +5827,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/final-fantasy-xiv-low.jpg",
+    "imageUltra": "/images/games/final-fantasy-xiv-ultra.jpg"
   },
   {
     "id": "elder-scrolls-online",
@@ -5365,7 +5851,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/elder-scrolls-online-low.jpg",
+    "imageUltra": "/images/games/elder-scrolls-online-ultra.jpg"
   },
   {
     "id": "star-wars-the-old-republic",
@@ -5387,7 +5875,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/star-wars-the-old-republic-low.jpg",
+    "imageUltra": "/images/games/star-wars-the-old-republic-ultra.jpg"
   },
   {
     "id": "lord-of-the-rings-online",
@@ -5409,7 +5899,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/lord-of-the-rings-online-low.jpg",
+    "imageUltra": "/images/games/lord-of-the-rings-online-ultra.jpg"
   },
   {
     "id": "maplestory",
@@ -5431,7 +5923,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/maplestory-low.jpg",
+    "imageUltra": "/images/games/maplestory-ultra.jpg"
   },
   {
     "id": "path-of-exile",
@@ -5453,7 +5947,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/path-of-exile-low.jpg",
+    "imageUltra": "/images/games/path-of-exile-ultra.jpg"
   },
   {
     "id": "torchlight-ii",
@@ -5475,7 +5971,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/torchlight-ii-low.jpg",
+    "imageUltra": "/images/games/torchlight-ii-ultra.jpg"
   },
   {
     "id": "grim-dawn",
@@ -5497,7 +5995,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/grim-dawn-low.jpg",
+    "imageUltra": "/images/games/grim-dawn-ultra.jpg"
   },
   {
     "id": "titan-quest",
@@ -5519,7 +6019,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/titan-quest-low.jpg",
+    "imageUltra": "/images/games/titan-quest-ultra.jpg"
   },
   {
     "id": "diablo-iii",
@@ -5541,7 +6043,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/diablo-iii-low.jpg",
+    "imageUltra": "/images/games/diablo-iii-ultra.jpg"
   },
   {
     "id": "diablo-ii-resurrected",
@@ -5563,7 +6067,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/diablo-ii-resurrected-low.jpg",
+    "imageUltra": "/images/games/diablo-ii-resurrected-ultra.jpg"
   },
   {
     "id": "hades",
@@ -5585,7 +6091,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/hades-low.jpg",
+    "imageUltra": "/images/games/hades-ultra.jpg"
   },
   {
     "id": "hades-ii",
@@ -5607,7 +6115,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/hades-ii-low.jpg",
+    "imageUltra": "/images/games/hades-ii-ultra.jpg"
   },
   {
     "id": "dead-cells",
@@ -5629,7 +6139,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dead-cells-low.jpg",
+    "imageUltra": "/images/games/dead-cells-ultra.jpg"
   },
   {
     "id": "hollow-knight",
@@ -5651,7 +6163,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/hollow-knight-low.jpg",
+    "imageUltra": "/images/games/hollow-knight-ultra.jpg"
   },
   {
     "id": "ori-and-the-will-of-the-wisps",
@@ -5673,7 +6187,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/ori-and-the-will-of-the-wisps-low.jpg",
+    "imageUltra": "/images/games/ori-and-the-will-of-the-wisps-ultra.jpg"
   },
   {
     "id": "ori-and-the-blind-forest",
@@ -5695,7 +6211,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/ori-and-the-blind-forest-low.jpg",
+    "imageUltra": "/images/games/ori-and-the-blind-forest-ultra.jpg"
   },
   {
     "id": "cuphead",
@@ -5717,7 +6235,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/cuphead-low.jpg",
+    "imageUltra": "/images/games/cuphead-ultra.jpg"
   },
   {
     "id": "celeste",
@@ -5739,7 +6259,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/celeste-low.jpg",
+    "imageUltra": "/images/games/celeste-ultra.jpg"
   },
   {
     "id": "super-meat-boy",
@@ -5761,7 +6283,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/super-meat-boy-low.jpg",
+    "imageUltra": "/images/games/super-meat-boy-ultra.jpg"
   },
   {
     "id": "the-binding-of-isaac-repentance",
@@ -5783,7 +6307,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/the-binding-of-isaac-repentance-low.jpg",
+    "imageUltra": "/images/games/the-binding-of-isaac-repentance-ultra.jpg"
   },
   {
     "id": "enter-the-gungeon",
@@ -5805,7 +6331,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/enter-the-gungeon-low.jpg",
+    "imageUltra": "/images/games/enter-the-gungeon-ultra.jpg"
   },
   {
     "id": "slay-the-spire",
@@ -5827,7 +6355,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/slay-the-spire-low.jpg",
+    "imageUltra": "/images/games/slay-the-spire-ultra.jpg"
   },
   {
     "id": "monster-train",
@@ -5849,7 +6379,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/monster-train-low.jpg",
+    "imageUltra": "/images/games/monster-train-ultra.jpg"
   },
   {
     "id": "balatro",
@@ -5871,7 +6403,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/balatro-low.jpg",
+    "imageUltra": "/images/games/balatro-ultra.jpg"
   },
   {
     "id": "inscryption",
@@ -5893,7 +6427,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/inscryption-low.jpg",
+    "imageUltra": "/images/games/inscryption-ultra.jpg"
   },
   {
     "id": "darkest-dungeon",
@@ -5915,7 +6451,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/darkest-dungeon-low.jpg",
+    "imageUltra": "/images/games/darkest-dungeon-ultra.jpg"
   },
   {
     "id": "darkest-dungeon-ii",
@@ -5937,7 +6475,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/darkest-dungeon-ii-low.jpg",
+    "imageUltra": "/images/games/darkest-dungeon-ii-ultra.jpg"
   },
   {
     "id": "cult-of-the-lamb",
@@ -5959,7 +6499,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/cult-of-the-lamb-low.jpg",
+    "imageUltra": "/images/games/cult-of-the-lamb-ultra.jpg"
   },
   {
     "id": "don-t-starve-together",
@@ -5981,7 +6523,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/don-t-starve-together-low.jpg",
+    "imageUltra": "/images/games/don-t-starve-together-ultra.jpg"
   },
   {
     "id": "oxygen-not-included",
@@ -6003,7 +6547,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/oxygen-not-included-low.jpg",
+    "imageUltra": "/images/games/oxygen-not-included-ultra.jpg"
   },
   {
     "id": "rimworld",
@@ -6025,7 +6571,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/rimworld-low.jpg",
+    "imageUltra": "/images/games/rimworld-ultra.jpg"
   },
   {
     "id": "factorio",
@@ -6047,7 +6595,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/factorio-low.jpg",
+    "imageUltra": "/images/games/factorio-ultra.jpg"
   },
   {
     "id": "dwarf-fortress-steam",
@@ -6069,7 +6619,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dwarf-fortress-steam-low.jpg",
+    "imageUltra": "/images/games/dwarf-fortress-steam-ultra.jpg"
   },
   {
     "id": "prison-architect",
@@ -6091,7 +6643,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/prison-architect-low.jpg",
+    "imageUltra": "/images/games/prison-architect-ultra.jpg"
   },
   {
     "id": "two-point-hospital",
@@ -6113,7 +6667,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/two-point-hospital-low.jpg",
+    "imageUltra": "/images/games/two-point-hospital-ultra.jpg"
   },
   {
     "id": "cities-skylines-1",
@@ -6135,7 +6691,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/cities-skylines-1-low.jpg",
+    "imageUltra": "/images/games/cities-skylines-1-ultra.jpg"
   },
   {
     "id": "simcity-4",
@@ -6157,7 +6715,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/simcity-4-low.jpg",
+    "imageUltra": "/images/games/simcity-4-ultra.jpg"
   },
   {
     "id": "rollercoaster-tycoon-3",
@@ -6179,7 +6739,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/rollercoaster-tycoon-3-low.jpg",
+    "imageUltra": "/images/games/rollercoaster-tycoon-3-ultra.jpg"
   },
   {
     "id": "planet-coaster-low",
@@ -6201,7 +6763,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/planet-coaster-low-low.jpg",
+    "imageUltra": "/images/games/planet-coaster-low-ultra.jpg"
   },
   {
     "id": "zoo-tycoon",
@@ -6223,7 +6787,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/zoo-tycoon-low.jpg",
+    "imageUltra": "/images/games/zoo-tycoon-ultra.jpg"
   },
   {
     "id": "spore",
@@ -6245,7 +6811,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/spore-low.jpg",
+    "imageUltra": "/images/games/spore-ultra.jpg"
   },
   {
     "id": "the-sims-3",
@@ -6267,7 +6835,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/the-sims-3-low.jpg",
+    "imageUltra": "/images/games/the-sims-3-ultra.jpg"
   },
   {
     "id": "stardew-valley",
@@ -6289,7 +6859,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/stardew-valley-low.jpg",
+    "imageUltra": "/images/games/stardew-valley-ultra.jpg"
   },
   {
     "id": "terraria",
@@ -6311,7 +6883,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/terraria-low.jpg",
+    "imageUltra": "/images/games/terraria-ultra.jpg"
   },
   {
     "id": "minecraft-java",
@@ -6333,7 +6907,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/minecraft-java-low.jpg",
+    "imageUltra": "/images/games/minecraft-java-ultra.jpg"
   },
   {
     "id": "minecraft-bedrock",
@@ -6355,7 +6931,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/minecraft-bedrock-low.jpg",
+    "imageUltra": "/images/games/minecraft-bedrock-ultra.jpg"
   },
   {
     "id": "roblox",
@@ -6377,7 +6955,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/roblox-low.jpg",
+    "imageUltra": "/images/games/roblox-ultra.jpg"
   },
   {
     "id": "unturned",
@@ -6399,7 +6979,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/unturned-low.jpg",
+    "imageUltra": "/images/games/unturned-ultra.jpg"
   },
   {
     "id": "subnautica",
@@ -6421,7 +7003,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/subnautica-low.jpg",
+    "imageUltra": "/images/games/subnautica-ultra.jpg"
   },
   {
     "id": "raft-low",
@@ -6443,7 +7027,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/raft-low-low.jpg",
+    "imageUltra": "/images/games/raft-low-ultra.jpg"
   },
   {
     "id": "slime-rancher",
@@ -6465,7 +7051,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/slime-rancher-low.jpg",
+    "imageUltra": "/images/games/slime-rancher-ultra.jpg"
   },
   {
     "id": "slime-rancher-2",
@@ -6487,7 +7075,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/slime-rancher-2-low.jpg",
+    "imageUltra": "/images/games/slime-rancher-2-ultra.jpg"
   },
   {
     "id": "house-flipper",
@@ -6509,7 +7099,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/house-flipper-low.jpg",
+    "imageUltra": "/images/games/house-flipper-ultra.jpg"
   },
   {
     "id": "powerwash-simulator",
@@ -6531,7 +7123,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/powerwash-simulator-low.jpg",
+    "imageUltra": "/images/games/powerwash-simulator-ultra.jpg"
   },
   {
     "id": "pc-building-simulator",
@@ -6553,7 +7147,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/pc-building-simulator-low.jpg",
+    "imageUltra": "/images/games/pc-building-simulator-ultra.jpg"
   },
   {
     "id": "cooking-simulator",
@@ -6575,7 +7171,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/cooking-simulator-low.jpg",
+    "imageUltra": "/images/games/cooking-simulator-ultra.jpg"
   },
   {
     "id": "thief-simulator",
@@ -6597,7 +7195,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/thief-simulator-low.jpg",
+    "imageUltra": "/images/games/thief-simulator-ultra.jpg"
   },
   {
     "id": "car-mechanic-simulator",
@@ -6619,7 +7219,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/car-mechanic-simulator-low.jpg",
+    "imageUltra": "/images/games/car-mechanic-simulator-ultra.jpg"
   },
   {
     "id": "goat-simulator-3",
@@ -6641,7 +7243,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/goat-simulator-3-low.jpg",
+    "imageUltra": "/images/games/goat-simulator-3-ultra.jpg"
   },
   {
     "id": "untitled-goose-game",
@@ -6663,7 +7267,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/untitled-goose-game-low.jpg",
+    "imageUltra": "/images/games/untitled-goose-game-ultra.jpg"
   },
   {
     "id": "stray",
@@ -6685,7 +7291,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/stray-low.jpg",
+    "imageUltra": "/images/games/stray-ultra.jpg"
   },
   {
     "id": "kena-bridge-of-spirits",
@@ -6707,7 +7315,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/kena-bridge-of-spirits-low.jpg",
+    "imageUltra": "/images/games/kena-bridge-of-spirits-ultra.jpg"
   },
   {
     "id": "tunic",
@@ -6729,7 +7339,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/tunic-low.jpg",
+    "imageUltra": "/images/games/tunic-ultra.jpg"
   },
   {
     "id": "outer-wilds",
@@ -6751,7 +7363,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/outer-wilds-low.jpg",
+    "imageUltra": "/images/games/outer-wilds-ultra.jpg"
   },
   {
     "id": "firewatch",
@@ -6773,7 +7387,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/firewatch-low.jpg",
+    "imageUltra": "/images/games/firewatch-ultra.jpg"
   },
   {
     "id": "what-remains-of-edith-finch",
@@ -6795,7 +7411,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/what-remains-of-edith-finch-low.jpg",
+    "imageUltra": "/images/games/what-remains-of-edith-finch-ultra.jpg"
   },
   {
     "id": "the-stanley-parable",
@@ -6817,7 +7435,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/the-stanley-parable-low.jpg",
+    "imageUltra": "/images/games/the-stanley-parable-ultra.jpg"
   },
   {
     "id": "superliminal",
@@ -6839,7 +7459,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/superliminal-low.jpg",
+    "imageUltra": "/images/games/superliminal-ultra.jpg"
   },
   {
     "id": "undertale",
@@ -6861,7 +7483,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/undertale-low.jpg",
+    "imageUltra": "/images/games/undertale-ultra.jpg"
   },
   {
     "id": "deltarune",
@@ -6883,7 +7507,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/deltarune-low.jpg",
+    "imageUltra": "/images/games/deltarune-ultra.jpg"
   },
   {
     "id": "omori",
@@ -6905,7 +7531,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/omori-low.jpg",
+    "imageUltra": "/images/games/omori-ultra.jpg"
   },
   {
     "id": "lisa-the-painful",
@@ -6927,7 +7555,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/lisa-the-painful-low.jpg",
+    "imageUltra": "/images/games/lisa-the-painful-ultra.jpg"
   },
   {
     "id": "yume-nikki",
@@ -6949,7 +7579,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/yume-nikki-low.jpg",
+    "imageUltra": "/images/games/yume-nikki-ultra.jpg"
   },
   {
     "id": "vampire-survivors",
@@ -6971,7 +7603,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/vampire-survivors-low.jpg",
+    "imageUltra": "/images/games/vampire-survivors-ultra.jpg"
   },
   {
     "id": "brotato",
@@ -6993,7 +7627,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/brotato-low.jpg",
+    "imageUltra": "/images/games/brotato-ultra.jpg"
   },
   {
     "id": "halls-of-torment",
@@ -7015,7 +7651,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/halls-of-torment-low.jpg",
+    "imageUltra": "/images/games/halls-of-torment-ultra.jpg"
   },
   {
     "id": "loop-hero",
@@ -7037,7 +7675,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/loop-hero-low.jpg",
+    "imageUltra": "/images/games/loop-hero-ultra.jpg"
   },
   {
     "id": "dave-the-diver",
@@ -7059,7 +7699,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dave-the-diver-low.jpg",
+    "imageUltra": "/images/games/dave-the-diver-ultra.jpg"
   },
   {
     "id": "dredge",
@@ -7081,7 +7723,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dredge-low.jpg",
+    "imageUltra": "/images/games/dredge-ultra.jpg"
   },
   {
     "id": "papers-please",
@@ -7103,7 +7747,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/papers-please-low.jpg",
+    "imageUltra": "/images/games/papers-please-ultra.jpg"
   },
   {
     "id": "obra-dinn",
@@ -7125,7 +7771,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/obra-dinn-low.jpg",
+    "imageUltra": "/images/games/obra-dinn-ultra.jpg"
   },
   {
     "id": "disco-elysium",
@@ -7147,7 +7795,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/disco-elysium-low.jpg",
+    "imageUltra": "/images/games/disco-elysium-ultra.jpg"
   },
   {
     "id": "citizen-sleeper",
@@ -7169,7 +7819,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/citizen-sleeper-low.jpg",
+    "imageUltra": "/images/games/citizen-sleeper-ultra.jpg"
   },
   {
     "id": "pentiment",
@@ -7191,7 +7843,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/pentiment-low.jpg",
+    "imageUltra": "/images/games/pentiment-ultra.jpg"
   },
   {
     "id": "hi-fi-rush",
@@ -7213,7 +7867,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/hi-fi-rush-low.jpg",
+    "imageUltra": "/images/games/hi-fi-rush-ultra.jpg"
   },
   {
     "id": "neon-white",
@@ -7235,7 +7891,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/neon-white-low.jpg",
+    "imageUltra": "/images/games/neon-white-ultra.jpg"
   },
   {
     "id": "hotline-miami",
@@ -7257,7 +7915,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/hotline-miami-low.jpg",
+    "imageUltra": "/images/games/hotline-miami-ultra.jpg"
   },
   {
     "id": "hotline-miami-2",
@@ -7279,7 +7939,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/hotline-miami-2-low.jpg",
+    "imageUltra": "/images/games/hotline-miami-2-ultra.jpg"
   },
   {
     "id": "katana-zero",
@@ -7301,7 +7963,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/katana-zero-low.jpg",
+    "imageUltra": "/images/games/katana-zero-ultra.jpg"
   },
   {
     "id": "sanabi",
@@ -7323,7 +7987,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/sanabi-low.jpg",
+    "imageUltra": "/images/games/sanabi-ultra.jpg"
   },
   {
     "id": "my-friend-pedro",
@@ -7345,7 +8011,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/my-friend-pedro-low.jpg",
+    "imageUltra": "/images/games/my-friend-pedro-ultra.jpg"
   },
   {
     "id": "superhot",
@@ -7367,7 +8035,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/superhot-low.jpg",
+    "imageUltra": "/images/games/superhot-ultra.jpg"
   },
   {
     "id": "ghostrunner",
@@ -7389,7 +8059,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/ghostrunner-low.jpg",
+    "imageUltra": "/images/games/ghostrunner-ultra.jpg"
   },
   {
     "id": "mirror-s-edge",
@@ -7411,7 +8083,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/mirror-s-edge-low.jpg",
+    "imageUltra": "/images/games/mirror-s-edge-ultra.jpg"
   },
   {
     "id": "dishonored",
@@ -7433,7 +8107,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/dishonored-low.jpg",
+    "imageUltra": "/images/games/dishonored-ultra.jpg"
   },
   {
     "id": "bioshock-remastered",
@@ -7455,7 +8131,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/bioshock-remastered-low.jpg",
+    "imageUltra": "/images/games/bioshock-remastered-ultra.jpg"
   },
   {
     "id": "bioshock-infinite",
@@ -7477,7 +8155,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/bioshock-infinite-low.jpg",
+    "imageUltra": "/images/games/bioshock-infinite-ultra.jpg"
   },
   {
     "id": "batman-arkham-asylum",
@@ -7499,7 +8179,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/batman-arkham-asylum-low.jpg",
+    "imageUltra": "/images/games/batman-arkham-asylum-ultra.jpg"
   },
   {
     "id": "batman-arkham-city",
@@ -7521,7 +8203,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/batman-arkham-city-low.jpg",
+    "imageUltra": "/images/games/batman-arkham-city-ultra.jpg"
   },
   {
     "id": "batman-arkham-knight",
@@ -7543,7 +8227,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/batman-arkham-knight-low.jpg",
+    "imageUltra": "/images/games/batman-arkham-knight-ultra.jpg"
   },
   {
     "id": "mad-max",
@@ -7565,7 +8251,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/mad-max-low.jpg",
+    "imageUltra": "/images/games/mad-max-ultra.jpg"
   },
   {
     "id": "shadow-of-mordor",
@@ -7587,7 +8275,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/shadow-of-mordor-low.jpg",
+    "imageUltra": "/images/games/shadow-of-mordor-ultra.jpg"
   },
   {
     "id": "shadow-of-war",
@@ -7609,7 +8299,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/shadow-of-war-low.jpg",
+    "imageUltra": "/images/games/shadow-of-war-ultra.jpg"
   },
   {
     "id": "sleeping-dogs",
@@ -7631,7 +8323,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/sleeping-dogs-low.jpg",
+    "imageUltra": "/images/games/sleeping-dogs-ultra.jpg"
   },
   {
     "id": "yakuza-0",
@@ -7653,7 +8347,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/yakuza-0-low.jpg",
+    "imageUltra": "/images/games/yakuza-0-ultra.jpg"
   },
   {
     "id": "yakuza-kiwami",
@@ -7675,7 +8371,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/yakuza-kiwami-low.jpg",
+    "imageUltra": "/images/games/yakuza-kiwami-ultra.jpg"
   },
   {
     "id": "metal-gear-solid-v",
@@ -7697,7 +8395,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/metal-gear-solid-v-low.jpg",
+    "imageUltra": "/images/games/metal-gear-solid-v-ultra.jpg"
   },
   {
     "id": "metal-gear-rising",
@@ -7719,7 +8419,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/metal-gear-rising-low.jpg",
+    "imageUltra": "/images/games/metal-gear-rising-ultra.jpg"
   },
   {
     "id": "nier-automata",
@@ -7741,7 +8443,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/nier-automata-low.jpg",
+    "imageUltra": "/images/games/nier-automata-ultra.jpg"
   },
   {
     "id": "bayonetta",
@@ -7763,7 +8467,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/bayonetta-low.jpg",
+    "imageUltra": "/images/games/bayonetta-ultra.jpg"
   },
   {
     "id": "vanquish",
@@ -7785,7 +8491,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/vanquish-low.jpg",
+    "imageUltra": "/images/games/vanquish-ultra.jpg"
   },
   {
     "id": "spec-ops-the-line",
@@ -7807,7 +8515,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/spec-ops-the-line-low.jpg",
+    "imageUltra": "/images/games/spec-ops-the-line-ultra.jpg"
   },
   {
     "id": "max-payne-3",
@@ -7829,7 +8539,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/max-payne-3-low.jpg",
+    "imageUltra": "/images/games/max-payne-3-ultra.jpg"
   },
   {
     "id": "la-noire",
@@ -7851,7 +8563,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/la-noire-low.jpg",
+    "imageUltra": "/images/games/la-noire-ultra.jpg"
   },
   {
     "id": "bully",
@@ -7873,7 +8587,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/bully-low.jpg",
+    "imageUltra": "/images/games/bully-ultra.jpg"
   },
   {
     "id": "manhunt",
@@ -7895,7 +8611,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/manhunt-low.jpg",
+    "imageUltra": "/images/games/manhunt-ultra.jpg"
   },
   {
     "id": "grand-theft-auto-iv",
@@ -7917,7 +8635,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/grand-theft-auto-iv-low.jpg",
+    "imageUltra": "/images/games/grand-theft-auto-iv-ultra.jpg"
   },
   {
     "id": "grand-theft-auto-san-andreas",
@@ -7939,7 +8659,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/grand-theft-auto-san-andreas-low.jpg",
+    "imageUltra": "/images/games/grand-theft-auto-san-andreas-ultra.jpg"
   },
   {
     "id": "saints-row-the-third",
@@ -7961,7 +8683,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/saints-row-the-third-low.jpg",
+    "imageUltra": "/images/games/saints-row-the-third-ultra.jpg"
   },
   {
     "id": "saints-row-iv",
@@ -7983,7 +8707,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/saints-row-iv-low.jpg",
+    "imageUltra": "/images/games/saints-row-iv-ultra.jpg"
   },
   {
     "id": "just-cause-3",
@@ -8005,7 +8731,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/just-cause-3-low.jpg",
+    "imageUltra": "/images/games/just-cause-3-ultra.jpg"
   },
   {
     "id": "far-cry-3",
@@ -8027,7 +8755,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/far-cry-3-low.jpg",
+    "imageUltra": "/images/games/far-cry-3-ultra.jpg"
   },
   {
     "id": "far-cry-4",
@@ -8049,7 +8779,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/far-cry-4-low.jpg",
+    "imageUltra": "/images/games/far-cry-4-ultra.jpg"
   },
   {
     "id": "far-cry-5",
@@ -8071,7 +8803,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/far-cry-5-low.jpg",
+    "imageUltra": "/images/games/far-cry-5-ultra.jpg"
   },
   {
     "id": "far-cry-primal",
@@ -8093,7 +8827,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/far-cry-primal-low.jpg",
+    "imageUltra": "/images/games/far-cry-primal-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-iv-black-flag",
@@ -8115,7 +8851,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-iv-black-flag-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-iv-black-flag-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-unity",
@@ -8137,7 +8875,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-unity-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-unity-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-syndicate",
@@ -8159,7 +8899,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-syndicate-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-syndicate-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-origins",
@@ -8181,7 +8923,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-origins-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-origins-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-odyssey",
@@ -8203,7 +8947,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-odyssey-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-odyssey-ultra.jpg"
   },
   {
     "id": "assassin-s-creed-valhalla",
@@ -8225,7 +8971,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/assassin-s-creed-valhalla-low.jpg",
+    "imageUltra": "/images/games/assassin-s-creed-valhalla-ultra.jpg"
   },
   {
     "id": "watch-dogs-2",
@@ -8247,7 +8995,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/watch-dogs-2-low.jpg",
+    "imageUltra": "/images/games/watch-dogs-2-ultra.jpg"
   },
   {
     "id": "tom-clancy-s-the-division-2",
@@ -8269,7 +9019,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/tom-clancy-s-the-division-2-low.jpg",
+    "imageUltra": "/images/games/tom-clancy-s-the-division-2-ultra.jpg"
   },
   {
     "id": "tom-clancy-s-ghost-recon-wildlands",
@@ -8291,7 +9043,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/tom-clancy-s-ghost-recon-wildlands-low.jpg",
+    "imageUltra": "/images/games/tom-clancy-s-ghost-recon-wildlands-ultra.jpg"
   },
   {
     "id": "tom-clancy-s-ghost-recon-breakpoint",
@@ -8313,7 +9067,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/tom-clancy-s-ghost-recon-breakpoint-low.jpg",
+    "imageUltra": "/images/games/tom-clancy-s-ghost-recon-breakpoint-ultra.jpg"
   },
   {
     "id": "sniper-elite-4",
@@ -8335,7 +9091,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/sniper-elite-4-low.jpg",
+    "imageUltra": "/images/games/sniper-elite-4-ultra.jpg"
   },
   {
     "id": "sniper-elite-5",
@@ -8357,7 +9115,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/sniper-elite-5-low.jpg",
+    "imageUltra": "/images/games/sniper-elite-5-ultra.jpg"
   },
   {
     "id": "zombie-army-4",
@@ -8379,7 +9139,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/zombie-army-4-low.jpg",
+    "imageUltra": "/images/games/zombie-army-4-ultra.jpg"
   },
   {
     "id": "strange-brigade",
@@ -8401,7 +9163,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/strange-brigade-low.jpg",
+    "imageUltra": "/images/games/strange-brigade-ultra.jpg"
   },
   {
     "id": "world-war-z-aftermath",
@@ -8423,7 +9187,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/world-war-z-aftermath-low.jpg",
+    "imageUltra": "/images/games/world-war-z-aftermath-ultra.jpg"
   },
   {
     "id": "state-of-decay-2",
@@ -8445,7 +9211,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/state-of-decay-2-low.jpg",
+    "imageUltra": "/images/games/state-of-decay-2-ultra.jpg"
   },
   {
     "id": "days-gone",
@@ -8467,7 +9235,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/days-gone-low.jpg",
+    "imageUltra": "/images/games/days-gone-ultra.jpg"
   },
   {
     "id": "mad-max",
@@ -8489,7 +9259,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/mad-max-low.jpg",
+    "imageUltra": "/images/games/mad-max-ultra.jpg"
   },
   {
     "id": "rage-2",
@@ -8511,7 +9283,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/rage-2-low.jpg",
+    "imageUltra": "/images/games/rage-2-ultra.jpg"
   },
   {
     "id": "generation-zero",
@@ -8533,7 +9307,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/generation-zero-low.jpg",
+    "imageUltra": "/images/games/generation-zero-ultra.jpg"
   },
   {
     "id": "terminator-resistance",
@@ -8555,7 +9331,9 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/terminator-resistance-low.jpg",
+    "imageUltra": "/images/games/terminator-resistance-ultra.jpg"
   },
   {
     "id": "robocop-rogue-city",
@@ -8577,6 +9355,8 @@
         "rec": 16
       },
       "storage": 40
-    }
+    },
+    "imageLow": "/images/games/robocop-rogue-city-low.jpg",
+    "imageUltra": "/images/games/robocop-rogue-city-ultra.jpg"
   }
 ]
