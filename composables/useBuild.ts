@@ -1,9 +1,6 @@
 import parts from '~/data/parts.json'
-import { useAffiliate } from './useAffiliate'
 
 export const useBuild = (gpu: any, cpu: any) => {
-  const { getLink } = useAffiliate()
-
   let tier = 'mid'
   if (gpu) {
     if (gpu.score >= 90) tier = 'extreme'
@@ -50,66 +47,109 @@ export const useBuild = (gpu: any, cpu: any) => {
   const psusDB = parts.psus as any
   const casesDB = parts.cases as any
   const coolersDB = parts.coolers as any
+  const monitorsDB = parts.monitors as any
+  const fansDB = parts.fans as any
+  const keyboardsDB = parts.keyboards as any
+  const miceDB = parts.mice as any
+  const headsetsDB = parts.headsets as any
 
-  const mobo = motherboardsDB[socket]
+  const moboOptions = motherboardsDB[socket]
     ? motherboardsDB[socket][tier]
     : motherboardsDB['lga1700']['mid']
+  const ramOptions = ramDB[memoryType][tier === 'extreme' ? 'high' : tier]
+  const storageOptions = storageDB[tier]
+  const psuOptions = psusDB[tier]
+  const caseOptions = casesDB[tier]
+  const coolerOptions = coolersDB[tier]
 
-  const ram = ramDB[memoryType][tier === 'extreme' ? 'high' : tier]
-
-  const storage = storageDB[tier]
-  const psu = psusDB[tier]
-  const casePart = casesDB[tier]
-  const cooler = coolersDB[tier]
+  const monitorOptions = monitorsDB[tier]
+  const fanOptions = fansDB[tier]
+  const keyboardOptions = keyboardsDB[tier]
+  const mouseOptions = miceDB[tier]
+  const headsetOptions = headsetsDB[tier]
 
   return [
     {
       category: 'Processor',
-      name: cpu ? cpu.name : 'Select a CPU...',
-      icon: '🧠',
-      link: cpu ? getLink(cpu.name) : '#'
-    },
-    {
-      category: 'CPU Cooler',
-      name: cooler.name,
-      icon: '❄️',
-      link: getLink(cooler.query)
-    },
-    {
-      category: 'Motherboard',
-      name: mobo.name,
-      icon: '🔌',
-      link: getLink(mobo.query)
-    },
-    {
-      category: 'Memory (RAM)',
-      name: ram.name,
-      icon: '💾',
-      link: getLink(ram.query)
+      locked: true,
+      options: [
+        { name: cpu ? cpu.name : 'Select CPU...', query: cpu ? cpu.name : '' }
+      ],
+      icon: '🧠'
     },
     {
       category: 'Graphics Card',
-      name: gpu ? gpu.name : 'Select a GPU...',
-      icon: '🎮',
-      link: gpu ? getLink(gpu.name) : '#'
+      locked: true,
+      options: [
+        { name: gpu ? gpu.name : 'Select GPU...', query: gpu ? gpu.name : '' }
+      ],
+      icon: '🎮'
+    },
+    {
+      category: 'CPU Cooler',
+      locked: false,
+      options: coolerOptions || [],
+      icon: '❄️'
+    },
+    {
+      category: 'Motherboard',
+      locked: false,
+      options: moboOptions || [],
+      icon: '🔌'
+    },
+    {
+      category: 'Memory (RAM)',
+      locked: false,
+      options: ramOptions || [],
+      icon: '💾'
     },
     {
       category: 'Storage (SSD)',
-      name: storage.name,
-      icon: '💽',
-      link: getLink(storage.query)
+      locked: false,
+      options: storageOptions || [],
+      icon: '💽'
     },
     {
       category: 'Power Supply',
-      name: psu.name,
-      icon: '⚡',
-      link: getLink(psu.query)
+      locked: false,
+      options: psuOptions || [],
+      icon: '⚡'
     },
     {
       category: 'PC Case',
-      name: casePart.name,
-      icon: '🖥️',
-      link: getLink(casePart.query)
+      locked: false,
+      options: caseOptions || [],
+      icon: '🖥️'
+    },
+    {
+      category: 'Case Fans',
+      locked: false,
+      options: fanOptions || [],
+      icon: '🌀'
+    },
+    {
+      category: 'Monitor',
+      locked: false,
+      options: monitorOptions || [],
+      icon: '🖥️'
+    },
+    {
+      category: 'Keyboard',
+      locked: false,
+      options: keyboardOptions || [],
+      icon: '⌨️'
+    },
+    {
+      category: 'Mouse',
+      locked: false,
+      options: mouseOptions || [],
+      icon: '🖱️'
+    },
+    {
+      category: 'Headset',
+      locked: false,
+      options: headsetOptions || [],
+      icon: '🎧'
     }
   ]
 }
