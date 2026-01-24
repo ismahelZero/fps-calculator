@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gtx-1660-ti",
+    "name": "NVIDIA GTX 1660 Ti",
+    "slug": "gtx-1660-ti",
+    "score": 45,
+    "vram": 6,
+    "affiliateLink": "https://amzn.to/example-1660"
+  },
+  {
+    "id": "rtx-3060",
+    "name": "NVIDIA RTX 3060",
+    "slug": "rtx-3060",
+    "score": 60,
+    "vram": 12,
+    "affiliateLink": "https://amzn.to/example-3060"
+  },
+  {
+    "id": "rtx-4090",
+    "name": "NVIDIA RTX 4090",
+    "slug": "rtx-4090",
+    "score": 100,
+    "vram": 24,
+    "affiliateLink": "https://amzn.to/example-4090"
+  },
+  {
+    "id": "gtx-1050-ti",
+    "name": "NVIDIA GTX 1050 Ti",
+    "slug": "gtx-1050-ti",
+    "score": 25,
+    "vram": 4,
+    "affiliateLink": "https://amzn.to/example-1050"
+  }
+]

@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "nuxt": "^4.3.0",
@@ -20,6 +21,7 @@
     "@pinia/nuxt": "^0.11.3",
     "@types/node": "^25.0.10",
     "prettier": "^3.8.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   }
 }

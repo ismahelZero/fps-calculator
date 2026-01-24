@@ -1,3 +1,5 @@
+import gpus from './data/gpus.json'
+import games from './data/games.json'
 import { fileURLToPath } from 'url'
 
 export default defineNuxtConfig({
@@ -26,15 +28,10 @@ export default defineNuxtConfig({
     nitro: {
         prerender: {
             routes: (() => {
-                // We need to import the data here for the config
-                // Note: In nuxt.config, we use relative paths because aliases
-                // sometimes don't apply inside the config file itself yet.
-                const { gpus } = require('./server/data/gpus.ts') // or relative path
-                const { games } = require('./server/data/games.ts')
-
                 const routes: string[] = []
-                games.forEach((game: any) => {
-                    gpus.forEach((gpu: any) => {
+                // Loop through JSON data to generate pages
+                games.forEach((game) => {
+                    gpus.forEach((gpu) => {
                         routes.push(`/optimize/${game.slug}/${gpu.slug}`)
                     })
                 })

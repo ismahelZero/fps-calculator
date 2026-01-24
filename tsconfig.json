@@ -1,27 +1,46 @@
 {
-  "references": [
-    {
-      "path": "./.nuxt/tsconfig.app.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.server.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.shared.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.node.json"
-    }
-  ],
+  "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2018",
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
+    "moduleResolution": "bundler",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "types": [
+      "vite/client",
+      "node"
+    ],
     "esModuleInterop": true,
-    "skipLibCheck": true
-  }
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "~/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts",
+    "**/*.tsx",
+    "**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    ".nuxt",
+    "dist"
+  ]
 }
