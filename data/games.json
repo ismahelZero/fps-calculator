@@ -360,6 +360,126 @@
     "imageUltra": "/images/games/minecraft-rtx-on-ultra.jpg"
   },
   {
+    "id": "indiana-jones-and-the-great-circle",
+    "name": "Indiana Jones and the Great Circle",
+    "slug": "indiana-jones-and-the-great-circle",
+    "requirements": {
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
+    },
+    "imageLow": "/images/games/indiana-jones-and-the-great-circle-low.jpg",
+    "imageUltra": "/images/games/indiana-jones-and-the-great-circle-ultra.jpg"
+  },
+  {
+    "id": "stalker-2-heart-of-chornobyl",
+    "name": "Stalker 2: Heart of Chornobyl",
+    "slug": "stalker-2-heart-of-chornobyl",
+    "requirements": {
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
+    },
+    "imageLow": "/images/games/stalker-2-heart-of-chornobyl-low.jpg",
+    "imageUltra": "/images/games/stalker-2-heart-of-chornobyl-ultra.jpg"
+  },
+  {
+    "id": "the-callisto-protocol",
+    "name": "The Callisto Protocol",
+    "slug": "the-callisto-protocol",
+    "requirements": {
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
+    },
+    "imageLow": "/images/games/the-callisto-protocol-low.jpg",
+    "imageUltra": "/images/games/the-callisto-protocol-ultra.jpg"
+  },
+  {
+    "id": "forspoken",
+    "name": "Forspoken",
+    "slug": "forspoken",
+    "requirements": {
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
+    },
+    "imageLow": "/images/games/forspoken-low.jpg",
+    "imageUltra": "/images/games/forspoken-ultra.jpg"
+  },
+  {
+    "id": "atomic-heart",
+    "name": "Atomic Heart",
+    "slug": "atomic-heart",
+    "requirements": {
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
+    },
+    "imageLow": "/images/games/atomic-heart-low.jpg",
+    "imageUltra": "/images/games/atomic-heart-ultra.jpg"
+  },
+  {
     "id": "starfield",
     "name": "Starfield",
     "slug": "starfield",
@@ -1630,6 +1750,606 @@
     },
     "imageLow": "/images/games/manor-lords-low.jpg",
     "imageUltra": "/images/games/manor-lords-ultra.jpg"
+  },
+  {
+    "id": "resident-evil-8-village",
+    "name": "Resident Evil 8: Village",
+    "slug": "resident-evil-8-village",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/resident-evil-8-village-low.jpg",
+    "imageUltra": "/images/games/resident-evil-8-village-ultra.jpg"
+  },
+  {
+    "id": "ghostwire-tokyo",
+    "name": "Ghostwire: Tokyo",
+    "slug": "ghostwire-tokyo",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/ghostwire-tokyo-low.jpg",
+    "imageUltra": "/images/games/ghostwire-tokyo-ultra.jpg"
+  },
+  {
+    "id": "evil-west",
+    "name": "Evil West",
+    "slug": "evil-west",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/evil-west-low.jpg",
+    "imageUltra": "/images/games/evil-west-ultra.jpg"
+  },
+  {
+    "id": "atomic-heart",
+    "name": "Atomic Heart",
+    "slug": "atomic-heart",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/atomic-heart-low.jpg",
+    "imageUltra": "/images/games/atomic-heart-ultra.jpg"
+  },
+  {
+    "id": "high-on-life",
+    "name": "High on Life",
+    "slug": "high-on-life",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/high-on-life-low.jpg",
+    "imageUltra": "/images/games/high-on-life-ultra.jpg"
+  },
+  {
+    "id": "scorn",
+    "name": "Scorn",
+    "slug": "scorn",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/scorn-low.jpg",
+    "imageUltra": "/images/games/scorn-ultra.jpg"
+  },
+  {
+    "id": "the-quarry",
+    "name": "The Quarry",
+    "slug": "the-quarry",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/the-quarry-low.jpg",
+    "imageUltra": "/images/games/the-quarry-ultra.jpg"
+  },
+  {
+    "id": "callisto-protocol",
+    "name": "Callisto Protocol",
+    "slug": "callisto-protocol",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/callisto-protocol-low.jpg",
+    "imageUltra": "/images/games/callisto-protocol-ultra.jpg"
+  },
+  {
+    "id": "dead-space-2023",
+    "name": "Dead Space (2023)",
+    "slug": "dead-space-2023",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/dead-space-2023-low.jpg",
+    "imageUltra": "/images/games/dead-space-2023-ultra.jpg"
+  },
+  {
+    "id": "star-wars-battlefront-ii",
+    "name": "Star Wars Battlefront II",
+    "slug": "star-wars-battlefront-ii",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/star-wars-battlefront-ii-low.jpg",
+    "imageUltra": "/images/games/star-wars-battlefront-ii-ultra.jpg"
+  },
+  {
+    "id": "jedi-survivor",
+    "name": "Jedi: Survivor",
+    "slug": "jedi-survivor",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/jedi-survivor-low.jpg",
+    "imageUltra": "/images/games/jedi-survivor-ultra.jpg"
+  },
+  {
+    "id": "halo-infinite",
+    "name": "Halo Infinite",
+    "slug": "halo-infinite",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/halo-infinite-low.jpg",
+    "imageUltra": "/images/games/halo-infinite-ultra.jpg"
+  },
+  {
+    "id": "gears-5",
+    "name": "Gears 5",
+    "slug": "gears-5",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/gears-5-low.jpg",
+    "imageUltra": "/images/games/gears-5-ultra.jpg"
+  },
+  {
+    "id": "gears-tactics",
+    "name": "Gears Tactics",
+    "slug": "gears-tactics",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/gears-tactics-low.jpg",
+    "imageUltra": "/images/games/gears-tactics-ultra.jpg"
+  },
+  {
+    "id": "age-of-mythology-retold",
+    "name": "Age of Mythology: Retold",
+    "slug": "age-of-mythology-retold",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/age-of-mythology-retold-low.jpg",
+    "imageUltra": "/images/games/age-of-mythology-retold-ultra.jpg"
+  },
+  {
+    "id": "frostpunk",
+    "name": "Frostpunk",
+    "slug": "frostpunk",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/frostpunk-low.jpg",
+    "imageUltra": "/images/games/frostpunk-ultra.jpg"
+  },
+  {
+    "id": "they-are-billions",
+    "name": "They Are Billions",
+    "slug": "they-are-billions",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/they-are-billions-low.jpg",
+    "imageUltra": "/images/games/they-are-billions-ultra.jpg"
+  },
+  {
+    "id": "homeworld-3",
+    "name": "Homeworld 3",
+    "slug": "homeworld-3",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/homeworld-3-low.jpg",
+    "imageUltra": "/images/games/homeworld-3-ultra.jpg"
+  },
+  {
+    "id": "warhammer-40k-rogue-trader",
+    "name": "Warhammer 40K: Rogue Trader",
+    "slug": "warhammer-40k-rogue-trader",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/warhammer-40k-rogue-trader-low.jpg",
+    "imageUltra": "/images/games/warhammer-40k-rogue-trader-ultra.jpg"
+  },
+  {
+    "id": "baldur-s-gate-dark-alliance",
+    "name": "Baldur's Gate: Dark Alliance",
+    "slug": "baldur-s-gate-dark-alliance",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/baldur-s-gate-dark-alliance-low.jpg",
+    "imageUltra": "/images/games/baldur-s-gate-dark-alliance-ultra.jpg"
+  },
+  {
+    "id": "divinity-original-sin-2",
+    "name": "Divinity: Original Sin 2",
+    "slug": "divinity-original-sin-2",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/divinity-original-sin-2-low.jpg",
+    "imageUltra": "/images/games/divinity-original-sin-2-ultra.jpg"
+  },
+  {
+    "id": "wasteland-3",
+    "name": "Wasteland 3",
+    "slug": "wasteland-3",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/wasteland-3-low.jpg",
+    "imageUltra": "/images/games/wasteland-3-ultra.jpg"
+  },
+  {
+    "id": "pillars-of-eternity-ii",
+    "name": "Pillars of Eternity II",
+    "slug": "pillars-of-eternity-ii",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/pillars-of-eternity-ii-low.jpg",
+    "imageUltra": "/images/games/pillars-of-eternity-ii-ultra.jpg"
+  },
+  {
+    "id": "pathfinder-wrath-of-the-righteous",
+    "name": "Pathfinder: Wrath of the Righteous",
+    "slug": "pathfinder-wrath-of-the-righteous",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/pathfinder-wrath-of-the-righteous-low.jpg",
+    "imageUltra": "/images/games/pathfinder-wrath-of-the-righteous-ultra.jpg"
+  },
+  {
+    "id": "solasta-crown-of-the-magister",
+    "name": "Solasta: Crown of the Magister",
+    "slug": "solasta-crown-of-the-magister",
+    "requirements": {
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
+    },
+    "imageLow": "/images/games/solasta-crown-of-the-magister-low.jpg",
+    "imageUltra": "/images/games/solasta-crown-of-the-magister-ultra.jpg"
   },
   {
     "id": "grand-theft-auto-v",
@@ -4558,6 +5278,606 @@
     },
     "imageLow": "/images/games/from-the-depths-low.jpg",
     "imageUltra": "/images/games/from-the-depths-ultra.jpg"
+  },
+  {
+    "id": "lethal-company",
+    "name": "Lethal Company",
+    "slug": "lethal-company",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/lethal-company-low.jpg",
+    "imageUltra": "/images/games/lethal-company-ultra.jpg"
+  },
+  {
+    "id": "the-outlast-trials",
+    "name": "The Outlast Trials",
+    "slug": "the-outlast-trials",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/the-outlast-trials-low.jpg",
+    "imageUltra": "/images/games/the-outlast-trials-ultra.jpg"
+  },
+  {
+    "id": "sons-of-the-forest",
+    "name": "Sons of The Forest",
+    "slug": "sons-of-the-forest",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/sons-of-the-forest-low.jpg",
+    "imageUltra": "/images/games/sons-of-the-forest-ultra.jpg"
+  },
+  {
+    "id": "chernobylite",
+    "name": "Chernobylite",
+    "slug": "chernobylite",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/chernobylite-low.jpg",
+    "imageUltra": "/images/games/chernobylite-ultra.jpg"
+  },
+  {
+    "id": "ghostbusters-spirits-unleashed",
+    "name": "Ghostbusters: Spirits Unleashed",
+    "slug": "ghostbusters-spirits-unleashed",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/ghostbusters-spirits-unleashed-low.jpg",
+    "imageUltra": "/images/games/ghostbusters-spirits-unleashed-ultra.jpg"
+  },
+  {
+    "id": "the-texas-chain-saw-massacre",
+    "name": "The Texas Chain Saw Massacre",
+    "slug": "the-texas-chain-saw-massacre",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/the-texas-chain-saw-massacre-low.jpg",
+    "imageUltra": "/images/games/the-texas-chain-saw-massacre-ultra.jpg"
+  },
+  {
+    "id": "evil-dead-the-game",
+    "name": "Evil Dead: The Game",
+    "slug": "evil-dead-the-game",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/evil-dead-the-game-low.jpg",
+    "imageUltra": "/images/games/evil-dead-the-game-ultra.jpg"
+  },
+  {
+    "id": "friday-the-13th-the-game",
+    "name": "Friday the 13th: The Game",
+    "slug": "friday-the-13th-the-game",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/friday-the-13th-the-game-low.jpg",
+    "imageUltra": "/images/games/friday-the-13th-the-game-ultra.jpg"
+  },
+  {
+    "id": "stranded-deep",
+    "name": "Stranded Deep",
+    "slug": "stranded-deep",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/stranded-deep-low.jpg",
+    "imageUltra": "/images/games/stranded-deep-ultra.jpg"
+  },
+  {
+    "id": "astroneer",
+    "name": "Astroneer",
+    "slug": "astroneer",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/astroneer-low.jpg",
+    "imageUltra": "/images/games/astroneer-ultra.jpg"
+  },
+  {
+    "id": "no-man-s-sky-vr",
+    "name": "No Man's Sky (VR)",
+    "slug": "no-man-s-sky-vr",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/no-man-s-sky-vr-low.jpg",
+    "imageUltra": "/images/games/no-man-s-sky-vr-ultra.jpg"
+  },
+  {
+    "id": "elite-dangerous",
+    "name": "Elite Dangerous",
+    "slug": "elite-dangerous",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/elite-dangerous-low.jpg",
+    "imageUltra": "/images/games/elite-dangerous-ultra.jpg"
+  },
+  {
+    "id": "star-citizen",
+    "name": "Star Citizen",
+    "slug": "star-citizen",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/star-citizen-low.jpg",
+    "imageUltra": "/images/games/star-citizen-ultra.jpg"
+  },
+  {
+    "id": "dual-universe",
+    "name": "Dual Universe",
+    "slug": "dual-universe",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/dual-universe-low.jpg",
+    "imageUltra": "/images/games/dual-universe-ultra.jpg"
+  },
+  {
+    "id": "empyrion-galactic-survival",
+    "name": "Empyrion - Galactic Survival",
+    "slug": "empyrion-galactic-survival",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/empyrion-galactic-survival-low.jpg",
+    "imageUltra": "/images/games/empyrion-galactic-survival-ultra.jpg"
+  },
+  {
+    "id": "x4-foundations",
+    "name": "X4: Foundations",
+    "slug": "x4-foundations",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/x4-foundations-low.jpg",
+    "imageUltra": "/images/games/x4-foundations-ultra.jpg"
+  },
+  {
+    "id": "everspace-2",
+    "name": "Everspace 2",
+    "slug": "everspace-2",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/everspace-2-low.jpg",
+    "imageUltra": "/images/games/everspace-2-ultra.jpg"
+  },
+  {
+    "id": "house-of-the-dying-sun",
+    "name": "House of the Dying Sun",
+    "slug": "house-of-the-dying-sun",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/house-of-the-dying-sun-low.jpg",
+    "imageUltra": "/images/games/house-of-the-dying-sun-ultra.jpg"
+  },
+  {
+    "id": "project-wingman",
+    "name": "Project Wingman",
+    "slug": "project-wingman",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/project-wingman-low.jpg",
+    "imageUltra": "/images/games/project-wingman-ultra.jpg"
+  },
+  {
+    "id": "ace-combat-7",
+    "name": "Ace Combat 7",
+    "slug": "ace-combat-7",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/ace-combat-7-low.jpg",
+    "imageUltra": "/images/games/ace-combat-7-ultra.jpg"
+  },
+  {
+    "id": "dcs-world",
+    "name": "DCS World",
+    "slug": "dcs-world",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/dcs-world-low.jpg",
+    "imageUltra": "/images/games/dcs-world-ultra.jpg"
+  },
+  {
+    "id": "il-2-sturmovik",
+    "name": "IL-2 Sturmovik",
+    "slug": "il-2-sturmovik",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/il-2-sturmovik-low.jpg",
+    "imageUltra": "/images/games/il-2-sturmovik-ultra.jpg"
+  },
+  {
+    "id": "war-thunder-max-settings",
+    "name": "War Thunder (Max Settings)",
+    "slug": "war-thunder-max-settings",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/war-thunder-max-settings-low.jpg",
+    "imageUltra": "/images/games/war-thunder-max-settings-ultra.jpg"
+  },
+  {
+    "id": "arma-3",
+    "name": "Arma 3",
+    "slug": "arma-3",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/arma-3-low.jpg",
+    "imageUltra": "/images/games/arma-3-ultra.jpg"
+  },
+  {
+    "id": "arma-reforger",
+    "name": "Arma Reforger",
+    "slug": "arma-reforger",
+    "requirements": {
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
+    },
+    "imageLow": "/images/games/arma-reforger-low.jpg",
+    "imageUltra": "/images/games/arma-reforger-ultra.jpg"
   },
   {
     "id": "counter-strike-2",
@@ -9358,5 +10678,2789 @@
     },
     "imageLow": "/images/games/robocop-rogue-city-low.jpg",
     "imageUltra": "/images/games/robocop-rogue-city-ultra.jpg"
+  },
+  {
+    "id": "apex-legends-low-settings",
+    "name": "Apex Legends (Low Settings)",
+    "slug": "apex-legends-low-settings",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/apex-legends-low-settings-low.jpg",
+    "imageUltra": "/images/games/apex-legends-low-settings-ultra.jpg"
+  },
+  {
+    "id": "pubg-battlegrounds",
+    "name": "PUBG: Battlegrounds",
+    "slug": "pubg-battlegrounds",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/pubg-battlegrounds-low.jpg",
+    "imageUltra": "/images/games/pubg-battlegrounds-ultra.jpg"
+  },
+  {
+    "id": "call-of-duty-black-ops-3",
+    "name": "Call of Duty: Black Ops 3",
+    "slug": "call-of-duty-black-ops-3",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/call-of-duty-black-ops-3-low.jpg",
+    "imageUltra": "/images/games/call-of-duty-black-ops-3-ultra.jpg"
+  },
+  {
+    "id": "call-of-duty-black-ops-4",
+    "name": "Call of Duty: Black Ops 4",
+    "slug": "call-of-duty-black-ops-4",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/call-of-duty-black-ops-4-low.jpg",
+    "imageUltra": "/images/games/call-of-duty-black-ops-4-ultra.jpg"
+  },
+  {
+    "id": "splitgate",
+    "name": "Splitgate",
+    "slug": "splitgate",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/splitgate-low.jpg",
+    "imageUltra": "/images/games/splitgate-ultra.jpg"
+  },
+  {
+    "id": "halo-the-master-chief-collection",
+    "name": "Halo: The Master Chief Collection",
+    "slug": "halo-the-master-chief-collection",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/halo-the-master-chief-collection-low.jpg",
+    "imageUltra": "/images/games/halo-the-master-chief-collection-ultra.jpg"
+  },
+  {
+    "id": "battlefield-4",
+    "name": "Battlefield 4",
+    "slug": "battlefield-4",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/battlefield-4-low.jpg",
+    "imageUltra": "/images/games/battlefield-4-ultra.jpg"
+  },
+  {
+    "id": "battlefield-3",
+    "name": "Battlefield 3",
+    "slug": "battlefield-3",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/battlefield-3-low.jpg",
+    "imageUltra": "/images/games/battlefield-3-ultra.jpg"
+  },
+  {
+    "id": "titanfall-2",
+    "name": "Titanfall 2",
+    "slug": "titanfall-2",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/titanfall-2-low.jpg",
+    "imageUltra": "/images/games/titanfall-2-ultra.jpg"
+  },
+  {
+    "id": "warface",
+    "name": "Warface",
+    "slug": "warface",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/warface-low.jpg",
+    "imageUltra": "/images/games/warface-ultra.jpg"
+  },
+  {
+    "id": "ironsight",
+    "name": "Ironsight",
+    "slug": "ironsight",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/ironsight-low.jpg",
+    "imageUltra": "/images/games/ironsight-ultra.jpg"
+  },
+  {
+    "id": "combat-arms-reloaded",
+    "name": "Combat Arms: Reloaded",
+    "slug": "combat-arms-reloaded",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/combat-arms-reloaded-low.jpg",
+    "imageUltra": "/images/games/combat-arms-reloaded-ultra.jpg"
+  },
+  {
+    "id": "starcraft-ii",
+    "name": "Starcraft II",
+    "slug": "starcraft-ii",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/starcraft-ii-low.jpg",
+    "imageUltra": "/images/games/starcraft-ii-ultra.jpg"
+  },
+  {
+    "id": "starcraft-remastered",
+    "name": "Starcraft: Remastered",
+    "slug": "starcraft-remastered",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/starcraft-remastered-low.jpg",
+    "imageUltra": "/images/games/starcraft-remastered-ultra.jpg"
+  },
+  {
+    "id": "age-of-empires-ii-definitive-edition",
+    "name": "Age of Empires II: Definitive Edition",
+    "slug": "age-of-empires-ii-definitive-edition",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/age-of-empires-ii-definitive-edition-low.jpg",
+    "imageUltra": "/images/games/age-of-empires-ii-definitive-edition-ultra.jpg"
+  },
+  {
+    "id": "age-of-empires-iii-definitive-edition",
+    "name": "Age of Empires III: Definitive Edition",
+    "slug": "age-of-empires-iii-definitive-edition",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/age-of-empires-iii-definitive-edition-low.jpg",
+    "imageUltra": "/images/games/age-of-empires-iii-definitive-edition-ultra.jpg"
+  },
+  {
+    "id": "warcraft-iii-reforged",
+    "name": "Warcraft III: Reforged",
+    "slug": "warcraft-iii-reforged",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/warcraft-iii-reforged-low.jpg",
+    "imageUltra": "/images/games/warcraft-iii-reforged-ultra.jpg"
+  },
+  {
+    "id": "command-conquer-remastered",
+    "name": "Command & Conquer Remastered",
+    "slug": "command-conquer-remastered",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/command-conquer-remastered-low.jpg",
+    "imageUltra": "/images/games/command-conquer-remastered-ultra.jpg"
+  },
+  {
+    "id": "supreme-commander",
+    "name": "Supreme Commander",
+    "slug": "supreme-commander",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/supreme-commander-low.jpg",
+    "imageUltra": "/images/games/supreme-commander-ultra.jpg"
+  },
+  {
+    "id": "planetary-annihilation-titans",
+    "name": "Planetary Annihilation: Titans",
+    "slug": "planetary-annihilation-titans",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/planetary-annihilation-titans-low.jpg",
+    "imageUltra": "/images/games/planetary-annihilation-titans-ultra.jpg"
+  },
+  {
+    "id": "they-are-billions",
+    "name": "They Are Billions",
+    "slug": "they-are-billions",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/they-are-billions-low.jpg",
+    "imageUltra": "/images/games/they-are-billions-ultra.jpg"
+  },
+  {
+    "id": "northgard",
+    "name": "Northgard",
+    "slug": "northgard",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/northgard-low.jpg",
+    "imageUltra": "/images/games/northgard-ultra.jpg"
+  },
+  {
+    "id": "frostpunk-low",
+    "name": "Frostpunk (Low)",
+    "slug": "frostpunk-low",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/frostpunk-low-low.jpg",
+    "imageUltra": "/images/games/frostpunk-low-ultra.jpg"
+  },
+  {
+    "id": "banished",
+    "name": "Banished",
+    "slug": "banished",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/banished-low.jpg",
+    "imageUltra": "/images/games/banished-ultra.jpg"
+  },
+  {
+    "id": "tropico-6",
+    "name": "Tropico 6",
+    "slug": "tropico-6",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/tropico-6-low.jpg",
+    "imageUltra": "/images/games/tropico-6-ultra.jpg"
+  },
+  {
+    "id": "tropico-5",
+    "name": "Tropico 5",
+    "slug": "tropico-5",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/tropico-5-low.jpg",
+    "imageUltra": "/images/games/tropico-5-ultra.jpg"
+  },
+  {
+    "id": "parkitect",
+    "name": "Parkitect",
+    "slug": "parkitect",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/parkitect-low.jpg",
+    "imageUltra": "/images/games/parkitect-ultra.jpg"
+  },
+  {
+    "id": "parkasaurus",
+    "name": "Parkasaurus",
+    "slug": "parkasaurus",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/parkasaurus-low.jpg",
+    "imageUltra": "/images/games/parkasaurus-ultra.jpg"
+  },
+  {
+    "id": "megaquarium",
+    "name": "Megaquarium",
+    "slug": "megaquarium",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/megaquarium-low.jpg",
+    "imageUltra": "/images/games/megaquarium-ultra.jpg"
+  },
+  {
+    "id": "game-dev-tycoon",
+    "name": "Game Dev Tycoon",
+    "slug": "game-dev-tycoon",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/game-dev-tycoon-low.jpg",
+    "imageUltra": "/images/games/game-dev-tycoon-ultra.jpg"
+  },
+  {
+    "id": "software-inc",
+    "name": "Software Inc.",
+    "slug": "software-inc",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/software-inc-low.jpg",
+    "imageUltra": "/images/games/software-inc-ultra.jpg"
+  },
+  {
+    "id": "startup-company",
+    "name": "Startup Company",
+    "slug": "startup-company",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/startup-company-low.jpg",
+    "imageUltra": "/images/games/startup-company-ultra.jpg"
+  },
+  {
+    "id": "mad-games-tycoon-2",
+    "name": "Mad Games Tycoon 2",
+    "slug": "mad-games-tycoon-2",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/mad-games-tycoon-2-low.jpg",
+    "imageUltra": "/images/games/mad-games-tycoon-2-ultra.jpg"
+  },
+  {
+    "id": "tavern-master",
+    "name": "Tavern Master",
+    "slug": "tavern-master",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/tavern-master-low.jpg",
+    "imageUltra": "/images/games/tavern-master-ultra.jpg"
+  },
+  {
+    "id": "potion-craft",
+    "name": "Potion Craft",
+    "slug": "potion-craft",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/potion-craft-low.jpg",
+    "imageUltra": "/images/games/potion-craft-ultra.jpg"
+  },
+  {
+    "id": "dinkum",
+    "name": "Dinkum",
+    "slug": "dinkum",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/dinkum-low.jpg",
+    "imageUltra": "/images/games/dinkum-ultra.jpg"
+  },
+  {
+    "id": "sun-haven",
+    "name": "Sun Haven",
+    "slug": "sun-haven",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/sun-haven-low.jpg",
+    "imageUltra": "/images/games/sun-haven-ultra.jpg"
+  },
+  {
+    "id": "my-time-at-portia",
+    "name": "My Time at Portia",
+    "slug": "my-time-at-portia",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/my-time-at-portia-low.jpg",
+    "imageUltra": "/images/games/my-time-at-portia-ultra.jpg"
+  },
+  {
+    "id": "my-time-at-sandrock",
+    "name": "My Time at Sandrock",
+    "slug": "my-time-at-sandrock",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/my-time-at-sandrock-low.jpg",
+    "imageUltra": "/images/games/my-time-at-sandrock-ultra.jpg"
+  },
+  {
+    "id": "coral-island",
+    "name": "Coral Island",
+    "slug": "coral-island",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/coral-island-low.jpg",
+    "imageUltra": "/images/games/coral-island-ultra.jpg"
+  },
+  {
+    "id": "palia",
+    "name": "Palia",
+    "slug": "palia",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/palia-low.jpg",
+    "imageUltra": "/images/games/palia-ultra.jpg"
+  },
+  {
+    "id": "core-keeper",
+    "name": "Core Keeper",
+    "slug": "core-keeper",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/core-keeper-low.jpg",
+    "imageUltra": "/images/games/core-keeper-ultra.jpg"
+  },
+  {
+    "id": "graveyard-keeper",
+    "name": "Graveyard Keeper",
+    "slug": "graveyard-keeper",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/graveyard-keeper-low.jpg",
+    "imageUltra": "/images/games/graveyard-keeper-ultra.jpg"
+  },
+  {
+    "id": "moonlighter",
+    "name": "Moonlighter",
+    "slug": "moonlighter",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/moonlighter-low.jpg",
+    "imageUltra": "/images/games/moonlighter-ultra.jpg"
+  },
+  {
+    "id": "spiritfarer",
+    "name": "Spiritfarer",
+    "slug": "spiritfarer",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/spiritfarer-low.jpg",
+    "imageUltra": "/images/games/spiritfarer-ultra.jpg"
+  },
+  {
+    "id": "fae-farm",
+    "name": "Fae Farm",
+    "slug": "fae-farm",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/fae-farm-low.jpg",
+    "imageUltra": "/images/games/fae-farm-ultra.jpg"
+  },
+  {
+    "id": "ooblets",
+    "name": "Ooblets",
+    "slug": "ooblets",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/ooblets-low.jpg",
+    "imageUltra": "/images/games/ooblets-ultra.jpg"
+  },
+  {
+    "id": "temtem",
+    "name": "Temtem",
+    "slug": "temtem",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/temtem-low.jpg",
+    "imageUltra": "/images/games/temtem-ultra.jpg"
+  },
+  {
+    "id": "palworld-low-settings",
+    "name": "Palworld (Low Settings)",
+    "slug": "palworld-low-settings",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/palworld-low-settings-low.jpg",
+    "imageUltra": "/images/games/palworld-low-settings-ultra.jpg"
+  },
+  {
+    "id": "cassette-beasts",
+    "name": "Cassette Beasts",
+    "slug": "cassette-beasts",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/cassette-beasts-low.jpg",
+    "imageUltra": "/images/games/cassette-beasts-ultra.jpg"
+  },
+  {
+    "id": "nexomon-extinction",
+    "name": "Nexomon: Extinction",
+    "slug": "nexomon-extinction",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/nexomon-extinction-low.jpg",
+    "imageUltra": "/images/games/nexomon-extinction-ultra.jpg"
+  },
+  {
+    "id": "monster-sanctuary",
+    "name": "Monster Sanctuary",
+    "slug": "monster-sanctuary",
+    "requirements": {
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
+    },
+    "imageLow": "/images/games/monster-sanctuary-low.jpg",
+    "imageUltra": "/images/games/monster-sanctuary-ultra.jpg"
+  },
+  {
+    "id": "fortnite-low-settings",
+    "name": "Fortnite (Low Settings)",
+    "slug": "fortnite-low-settings",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/fortnite-low-settings-low.jpg",
+    "imageUltra": "/images/games/fortnite-low-settings-ultra.jpg"
+  },
+  {
+    "id": "minecraft-vanilla",
+    "name": "Minecraft (Vanilla)",
+    "slug": "minecraft-vanilla",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/minecraft-vanilla-low.jpg",
+    "imageUltra": "/images/games/minecraft-vanilla-ultra.jpg"
+  },
+  {
+    "id": "roblox-most-games",
+    "name": "Roblox (Most Games)",
+    "slug": "roblox-most-games",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/roblox-most-games-low.jpg",
+    "imageUltra": "/images/games/roblox-most-games-ultra.jpg"
+  },
+  {
+    "id": "among-us",
+    "name": "Among Us",
+    "slug": "among-us",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/among-us-low.jpg",
+    "imageUltra": "/images/games/among-us-ultra.jpg"
+  },
+  {
+    "id": "fall-guys-low",
+    "name": "Fall Guys (Low)",
+    "slug": "fall-guys-low",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/fall-guys-low-low.jpg",
+    "imageUltra": "/images/games/fall-guys-low-ultra.jpg"
+  },
+  {
+    "id": "stumble-guys",
+    "name": "Stumble Guys",
+    "slug": "stumble-guys",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/stumble-guys-low.jpg",
+    "imageUltra": "/images/games/stumble-guys-ultra.jpg"
+  },
+  {
+    "id": "brawlhalla",
+    "name": "Brawlhalla",
+    "slug": "brawlhalla",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/brawlhalla-low.jpg",
+    "imageUltra": "/images/games/brawlhalla-ultra.jpg"
+  },
+  {
+    "id": "multiversus",
+    "name": "MultiVersus",
+    "slug": "multiversus",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/multiversus-low.jpg",
+    "imageUltra": "/images/games/multiversus-ultra.jpg"
+  },
+  {
+    "id": "rivals-of-aether",
+    "name": "Rivals of Aether",
+    "slug": "rivals-of-aether",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/rivals-of-aether-low.jpg",
+    "imageUltra": "/images/games/rivals-of-aether-ultra.jpg"
+  },
+  {
+    "id": "stick-fight-the-game",
+    "name": "Stick Fight: The Game",
+    "slug": "stick-fight-the-game",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/stick-fight-the-game-low.jpg",
+    "imageUltra": "/images/games/stick-fight-the-game-ultra.jpg"
+  },
+  {
+    "id": "duck-game",
+    "name": "Duck Game",
+    "slug": "duck-game",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/duck-game-low.jpg",
+    "imageUltra": "/images/games/duck-game-ultra.jpg"
+  },
+  {
+    "id": "ultimate-chicken-horse",
+    "name": "Ultimate Chicken Horse",
+    "slug": "ultimate-chicken-horse",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/ultimate-chicken-horse-low.jpg",
+    "imageUltra": "/images/games/ultimate-chicken-horse-ultra.jpg"
+  },
+  {
+    "id": "move-or-die",
+    "name": "Move or Die",
+    "slug": "move-or-die",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/move-or-die-low.jpg",
+    "imageUltra": "/images/games/move-or-die-ultra.jpg"
+  },
+  {
+    "id": "speedrunners",
+    "name": "Speedrunners",
+    "slug": "speedrunners",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/speedrunners-low.jpg",
+    "imageUltra": "/images/games/speedrunners-ultra.jpg"
+  },
+  {
+    "id": "golf-with-your-friends",
+    "name": "Golf With Your Friends",
+    "slug": "golf-with-your-friends",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/golf-with-your-friends-low.jpg",
+    "imageUltra": "/images/games/golf-with-your-friends-ultra.jpg"
+  },
+  {
+    "id": "golf-it",
+    "name": "Golf It!",
+    "slug": "golf-it",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/golf-it-low.jpg",
+    "imageUltra": "/images/games/golf-it-ultra.jpg"
+  },
+  {
+    "id": "witch-it",
+    "name": "Witch It",
+    "slug": "witch-it",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/witch-it-low.jpg",
+    "imageUltra": "/images/games/witch-it-ultra.jpg"
+  },
+  {
+    "id": "raft-very-low",
+    "name": "Raft (Very Low)",
+    "slug": "raft-very-low",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/raft-very-low-low.jpg",
+    "imageUltra": "/images/games/raft-very-low-ultra.jpg"
+  },
+  {
+    "id": "the-escapists-2",
+    "name": "The Escapists 2",
+    "slug": "the-escapists-2",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/the-escapists-2-low.jpg",
+    "imageUltra": "/images/games/the-escapists-2-ultra.jpg"
+  },
+  {
+    "id": "the-escapists",
+    "name": "The Escapists",
+    "slug": "the-escapists",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/the-escapists-low.jpg",
+    "imageUltra": "/images/games/the-escapists-ultra.jpg"
+  },
+  {
+    "id": "starbound",
+    "name": "Starbound",
+    "slug": "starbound",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/starbound-low.jpg",
+    "imageUltra": "/images/games/starbound-ultra.jpg"
+  },
+  {
+    "id": "don-t-starve",
+    "name": "Don't Starve",
+    "slug": "don-t-starve",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/don-t-starve-low.jpg",
+    "imageUltra": "/images/games/don-t-starve-ultra.jpg"
+  },
+  {
+    "id": "oxygen-not-included-low",
+    "name": "Oxygen Not Included (Low)",
+    "slug": "oxygen-not-included-low",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/oxygen-not-included-low-low.jpg",
+    "imageUltra": "/images/games/oxygen-not-included-low-ultra.jpg"
+  },
+  {
+    "id": "they-are-billions-low",
+    "name": "They Are Billions (Low)",
+    "slug": "they-are-billions-low",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/they-are-billions-low-low.jpg",
+    "imageUltra": "/images/games/they-are-billions-low-ultra.jpg"
+  },
+  {
+    "id": "factorio-low",
+    "name": "Factorio (Low)",
+    "slug": "factorio-low",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/factorio-low-low.jpg",
+    "imageUltra": "/images/games/factorio-low-ultra.jpg"
+  },
+  {
+    "id": "shapez",
+    "name": "Shapez",
+    "slug": "shapez",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/shapez-low.jpg",
+    "imageUltra": "/images/games/shapez-ultra.jpg"
+  },
+  {
+    "id": "shapez-2",
+    "name": "Shapez 2",
+    "slug": "shapez-2",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/shapez-2-low.jpg",
+    "imageUltra": "/images/games/shapez-2-ultra.jpg"
+  },
+  {
+    "id": "autonauts",
+    "name": "Autonauts",
+    "slug": "autonauts",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/autonauts-low.jpg",
+    "imageUltra": "/images/games/autonauts-ultra.jpg"
+  },
+  {
+    "id": "hydroneer",
+    "name": "Hydroneer",
+    "slug": "hydroneer",
+    "requirements": {
+      "gpu": {
+        "low": 5,
+        "med": 10,
+        "high": 15,
+        "ultra": 25
+      },
+      "cpu": {
+        "min": 10,
+        "rec": 20
+      },
+      "ram": {
+        "min": 4,
+        "rec": 8
+      },
+      "storage": 20
+    },
+    "imageLow": "/images/games/hydroneer-low.jpg",
+    "imageUltra": "/images/games/hydroneer-ultra.jpg"
+  },
+  {
+    "id": "minesweeper",
+    "name": "Minesweeper",
+    "slug": "minesweeper",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/minesweeper-low.jpg",
+    "imageUltra": "/images/games/minesweeper-ultra.jpg"
+  },
+  {
+    "id": "solitaire",
+    "name": "Solitaire",
+    "slug": "solitaire",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/solitaire-low.jpg",
+    "imageUltra": "/images/games/solitaire-ultra.jpg"
+  },
+  {
+    "id": "freecell",
+    "name": "FreeCell",
+    "slug": "freecell",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/freecell-low.jpg",
+    "imageUltra": "/images/games/freecell-ultra.jpg"
+  },
+  {
+    "id": "hearts",
+    "name": "Hearts",
+    "slug": "hearts",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/hearts-low.jpg",
+    "imageUltra": "/images/games/hearts-ultra.jpg"
+  },
+  {
+    "id": "pinball-fx",
+    "name": "Pinball FX",
+    "slug": "pinball-fx",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/pinball-fx-low.jpg",
+    "imageUltra": "/images/games/pinball-fx-ultra.jpg"
+  },
+  {
+    "id": "zuma",
+    "name": "Zuma",
+    "slug": "zuma",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/zuma-low.jpg",
+    "imageUltra": "/images/games/zuma-ultra.jpg"
+  },
+  {
+    "id": "bejeweled",
+    "name": "Bejeweled",
+    "slug": "bejeweled",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/bejeweled-low.jpg",
+    "imageUltra": "/images/games/bejeweled-ultra.jpg"
+  },
+  {
+    "id": "peggle",
+    "name": "Peggle",
+    "slug": "peggle",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/peggle-low.jpg",
+    "imageUltra": "/images/games/peggle-ultra.jpg"
+  },
+  {
+    "id": "plants-vs-zombies",
+    "name": "Plants vs. Zombies",
+    "slug": "plants-vs-zombies",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/plants-vs-zombies-low.jpg",
+    "imageUltra": "/images/games/plants-vs-zombies-ultra.jpg"
+  },
+  {
+    "id": "bloons-td-6",
+    "name": "Bloons TD 6",
+    "slug": "bloons-td-6",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/bloons-td-6-low.jpg",
+    "imageUltra": "/images/games/bloons-td-6-ultra.jpg"
+  },
+  {
+    "id": "bloons-td-5",
+    "name": "Bloons TD 5",
+    "slug": "bloons-td-5",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/bloons-td-5-low.jpg",
+    "imageUltra": "/images/games/bloons-td-5-ultra.jpg"
+  },
+  {
+    "id": "kingdom-rush",
+    "name": "Kingdom Rush",
+    "slug": "kingdom-rush",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/kingdom-rush-low.jpg",
+    "imageUltra": "/images/games/kingdom-rush-ultra.jpg"
+  },
+  {
+    "id": "desktop-tower-defense",
+    "name": "Desktop Tower Defense",
+    "slug": "desktop-tower-defense",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/desktop-tower-defense-low.jpg",
+    "imageUltra": "/images/games/desktop-tower-defense-ultra.jpg"
+  },
+  {
+    "id": "cookie-clicker",
+    "name": "Cookie Clicker",
+    "slug": "cookie-clicker",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/cookie-clicker-low.jpg",
+    "imageUltra": "/images/games/cookie-clicker-ultra.jpg"
+  },
+  {
+    "id": "adventure-capitalist",
+    "name": "Adventure Capitalist",
+    "slug": "adventure-capitalist",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/adventure-capitalist-low.jpg",
+    "imageUltra": "/images/games/adventure-capitalist-ultra.jpg"
+  },
+  {
+    "id": "clicker-heroes",
+    "name": "Clicker Heroes",
+    "slug": "clicker-heroes",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/clicker-heroes-low.jpg",
+    "imageUltra": "/images/games/clicker-heroes-ultra.jpg"
+  },
+  {
+    "id": "realm-grinder",
+    "name": "Realm Grinder",
+    "slug": "realm-grinder",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/realm-grinder-low.jpg",
+    "imageUltra": "/images/games/realm-grinder-ultra.jpg"
+  },
+  {
+    "id": "ngu-idle",
+    "name": "NGU Idle",
+    "slug": "ngu-idle",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/ngu-idle-low.jpg",
+    "imageUltra": "/images/games/ngu-idle-ultra.jpg"
+  },
+  {
+    "id": "melvor-idle",
+    "name": "Melvor Idle",
+    "slug": "melvor-idle",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/melvor-idle-low.jpg",
+    "imageUltra": "/images/games/melvor-idle-ultra.jpg"
+  },
+  {
+    "id": "legends-of-idleon",
+    "name": "Legends of IdleOn",
+    "slug": "legends-of-idleon",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/legends-of-idleon-low.jpg",
+    "imageUltra": "/images/games/legends-of-idleon-ultra.jpg"
+  },
+  {
+    "id": "idle-skilling",
+    "name": "Idle Skilling",
+    "slug": "idle-skilling",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/idle-skilling-low.jpg",
+    "imageUltra": "/images/games/idle-skilling-ultra.jpg"
+  },
+  {
+    "id": "rpg-mo",
+    "name": "RPG MO",
+    "slug": "rpg-mo",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/rpg-mo-low.jpg",
+    "imageUltra": "/images/games/rpg-mo-ultra.jpg"
+  },
+  {
+    "id": "runescape-old-school-low",
+    "name": "Runescape (Old School - Low)",
+    "slug": "runescape-old-school-low",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/runescape-old-school-low-low.jpg",
+    "imageUltra": "/images/games/runescape-old-school-low-ultra.jpg"
+  },
+  {
+    "id": "habitica",
+    "name": "Habitica",
+    "slug": "habitica",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/habitica-low.jpg",
+    "imageUltra": "/images/games/habitica-ultra.jpg"
+  },
+  {
+    "id": "realm-of-the-mad-god",
+    "name": "Realm of the Mad God",
+    "slug": "realm-of-the-mad-god",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/realm-of-the-mad-god-low.jpg",
+    "imageUltra": "/images/games/realm-of-the-mad-god-ultra.jpg"
+  },
+  {
+    "id": "town-of-salem",
+    "name": "Town of Salem",
+    "slug": "town-of-salem",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/town-of-salem-low.jpg",
+    "imageUltra": "/images/games/town-of-salem-ultra.jpg"
+  },
+  {
+    "id": "skribbl-io",
+    "name": "Skribbl.io",
+    "slug": "skribbl-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/skribbl-io-low.jpg",
+    "imageUltra": "/images/games/skribbl-io-ultra.jpg"
+  },
+  {
+    "id": "agar-io",
+    "name": "Agar.io",
+    "slug": "agar-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/agar-io-low.jpg",
+    "imageUltra": "/images/games/agar-io-ultra.jpg"
+  },
+  {
+    "id": "slither-io",
+    "name": "Slither.io",
+    "slug": "slither-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/slither-io-low.jpg",
+    "imageUltra": "/images/games/slither-io-ultra.jpg"
+  },
+  {
+    "id": "krunker-io",
+    "name": "Krunker.io",
+    "slug": "krunker-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/krunker-io-low.jpg",
+    "imageUltra": "/images/games/krunker-io-ultra.jpg"
+  },
+  {
+    "id": "shell-shockers",
+    "name": "Shell Shockers",
+    "slug": "shell-shockers",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/shell-shockers-low.jpg",
+    "imageUltra": "/images/games/shell-shockers-ultra.jpg"
+  },
+  {
+    "id": "1v1-lol",
+    "name": "1v1.LOL",
+    "slug": "1v1-lol",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/1v1-lol-low.jpg",
+    "imageUltra": "/images/games/1v1-lol-ultra.jpg"
+  },
+  {
+    "id": "surviv-io",
+    "name": "Surviv.io",
+    "slug": "surviv-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/surviv-io-low.jpg",
+    "imageUltra": "/images/games/surviv-io-ultra.jpg"
+  },
+  {
+    "id": "diep-io",
+    "name": "Diep.io",
+    "slug": "diep-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/diep-io-low.jpg",
+    "imageUltra": "/images/games/diep-io-ultra.jpg"
+  },
+  {
+    "id": "mope-io",
+    "name": "Mope.io",
+    "slug": "mope-io",
+    "requirements": {
+      "gpu": {
+        "low": 1,
+        "med": 3,
+        "high": 5,
+        "ultra": 10
+      },
+      "cpu": {
+        "min": 5,
+        "rec": 10
+      },
+      "ram": {
+        "min": 2,
+        "rec": 4
+      },
+      "storage": 5
+    },
+    "imageLow": "/images/games/mope-io-low.jpg",
+    "imageUltra": "/images/games/mope-io-ultra.jpg"
   }
 ]

@@ -622,5 +622,252 @@
     "features": [],
     "slug": "amd-radeon-780m",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+780M+(Handhelds)&tag=myfps-20"
+  },
+  {
+    "id": "rtx-5090",
+    "name": "NVIDIA GeForce RTX 5090",
+    "score": 110,
+    "vram": 32,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
+    "slug": "rtx-5090",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+5090&tag=myfps-20"
+  },
+  {
+    "id": "rtx-5080",
+    "name": "NVIDIA GeForce RTX 5080",
+    "score": 95,
+    "vram": 16,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
+    "slug": "rtx-5080",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+5080&tag=myfps-20"
+  },
+  {
+    "id": "gtx-980-ti",
+    "name": "NVIDIA GeForce GTX 980 Ti",
+    "score": 33,
+    "vram": 6,
+    "features": [],
+    "slug": "gtx-980-ti",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+980+Ti&tag=myfps-20"
+  },
+  {
+    "id": "gtx-980",
+    "name": "NVIDIA GeForce GTX 980",
+    "score": 27,
+    "vram": 4,
+    "features": [],
+    "slug": "gtx-980",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+980&tag=myfps-20"
+  },
+  {
+    "id": "gtx-970",
+    "name": "NVIDIA GeForce GTX 970",
+    "score": 24,
+    "vram": 4,
+    "features": [],
+    "slug": "gtx-970",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+970&tag=myfps-20"
+  },
+  {
+    "id": "gtx-960",
+    "name": "NVIDIA GeForce GTX 960",
+    "score": 16,
+    "vram": 2,
+    "features": [],
+    "slug": "gtx-960",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+960&tag=myfps-20"
+  },
+  {
+    "id": "rx-5700",
+    "name": "AMD Radeon RX 5700",
+    "score": 39,
+    "vram": 8,
+    "features": [],
+    "slug": "rx-5700",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+5700&tag=myfps-20"
+  },
+  {
+    "id": "rx-5500-xt",
+    "name": "AMD Radeon RX 5500 XT",
+    "score": 24,
+    "vram": 8,
+    "features": [],
+    "slug": "rx-5500-xt",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+5500+XT&tag=myfps-20"
+  },
+  {
+    "id": "rx-vega-64",
+    "name": "AMD Radeon RX Vega 64",
+    "score": 38,
+    "vram": 8,
+    "features": [],
+    "slug": "rx-vega-64",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+Vega+64&tag=myfps-20"
+  },
+  {
+    "id": "rx-vega-56",
+    "name": "AMD Radeon RX Vega 56",
+    "score": 34,
+    "vram": 8,
+    "features": [],
+    "slug": "rx-vega-56",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+Vega+56&tag=myfps-20"
+  },
+  {
+    "id": "rx-590",
+    "name": "AMD Radeon RX 590",
+    "score": 21,
+    "vram": 8,
+    "features": [],
+    "slug": "rx-590",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+590&tag=myfps-20"
+  },
+  {
+    "id": "rx-560",
+    "name": "AMD Radeon RX 560",
+    "score": 12,
+    "vram": 4,
+    "features": [],
+    "slug": "rx-560",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+560&tag=myfps-20"
+  },
+  {
+    "id": "rx-550",
+    "name": "AMD Radeon RX 550",
+    "score": 8,
+    "vram": 2,
+    "features": [],
+    "slug": "rx-550",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+550&tag=myfps-20"
+  },
+  {
+    "id": "radeon-vii",
+    "name": "AMD Radeon VII",
+    "score": 52,
+    "vram": 16,
+    "features": [],
+    "slug": "radeon-vii",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+VII&tag=myfps-20"
+  },
+  {
+    "id": "arc-a580",
+    "name": "Intel Arc A580",
+    "score": 32,
+    "vram": 8,
+    "features": [],
+    "slug": "arc-a580",
+    "affiliateLink": "https://amazon.com/s?k=Intel+Arc+A580&tag=myfps-20"
+  },
+  {
+    "id": "arc-a310",
+    "name": "Intel Arc A310",
+    "score": 12,
+    "vram": 4,
+    "features": [],
+    "slug": "arc-a310",
+    "affiliateLink": "https://amazon.com/s?k=Intel+Arc+A310&tag=myfps-20"
+  },
+  {
+    "id": "rtx-4090-laptop",
+    "name": "NVIDIA GeForce RTX 4090 Laptop",
+    "score": 82,
+    "vram": 16,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
+    "slug": "rtx-4090-laptop",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4090+Laptop&tag=myfps-20"
+  },
+  {
+    "id": "rtx-4080-laptop",
+    "name": "NVIDIA GeForce RTX 4080 Laptop",
+    "score": 72,
+    "vram": 12,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
+    "slug": "rtx-4080-laptop",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4080+Laptop&tag=myfps-20"
+  },
+  {
+    "id": "rtx-4070-laptop",
+    "name": "NVIDIA GeForce RTX 4070 Laptop",
+    "score": 58,
+    "vram": 8,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
+    "slug": "rtx-4070-laptop",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4070+Laptop&tag=myfps-20"
+  },
+  {
+    "id": "rtx-4060-laptop",
+    "name": "NVIDIA GeForce RTX 4060 Laptop",
+    "score": 42,
+    "vram": 8,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
+    "slug": "rtx-4060-laptop",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4060+Laptop&tag=myfps-20"
+  },
+  {
+    "id": "rtx-3070-laptop",
+    "name": "NVIDIA GeForce RTX 3070 Laptop",
+    "score": 48,
+    "vram": 8,
+    "features": [
+      "dlss"
+    ],
+    "slug": "rtx-3070-laptop",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3070+Laptop&tag=myfps-20"
+  },
+  {
+    "id": "rtx-3060-laptop",
+    "name": "NVIDIA GeForce RTX 3060 Laptop",
+    "score": 38,
+    "vram": 6,
+    "features": [
+      "dlss"
+    ],
+    "slug": "rtx-3060-laptop",
+    "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3060+Laptop&tag=myfps-20"
+  },
+  {
+    "id": "intel-iris-xe",
+    "name": "Intel Iris Xe Graphics",
+    "score": 8,
+    "vram": 0,
+    "features": [],
+    "slug": "intel-iris-xe",
+    "affiliateLink": "https://amazon.com/s?k=Intel+Iris+Xe+Graphics&tag=myfps-20"
+  },
+  {
+    "id": "amd-radeon-680m",
+    "name": "AMD Radeon 680M",
+    "score": 14,
+    "vram": 4,
+    "features": [],
+    "slug": "amd-radeon-680m",
+    "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+680M&tag=myfps-20"
+  },
+  {
+    "id": "intel-uhd-630",
+    "name": "Intel UHD Graphics 630",
+    "score": 3,
+    "vram": 0,
+    "features": [],
+    "slug": "intel-uhd-630",
+    "affiliateLink": "https://amazon.com/s?k=Intel+UHD+Graphics+630&tag=myfps-20"
   }
 ]

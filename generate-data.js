@@ -407,6 +407,168 @@ const gpus = [
     score: 18,
     vram: 4,
     features: []
+  },
+  // NVIDIA RTX 50 Series (Next Gen - if released)
+  {
+    id: 'rtx-5090',
+    name: 'NVIDIA GeForce RTX 5090',
+    score: 110,
+    vram: 32,
+    features: ['dlss', 'frame_gen']
+  },
+  {
+    id: 'rtx-5080',
+    name: 'NVIDIA GeForce RTX 5080',
+    score: 95,
+    vram: 16,
+    features: ['dlss', 'frame_gen']
+  },
+
+  // NVIDIA GTX 900 Series
+  {
+    id: 'gtx-980-ti',
+    name: 'NVIDIA GeForce GTX 980 Ti',
+    score: 33,
+    vram: 6,
+    features: []
+  },
+  {
+    id: 'gtx-980',
+    name: 'NVIDIA GeForce GTX 980',
+    score: 27,
+    vram: 4,
+    features: []
+  },
+  {
+    id: 'gtx-970',
+    name: 'NVIDIA GeForce GTX 970',
+    score: 24,
+    vram: 4,
+    features: []
+  },
+  {
+    id: 'gtx-960',
+    name: 'NVIDIA GeForce GTX 960',
+    score: 16,
+    vram: 2,
+    features: []
+  },
+
+  // AMD Radeon RX 5000 Series
+  {
+    id: 'rx-5700',
+    name: 'AMD Radeon RX 5700',
+    score: 39,
+    vram: 8,
+    features: []
+  },
+  {
+    id: 'rx-5500-xt',
+    name: 'AMD Radeon RX 5500 XT',
+    score: 24,
+    vram: 8,
+    features: []
+  },
+
+  // AMD Radeon RX Vega Series
+  {
+    id: 'rx-vega-64',
+    name: 'AMD Radeon RX Vega 64',
+    score: 38,
+    vram: 8,
+    features: []
+  },
+  {
+    id: 'rx-vega-56',
+    name: 'AMD Radeon RX Vega 56',
+    score: 34,
+    vram: 8,
+    features: []
+  },
+
+  // AMD Radeon RX 500 Series (More variants)
+  { id: 'rx-590', name: 'AMD Radeon RX 590', score: 21, vram: 8, features: [] },
+  { id: 'rx-560', name: 'AMD Radeon RX 560', score: 12, vram: 4, features: [] },
+  { id: 'rx-550', name: 'AMD Radeon RX 550', score: 8, vram: 2, features: [] },
+
+  // AMD Radeon VII
+  {
+    id: 'radeon-vii',
+    name: 'AMD Radeon VII',
+    score: 52,
+    vram: 16,
+    features: []
+  },
+
+  // Intel Arc (More variants)
+  { id: 'arc-a580', name: 'Intel Arc A580', score: 32, vram: 8, features: [] },
+  { id: 'arc-a310', name: 'Intel Arc A310', score: 12, vram: 4, features: [] },
+
+  // Laptop/Mobile GPUs
+  {
+    id: 'rtx-4090-laptop',
+    name: 'NVIDIA GeForce RTX 4090 Laptop',
+    score: 82,
+    vram: 16,
+    features: ['dlss', 'frame_gen']
+  },
+  {
+    id: 'rtx-4080-laptop',
+    name: 'NVIDIA GeForce RTX 4080 Laptop',
+    score: 72,
+    vram: 12,
+    features: ['dlss', 'frame_gen']
+  },
+  {
+    id: 'rtx-4070-laptop',
+    name: 'NVIDIA GeForce RTX 4070 Laptop',
+    score: 58,
+    vram: 8,
+    features: ['dlss', 'frame_gen']
+  },
+  {
+    id: 'rtx-4060-laptop',
+    name: 'NVIDIA GeForce RTX 4060 Laptop',
+    score: 42,
+    vram: 8,
+    features: ['dlss', 'frame_gen']
+  },
+  {
+    id: 'rtx-3070-laptop',
+    name: 'NVIDIA GeForce RTX 3070 Laptop',
+    score: 48,
+    vram: 8,
+    features: ['dlss']
+  },
+  {
+    id: 'rtx-3060-laptop',
+    name: 'NVIDIA GeForce RTX 3060 Laptop',
+    score: 38,
+    vram: 6,
+    features: ['dlss']
+  },
+
+  // More Integrated Graphics
+  {
+    id: 'intel-iris-xe',
+    name: 'Intel Iris Xe Graphics',
+    score: 8,
+    vram: 0,
+    features: []
+  },
+  {
+    id: 'amd-radeon-680m',
+    name: 'AMD Radeon 680M',
+    score: 14,
+    vram: 4,
+    features: []
+  },
+  {
+    id: 'intel-uhd-630',
+    name: 'Intel UHD Graphics 630',
+    score: 3,
+    vram: 0,
+    features: []
   }
 ]
 
@@ -425,7 +587,70 @@ const cpus = [
   { id: 'i3-10100', name: 'Intel Core i3-10100', score: 22, cores: 4 },
   { id: 'i3-9100f', name: 'Intel Core i3-9100F', score: 18, cores: 4 },
   { id: 'fx-8350', name: 'AMD FX-8350', score: 15, cores: 8 },
-  { id: 'i5-2500k', name: 'Intel Core i5-2500K', score: 12, cores: 4 }
+  { id: 'i5-2500k', name: 'Intel Core i5-2500K', score: 12, cores: 4 },
+  // AMD Ryzen 9000 Series
+  { id: 'r9-9950x', name: 'AMD Ryzen 9 9950X', score: 105, cores: 16 },
+  { id: 'r9-9900x', name: 'AMD Ryzen 9 9900X', score: 102, cores: 12 },
+  { id: 'r7-9700x', name: 'AMD Ryzen 7 9700X', score: 92, cores: 8 },
+  { id: 'r5-9600x', name: 'AMD Ryzen 5 9600X', score: 78, cores: 6 },
+
+  // Intel 15th Gen (Arrow Lake)
+  { id: 'i9-15900k', name: 'Intel Core i9-15900K', score: 108, cores: 24 },
+  { id: 'i7-15700k', name: 'Intel Core i7-15700K', score: 95, cores: 20 },
+
+  // AMD Ryzen 7000 Series (More variants)
+  { id: 'r9-7950x3d', name: 'AMD Ryzen 9 7950X3D', score: 98, cores: 16 },
+  { id: 'r9-7950x', name: 'AMD Ryzen 9 7950X', score: 97, cores: 16 },
+  { id: 'r9-7900x3d', name: 'AMD Ryzen 9 7900X3D', score: 93, cores: 12 },
+  { id: 'r9-7900x', name: 'AMD Ryzen 9 7900X', score: 90, cores: 12 },
+  { id: 'r7-7700x', name: 'AMD Ryzen 7 7700X', score: 80, cores: 8 },
+  { id: 'r5-7600', name: 'AMD Ryzen 5 7600', score: 62, cores: 6 },
+
+  // Intel 12th Gen (More variants)
+  { id: 'i9-12900k', name: 'Intel Core i9-12900K', score: 88, cores: 16 },
+  { id: 'i7-12700k', name: 'Intel Core i7-12700K', score: 82, cores: 12 },
+  { id: 'i5-12600k', name: 'Intel Core i5-12600K', score: 72, cores: 10 },
+  { id: 'i5-12400', name: 'Intel Core i5-12400', score: 48, cores: 6 },
+
+  // AMD Ryzen 5000 Series (More variants)
+  { id: 'r9-5950x', name: 'AMD Ryzen 9 5950X', score: 78, cores: 16 },
+  { id: 'r9-5900x', name: 'AMD Ryzen 9 5900X', score: 75, cores: 12 },
+  { id: 'r7-5800x3d', name: 'AMD Ryzen 7 5800X3D', score: 85, cores: 8 },
+  { id: 'r7-5800x', name: 'AMD Ryzen 7 5800X', score: 68, cores: 8 },
+  { id: 'r7-5700x', name: 'AMD Ryzen 7 5700X', score: 62, cores: 8 },
+  { id: 'r5-5600', name: 'AMD Ryzen 5 5600', score: 45, cores: 6 },
+  { id: 'r5-5500', name: 'AMD Ryzen 5 5500', score: 42, cores: 6 },
+
+  // Intel 11th Gen
+  { id: 'i9-11900k', name: 'Intel Core i9-11900K', score: 65, cores: 8 },
+  { id: 'i7-11700k', name: 'Intel Core i7-11700K', score: 58, cores: 8 },
+  { id: 'i5-11600k', name: 'Intel Core i5-11600K', score: 52, cores: 6 },
+  { id: 'i5-11400f', name: 'Intel Core i5-11400F', score: 46, cores: 6 },
+
+  // Intel 10th Gen
+  { id: 'i9-10900k', name: 'Intel Core i9-10900K', score: 62, cores: 10 },
+  { id: 'i7-10700k', name: 'Intel Core i7-10700K', score: 55, cores: 8 },
+  { id: 'i5-10600k', name: 'Intel Core i5-10600K', score: 47, cores: 6 },
+  { id: 'i5-10400f', name: 'Intel Core i5-10400F', score: 43, cores: 6 },
+
+  // AMD Ryzen 3000 Series (More variants)
+  { id: 'r9-3950x', name: 'AMD Ryzen 9 3950X', score: 58, cores: 16 },
+  { id: 'r9-3900x', name: 'AMD Ryzen 9 3900X', score: 55, cores: 12 },
+  { id: 'r7-3800x', name: 'AMD Ryzen 7 3800X', score: 42, cores: 8 },
+  { id: 'r7-3700x', name: 'AMD Ryzen 7 3700X', score: 40, cores: 8 },
+  { id: 'r5-3600x', name: 'AMD Ryzen 5 3600X', score: 36, cores: 6 },
+
+  // Intel 9th Gen
+  { id: 'i9-9900k', name: 'Intel Core i9-9900K', score: 52, cores: 8 },
+  { id: 'i7-9700k', name: 'Intel Core i7-9700K', score: 45, cores: 8 },
+  { id: 'i5-9600k', name: 'Intel Core i5-9600K', score: 38, cores: 6 },
+
+  // Budget/Older Options
+  { id: 'r5-2600', name: 'AMD Ryzen 5 2600', score: 28, cores: 6 },
+  { id: 'i7-6700k', name: 'Intel Core i7-6700K', score: 25, cores: 4 },
+  { id: 'i5-6600k', name: 'Intel Core i5-6600K', score: 22, cores: 4 },
+  { id: 'i5-4690k', name: 'Intel Core i5-4690K', score: 16, cores: 4 },
+  { id: 'i7-4790k', name: 'Intel Core i7-4790K', score: 24, cores: 4 }
 ]
 
 // Add slugs and affiliate links automatically
@@ -497,6 +722,11 @@ const gameList = [
   { name: 'Metro Exodus Enhanced Edition', tier: 'S' },
   { name: 'Portal with RTX', tier: 'S' },
   { name: 'Minecraft (RTX On)', tier: 'S' },
+  { name: 'Indiana Jones and the Great Circle', tier: 'S' },
+  { name: 'Stalker 2: Heart of Chornobyl', tier: 'S' },
+  { name: 'The Callisto Protocol', tier: 'S' },
+  { name: 'Forspoken', tier: 'S' },
+  { name: 'Atomic Heart', tier: 'S' },
 
   // --- TIER A (HEAVY AAA) ---
   { name: 'Starfield', tier: 'A' },
@@ -552,6 +782,31 @@ const gameList = [
   { name: 'Ready or Not', tier: 'A' },
   { name: 'Gray Zone Warfare', tier: 'A' },
   { name: 'Manor Lords', tier: 'A' },
+  { name: 'Resident Evil 8: Village', tier: 'A' },
+  { name: 'Ghostwire: Tokyo', tier: 'A' },
+  { name: 'Evil West', tier: 'A' },
+  { name: 'Atomic Heart', tier: 'A' },
+  { name: 'High on Life', tier: 'A' },
+  { name: 'Scorn', tier: 'A' },
+  { name: 'The Quarry', tier: 'A' },
+  { name: 'Callisto Protocol', tier: 'A' },
+  { name: 'Dead Space (2023)', tier: 'A' },
+  { name: 'Star Wars Battlefront II', tier: 'A' },
+  { name: 'Jedi: Survivor', tier: 'A' },
+  { name: 'Halo Infinite', tier: 'A' },
+  { name: 'Gears 5', tier: 'A' },
+  { name: 'Gears Tactics', tier: 'A' },
+  { name: 'Age of Mythology: Retold', tier: 'A' },
+  { name: 'Frostpunk', tier: 'A' },
+  { name: 'They Are Billions', tier: 'A' },
+  { name: 'Homeworld 3', tier: 'A' },
+  { name: 'Warhammer 40K: Rogue Trader', tier: 'A' },
+  { name: "Baldur's Gate: Dark Alliance", tier: 'A' },
+  { name: 'Divinity: Original Sin 2', tier: 'A' },
+  { name: 'Wasteland 3', tier: 'A' },
+  { name: 'Pillars of Eternity II', tier: 'A' },
+  { name: 'Pathfinder: Wrath of the Righteous', tier: 'A' },
+  { name: 'Solasta: Crown of the Magister', tier: 'A' },
 
   // --- TIER B (STANDARD AAA / POPULAR) ---
   { name: 'Grand Theft Auto V', tier: 'B' },
@@ -676,6 +931,31 @@ const gameList = [
   { name: 'Space Engineers', tier: 'B' },
   { name: 'Stormworks', tier: 'B' },
   { name: 'From the Depths', tier: 'B' },
+  { name: 'Lethal Company', tier: 'B' },
+  { name: 'The Outlast Trials', tier: 'B' },
+  { name: 'Sons of The Forest', tier: 'B' },
+  { name: 'Chernobylite', tier: 'B' },
+  { name: 'Ghostbusters: Spirits Unleashed', tier: 'B' },
+  { name: 'The Texas Chain Saw Massacre', tier: 'B' },
+  { name: 'Evil Dead: The Game', tier: 'B' },
+  { name: 'Friday the 13th: The Game', tier: 'B' },
+  { name: 'Stranded Deep', tier: 'B' },
+  { name: 'Astroneer', tier: 'B' },
+  { name: "No Man's Sky (VR)", tier: 'B' },
+  { name: 'Elite Dangerous', tier: 'B' },
+  { name: 'Star Citizen', tier: 'B' },
+  { name: 'Dual Universe', tier: 'B' },
+  { name: 'Empyrion - Galactic Survival', tier: 'B' },
+  { name: 'X4: Foundations', tier: 'B' },
+  { name: 'Everspace 2', tier: 'B' },
+  { name: 'House of the Dying Sun', tier: 'B' },
+  { name: 'Project Wingman', tier: 'B' },
+  { name: 'Ace Combat 7', tier: 'B' },
+  { name: 'DCS World', tier: 'B' },
+  { name: 'IL-2 Sturmovik', tier: 'B' },
+  { name: 'War Thunder (Max Settings)', tier: 'B' },
+  { name: 'Arma 3', tier: 'B' },
+  { name: 'Arma Reforger', tier: 'B' },
 
   // --- TIER C (COMPETITIVE / OPTIMIZED / OLDER AAA) ---
   { name: 'Counter-Strike 2', tier: 'C' },
@@ -877,7 +1157,127 @@ const gameList = [
   { name: 'Rage 2', tier: 'C' },
   { name: 'Generation Zero', tier: 'C' },
   { name: 'Terminator: Resistance', tier: 'C' },
-  { name: 'RoboCop: Rogue City', tier: 'C' }
+  { name: 'RoboCop: Rogue City', tier: 'C' },
+  { name: 'Apex Legends (Low Settings)', tier: 'C' },
+  { name: 'PUBG: Battlegrounds', tier: 'C' },
+  { name: 'Call of Duty: Black Ops 3', tier: 'C' },
+  { name: 'Call of Duty: Black Ops 4', tier: 'C' },
+  { name: 'Splitgate', tier: 'C' },
+  { name: 'Halo: The Master Chief Collection', tier: 'C' },
+  { name: 'Battlefield 4', tier: 'C' },
+  { name: 'Battlefield 3', tier: 'C' },
+  { name: 'Titanfall 2', tier: 'C' },
+  { name: 'Warface', tier: 'C' },
+  { name: 'Ironsight', tier: 'C' },
+  { name: 'Combat Arms: Reloaded', tier: 'C' },
+  { name: 'Starcraft II', tier: 'C' },
+  { name: 'Starcraft: Remastered', tier: 'C' },
+  { name: 'Age of Empires II: Definitive Edition', tier: 'C' },
+  { name: 'Age of Empires III: Definitive Edition', tier: 'C' },
+  { name: 'Warcraft III: Reforged', tier: 'C' },
+  { name: 'Command & Conquer Remastered', tier: 'C' },
+  { name: 'Supreme Commander', tier: 'C' },
+  { name: 'Planetary Annihilation: Titans', tier: 'C' },
+  { name: 'They Are Billions', tier: 'C' },
+  { name: 'Northgard', tier: 'C' },
+  { name: 'Frostpunk (Low)', tier: 'C' },
+  { name: 'Banished', tier: 'C' },
+  { name: 'Tropico 6', tier: 'C' },
+  { name: 'Tropico 5', tier: 'C' },
+  { name: 'Parkitect', tier: 'C' },
+  { name: 'Parkasaurus', tier: 'C' },
+  { name: 'Megaquarium', tier: 'C' },
+  { name: 'Game Dev Tycoon', tier: 'C' },
+  { name: 'Software Inc.', tier: 'C' },
+  { name: 'Startup Company', tier: 'C' },
+  { name: 'Mad Games Tycoon 2', tier: 'C' },
+  { name: 'Tavern Master', tier: 'C' },
+  { name: 'Potion Craft', tier: 'C' },
+  { name: 'Dinkum', tier: 'C' },
+  { name: 'Sun Haven', tier: 'C' },
+  { name: 'My Time at Portia', tier: 'C' },
+  { name: 'My Time at Sandrock', tier: 'C' },
+  { name: 'Coral Island', tier: 'C' },
+  { name: 'Palia', tier: 'C' },
+  { name: 'Core Keeper', tier: 'C' },
+  { name: 'Graveyard Keeper', tier: 'C' },
+  { name: 'Moonlighter', tier: 'C' },
+  { name: 'Spiritfarer', tier: 'C' },
+  { name: 'Fae Farm', tier: 'C' },
+  { name: 'Ooblets', tier: 'C' },
+  { name: 'Temtem', tier: 'C' },
+  { name: 'Palworld (Low Settings)', tier: 'C' },
+  { name: 'Cassette Beasts', tier: 'C' },
+  { name: 'Nexomon: Extinction', tier: 'C' },
+  { name: 'Monster Sanctuary', tier: 'C' },
+
+  // --- TIER D (LIGHTWEIGHT / INDIE) ---
+  { name: 'Fortnite (Low Settings)', tier: 'D' },
+  { name: 'Minecraft (Vanilla)', tier: 'D' },
+  { name: 'Roblox (Most Games)', tier: 'D' },
+  { name: 'Among Us', tier: 'D' },
+  { name: 'Fall Guys (Low)', tier: 'D' },
+  { name: 'Stumble Guys', tier: 'D' },
+  { name: 'Brawlhalla', tier: 'D' },
+  { name: 'MultiVersus', tier: 'D' },
+  { name: 'Rivals of Aether', tier: 'D' },
+  { name: 'Stick Fight: The Game', tier: 'D' },
+  { name: 'Duck Game', tier: 'D' },
+  { name: 'Ultimate Chicken Horse', tier: 'D' },
+  { name: 'Move or Die', tier: 'D' },
+  { name: 'Speedrunners', tier: 'D' },
+  { name: 'Golf With Your Friends', tier: 'D' },
+  { name: 'Golf It!', tier: 'D' },
+  { name: 'Witch It', tier: 'D' },
+  { name: 'Raft (Very Low)', tier: 'D' },
+  { name: 'The Escapists 2', tier: 'D' },
+  { name: 'The Escapists', tier: 'D' },
+  { name: 'Starbound', tier: 'D' },
+  { name: "Don't Starve", tier: 'D' },
+  { name: 'Oxygen Not Included (Low)', tier: 'D' },
+  { name: 'They Are Billions (Low)', tier: 'D' },
+  { name: 'Factorio (Low)', tier: 'D' },
+  { name: 'Shapez', tier: 'D' },
+  { name: 'Shapez 2', tier: 'D' },
+  { name: 'Autonauts', tier: 'D' },
+  { name: 'Hydroneer', tier: 'D' },
+
+  // --- TIER E (ULTRA-LIGHTWEIGHT) ---
+  { name: 'Minesweeper', tier: 'E' },
+  { name: 'Solitaire', tier: 'E' },
+  { name: 'FreeCell', tier: 'E' },
+  { name: 'Hearts', tier: 'E' },
+  { name: 'Pinball FX', tier: 'E' },
+  { name: 'Zuma', tier: 'E' },
+  { name: 'Bejeweled', tier: 'E' },
+  { name: 'Peggle', tier: 'E' },
+  { name: 'Plants vs. Zombies', tier: 'E' },
+  { name: 'Bloons TD 6', tier: 'E' },
+  { name: 'Bloons TD 5', tier: 'E' },
+  { name: 'Kingdom Rush', tier: 'E' },
+  { name: 'Desktop Tower Defense', tier: 'E' },
+  { name: 'Cookie Clicker', tier: 'E' },
+  { name: 'Adventure Capitalist', tier: 'E' },
+  { name: 'Clicker Heroes', tier: 'E' },
+  { name: 'Realm Grinder', tier: 'E' },
+  { name: 'NGU Idle', tier: 'E' },
+  { name: 'Melvor Idle', tier: 'E' },
+  { name: 'Legends of IdleOn', tier: 'E' },
+  { name: 'Idle Skilling', tier: 'E' },
+  { name: 'RPG MO', tier: 'E' },
+  { name: 'Runescape (Old School - Low)', tier: 'E' },
+  { name: 'Habitica', tier: 'E' },
+  { name: 'Realm of the Mad God', tier: 'E' },
+  { name: 'Town of Salem', tier: 'E' },
+  { name: 'Skribbl.io', tier: 'E' },
+  { name: 'Agar.io', tier: 'E' },
+  { name: 'Slither.io', tier: 'E' },
+  { name: 'Krunker.io', tier: 'E' },
+  { name: 'Shell Shockers', tier: 'E' },
+  { name: '1v1.LOL', tier: 'E' },
+  { name: 'Surviv.io', tier: 'E' },
+  { name: 'Diep.io', tier: 'E' },
+  { name: 'Mope.io', tier: 'E' }
 ]
 
 // --- 3. THE BUILDER LOGIC ---
