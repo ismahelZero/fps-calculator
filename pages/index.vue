@@ -133,8 +133,9 @@ const checkPerformance = () => {
 useHead({
   script: [
     {
+      key: 'schema-website',
       type: 'application/ld+json',
-      children: JSON.stringify({
+      innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'MyFPS',
