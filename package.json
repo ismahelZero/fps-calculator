@@ -16,12 +16,13 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/i18n": "^10.2.1",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@pinia/nuxt": "^0.11.3",
     "@types/node": "^25.0.10",
     "prettier": "^3.8.1",
-    "typescript": "^5.9.3",
-    "prettier-plugin-tailwindcss": "^0.6.8"
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "typescript": "^5.9.3"
   }
 }

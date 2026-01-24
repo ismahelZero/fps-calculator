@@ -1,194 +1,153 @@
-<script setup lang="ts">
-import { ref, computed } from 'vue'
-import { useRouter } from 'nuxt/app'
-import gamesData from '~/data/games.json'
-import gpusData from '~/data/gpus.json'
-
-const router = useRouter()
-
-// --- State ---
-const searchQueryGame = ref('')
-const searchQueryGpu = ref('')
-const selectedGame = ref<null | { name: string; slug: string }>(null)
-const selectedGpu = ref<null | { name: string; slug: string }>(null)
-const isGameDropdownOpen = ref(false)
-const isGpuDropdownOpen = ref(false)
-
-// --- Search Logic ---
-// Filter games based on typing
-const filteredGames = computed(() => {
-  if (!searchQueryGame.value) return gamesData.slice(0, 50) // Show top 50 by default
-  return gamesData
-    .filter(g =>
-      g.name.toLowerCase().includes(searchQueryGame.value.toLowerCase())
-    )
-    .slice(0, 10) // Limit results for speed
-})
-
-// Filter GPUs based on typing
-const filteredGpus = computed(() => {
-  if (!searchQueryGpu.value) return gpusData.slice(0, 50)
-  return gpusData
-    .filter(g =>
-      g.name.toLowerCase().includes(searchQueryGpu.value.toLowerCase())
-    )
-    .slice(0, 10)
-})
-
-// --- Selection Handlers ---
-const selectGame = (game: any) => {
-  selectedGame.value = game
-  searchQueryGame.value = game.name
-  isGameDropdownOpen.value = false
-}
-
-const selectGpu = (gpu: any) => {
-  selectedGpu.value = gpu
-  searchQueryGpu.value = gpu.name
-  isGpuDropdownOpen.value = false
-}
-
-// --- Navigation Action ---
-const checkPerformance = () => {
-  if (selectedGame.value && selectedGpu.value) {
-    router.push(
-      `/optimize/${selectedGame.value.slug}/${selectedGpu.value.slug}`
-    )
-  }
-}
-</script>
-
 <template>
-  <div
-    class="relative min-h-screen overflow-hidden bg-[#0B0C15] font-sans text-white"
-  >
+  <div class="relative overflow-hidden font-sans text-white">
     <div
-      class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-indigo-600/20 blur-[120px]"
+      class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-secondary/20 blur-[120px]"
     ></div>
     <div
-      class="pointer-events-none absolute bottom-[-10%] right-[-10%] h-[500px] w-[500px] rounded-full bg-purple-600/20 blur-[120px]"
+      class="pointer-events-none absolute bottom-[-10%] right-[-10%] h-[500px] w-[500px] rounded-full bg-primary/20 blur-[120px]"
     ></div>
 
     <div
-      class="container relative z-10 mx-auto flex h-screen flex-col items-center justify-center px-4"
+      class="container relative z-10 mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 py-20"
     >
-      <div class="mb-12 text-center">
-        <h1 class="mb-4 text-5xl font-black tracking-tight md:text-7xl">
+      <div class="mb-10 text-center">
+        <h1
+          class="mb-4 font-display text-5xl font-black tracking-tight md:text-7xl"
+        >
           CAN I
           <span
-            class="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent"
+            class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
             >RUN IT?</span
           >
         </h1>
-        <p class="mx-auto max-w-2xl text-lg text-slate-400 md:text-xl">
-          Check your FPS performance instantly.
-          <span class="font-semibold text-white"
+        <p class="mx-auto max-w-2xl font-sans text-lg text-slate-400">
+          Build your rig and check FPS.
+          <span class="font-bold text-white"
             >{{ gamesData.length }}+ Games</span
-          >
-          and
-          <span class="font-semibold text-white"
-            >{{ gpusData.length }}+ GPUs</span
           >
           supported.
         </p>
       </div>
 
       <div
-        class="w-full max-w-4xl rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur-xl md:p-10"
+        class="w-full max-w-4xl rounded-3xl border border-dark-700 bg-dark-800/80 p-6 shadow-2xl backdrop-blur-xl md:p-10"
       >
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-          <div class="relative">
-            <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wider text-slate-500"
-              >Select Game</label
-            >
-            <div class="relative">
-              <input
-                v-model="searchQueryGame"
-                @focus="isGameDropdownOpen = true"
-                type="text"
-                placeholder="Search (e.g. Cyberpunk 2077)"
-                class="w-full rounded-xl border border-white/10 bg-black/40 px-5 py-4 text-white placeholder-slate-500 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-              <div
-                v-if="isGameDropdownOpen && filteredGames.length"
-                class="absolute left-0 top-full z-50 mt-2 max-h-60 w-full overflow-y-auto rounded-xl border border-white/10 bg-[#1A1C2E] shadow-2xl"
-              >
-                <div
-                  v-for="game in filteredGames"
-                  :key="game.id"
-                  @click="selectGame(game)"
-                  class="cursor-pointer border-b border-white/5 px-5 py-3 text-sm text-slate-300 transition-colors last:border-0 hover:bg-white/5 hover:text-white"
-                >
-                  {{ game.name }}
-                </div>
-              </div>
-            </div>
-          </div>
+          <FSelect
+            v-model="selectedGame"
+            :options="gamesData"
+            displayKey="name"
+            label="Select Game"
+            placeholder="Search Game..."
+          />
 
-          <div class="relative">
-            <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wider text-slate-500"
-              >Select Graphics Card</label
-            >
-            <div class="relative">
-              <input
-                v-model="searchQueryGpu"
-                @focus="isGpuDropdownOpen = true"
-                type="text"
-                placeholder="Search (e.g. RTX 4060)"
-                class="w-full rounded-xl border border-white/10 bg-black/40 px-5 py-4 text-white placeholder-slate-500 transition-all focus:outline-none focus:ring-2 focus:ring-purple-500"
-              />
-              <div
-                v-if="isGpuDropdownOpen && filteredGpus.length"
-                class="absolute left-0 top-full z-50 mt-2 max-h-60 w-full overflow-y-auto rounded-xl border border-white/10 bg-[#1A1C2E] shadow-2xl"
-              >
-                <div
-                  v-for="gpu in filteredGpus"
-                  :key="gpu.id"
-                  @click="selectGpu(gpu)"
-                  class="cursor-pointer border-b border-white/5 px-5 py-3 text-sm text-slate-300 transition-colors last:border-0 hover:bg-white/5 hover:text-white"
-                >
-                  {{ gpu.name }}
-                </div>
-              </div>
-            </div>
-          </div>
+          <FSelect
+            v-model="selectedGpu"
+            :options="gpusData"
+            displayKey="name"
+            label="Select GPU"
+            placeholder="Search GPU..."
+            color="secondary"
+          />
+
+          <FSelect
+            v-model="selectedCpu"
+            :options="cpusData"
+            displayKey="name"
+            label="Select CPU"
+            placeholder="Search Processor..."
+            color="info"
+          />
+
+          <FSelect
+            v-model="selectedRam"
+            :options="ramOptions"
+            displayKey="label"
+            label="System RAM"
+            placeholder="Select Memory"
+            color="success"
+          />
         </div>
 
         <button
           @click="checkPerformance"
           :disabled="!selectedGame || !selectedGpu"
-          class="group mt-8 w-full rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 py-5 text-lg font-black uppercase tracking-wide text-white shadow-lg shadow-indigo-500/25 transition-all hover:from-indigo-500 hover:to-purple-500 disabled:cursor-not-allowed disabled:opacity-50"
+          class="group mt-8 w-full rounded-xl bg-primary py-5 font-display text-lg font-black uppercase tracking-wide text-dark-950 shadow-neon-primary transition-all hover:bg-primary-dim disabled:opacity-50"
         >
-          Calculate FPS Performance
+          Analyze Build
           <span
             class="ml-2 inline-block transition-transform group-hover:translate-x-1"
             >→</span
           >
         </button>
-      </div>
 
-      <div
-        class="mt-12 flex flex-wrap justify-center gap-4 text-sm text-slate-500"
-      >
-        <span>Trending:</span>
-        <NuxtLink
-          v-if="gamesData[0] && gpusData[1]"
-          :to="`/optimize/${gamesData[0].slug}/${gpusData[1].slug}`"
-          class="border-b border-indigo-400/30 text-indigo-400 transition-colors hover:text-white"
-        >
-          {{ gamesData[0].name }} on {{ gpusData[1].name }}
-        </NuxtLink>
-
-        <NuxtLink
-          v-if="gamesData[2] && gpusData[0]"
-          :to="`/optimize/${gamesData[2].slug}/${gpusData[0].slug}`"
-          class="border-b border-indigo-400/30 text-indigo-400 transition-colors hover:text-white"
-        >
-          {{ gamesData[2].name }} on {{ gpusData[0].name }}
-        </NuxtLink>
+        <div class="mt-6 text-center">
+          <span class="text-sm text-slate-500">or</span>
+          <NuxtLink
+            to="/compare"
+            class="ml-2 text-sm font-bold text-primary underline decoration-dashed underline-offset-4 transition-colors hover:text-white"
+          >
+            Compare two GPUs side-by-side
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { useRouter, useHead } from 'nuxt/app'
+import gamesData from '~/data/games.json'
+import gpusData from '~/data/gpus.json'
+import cpusData from '~/data/cpus.json'
+
+const router = useRouter()
+
+const selectedGame = ref<null | any>(null)
+const selectedGpu = ref<null | any>(null)
+const selectedCpu = ref<null | any>(null)
+
+// RAM Options
+const ramOptions = [
+  { label: '8 GB', value: 8 },
+  { label: '16 GB (Standard)', value: 16 },
+  { label: '32 GB (Recommended)', value: 32 },
+  { label: '64 GB (Extreme)', value: 64 }
+]
+const selectedRam = ref(ramOptions[1])
+
+const checkPerformance = () => {
+  if (selectedGame.value && selectedGpu.value) {
+    const query: any = { ram: selectedRam.value?.value }
+    if (selectedCpu.value) query.cpu = selectedCpu.value.id
+
+    router.push({
+      path: `/optimize/${selectedGame.value.slug}/${selectedGpu.value.slug}`,
+      query
+    })
+  }
+}
+
+// --- SCHEMA ---
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'MyFPS',
+        url: 'https://myfps.org',
+        description:
+          'Check if your PC can run games. FPS Calculator and GPU Benchmark tool.',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://myfps.org/?s={search_term_string}',
+          'query-input': 'required name=search_term_string'
+        }
+      })
+    }
+  ]
+})
+</script>

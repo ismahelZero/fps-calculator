@@ -1,0 +1,107 @@
+[
+  {
+    "id": "i9-14900k",
+    "name": "Intel Core i9-14900K",
+    "score": 100,
+    "cores": 24,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i9-14900K&tag=myfps-20"
+  },
+  {
+    "id": "r7-7800x3d",
+    "name": "AMD Ryzen 7 7800X3D",
+    "score": 95,
+    "cores": 8,
+    "affiliateLink": "https://amazon.com/s?k=AMD+Ryzen+7+7800X3D&tag=myfps-20"
+  },
+  {
+    "id": "i7-13700k",
+    "name": "Intel Core i7-13700K",
+    "score": 85,
+    "cores": 16,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i7-13700K&tag=myfps-20"
+  },
+  {
+    "id": "i5-13600k",
+    "name": "Intel Core i5-13600K",
+    "score": 75,
+    "cores": 14,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i5-13600K&tag=myfps-20"
+  },
+  {
+    "id": "r5-7600x",
+    "name": "AMD Ryzen 5 7600X",
+    "score": 65,
+    "cores": 6,
+    "affiliateLink": "https://amazon.com/s?k=AMD+Ryzen+5+7600X&tag=myfps-20"
+  },
+  {
+    "id": "i5-12400f",
+    "name": "Intel Core i5-12400F",
+    "score": 50,
+    "cores": 6,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i5-12400F&tag=myfps-20"
+  },
+  {
+    "id": "r5-5600x",
+    "name": "AMD Ryzen 5 5600X",
+    "score": 48,
+    "cores": 6,
+    "affiliateLink": "https://amazon.com/s?k=AMD+Ryzen+5+5600X&tag=myfps-20"
+  },
+  {
+    "id": "i7-8700k",
+    "name": "Intel Core i7-8700K",
+    "score": 40,
+    "cores": 6,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i7-8700K&tag=myfps-20"
+  },
+  {
+    "id": "r5-3600",
+    "name": "AMD Ryzen 5 3600",
+    "score": 35,
+    "cores": 6,
+    "affiliateLink": "https://amazon.com/s?k=AMD+Ryzen+5+3600&tag=myfps-20"
+  },
+  {
+    "id": "i7-7700k",
+    "name": "Intel Core i7-7700K",
+    "score": 30,
+    "cores": 4,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i7-7700K&tag=myfps-20"
+  },
+  {
+    "id": "i5-7400",
+    "name": "Intel Core i5-7400",
+    "score": 20,
+    "cores": 4,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i5-7400&tag=myfps-20"
+  },
+  {
+    "id": "i3-10100",
+    "name": "Intel Core i3-10100",
+    "score": 22,
+    "cores": 4,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i3-10100&tag=myfps-20"
+  },
+  {
+    "id": "i3-9100f",
+    "name": "Intel Core i3-9100F",
+    "score": 18,
+    "cores": 4,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i3-9100F&tag=myfps-20"
+  },
+  {
+    "id": "fx-8350",
+    "name": "AMD FX-8350",
+    "score": 15,
+    "cores": 8,
+    "affiliateLink": "https://amazon.com/s?k=AMD+FX-8350&tag=myfps-20"
+  },
+  {
+    "id": "i5-2500k",
+    "name": "Intel Core i5-2500K",
+    "score": 12,
+    "cores": 4,
+    "affiliateLink": "https://amazon.com/s?k=Intel+Core+i5-2500K&tag=myfps-20"
+  }
+]
