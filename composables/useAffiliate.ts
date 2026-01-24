@@ -3,13 +3,13 @@ export const useAffiliate = () => {
   // Replace these with your actual IDs later!
   const affiliates = {
     US: { domain: 'amazon.com', tag: 'myfps-20' },
-    UK: { domain: 'amazon.co.uk', tag: 'myfps-21' },
+    UK: { domain: 'amazon.co.uk', tag: 'myfps-20' },
     CA: { domain: 'amazon.ca', tag: 'myfps-20' },
-    DE: { domain: 'amazon.de', tag: 'myfps-21' },
-    FR: { domain: 'amazon.fr', tag: 'myfps-21' },
-    ES: { domain: 'amazon.es', tag: 'myfps-21' },
-    IT: { domain: 'amazon.it', tag: 'myfps-21' },
-    JP: { domain: 'amazon.co.jp', tag: 'myfps-22' },
+    DE: { domain: 'amazon.de', tag: 'myfps-20' },
+    FR: { domain: 'amazon.fr', tag: 'myfps-20' },
+    ES: { domain: 'amazon.es', tag: 'myfps-20' },
+    IT: { domain: 'amazon.it', tag: 'myfps-20' },
+    JP: { domain: 'amazon.co.jp', tag: 'myfps-20' },
     // Fallback for everyone else
     DEFAULT: { domain: 'amazon.com', tag: 'myfps-20' }
   }
