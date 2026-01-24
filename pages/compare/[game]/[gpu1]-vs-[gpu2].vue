@@ -1,6 +1,6 @@
 <template>
-  <div class="p-4 font-sans text-white">
-    <nav class="container mx-auto mb-8 py-6">
+  <div class="container mx-auto px-4 py-12 font-sans text-white">
+    <div class="mb-6 w-full max-w-4xl">
       <FBreadcrumb
         :links="[
           { label: 'Home', to: '/' },
@@ -8,9 +8,9 @@
           { label: `${gpu1.name} vs ${gpu2.name}` }
         ]"
       />
-    </nav>
+    </div>
 
-    <main class="container mx-auto max-w-6xl">
+    <main class="mx-auto max-w-6xl">
       <div class="mb-16 text-center">
         <h1 class="mb-4 font-display text-4xl font-black md:text-6xl">
           <span class="text-primary">{{ gpu1.name }}</span>

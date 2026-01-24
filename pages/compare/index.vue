@@ -1,12 +1,12 @@
 <template>
-  <div
-    class="relative flex flex-col items-center justify-center overflow-hidden p-4 py-40 font-sans"
-  >
+  <div class="relative overflow-hidden font-sans">
     <div
       class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-secondary/10 blur-[120px]"
     ></div>
 
-    <div class="container relative z-10 max-w-5xl">
+    <div
+      class="container relative z-10 mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 py-40"
+    >
       <div class="mb-12 text-center">
         <h1
           class="mb-4 font-display text-5xl font-black text-white md:text-7xl"
@@ -23,7 +23,7 @@
       </div>
 
       <div
-        class="rounded-3xl border border-dark-700 bg-dark-800/80 p-8 shadow-2xl backdrop-blur-xl"
+        class="w-full max-w-5xl rounded-3xl border border-dark-700 bg-dark-800/80 p-8 shadow-2xl backdrop-blur-xl"
       >
         <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
           <FSelect

@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="flex flex-col items-center justify-center p-6 font-sans text-slate-100"
-  >
-    <div class="mb-6 w-full max-w-4xl">
+  <div class="container mx-auto flex flex-col items-center px-4 py-12">
+    <div class="mb-6 w-full">
       <FBreadcrumb
         :links="[
           { label: 'Home', to: '/' },
