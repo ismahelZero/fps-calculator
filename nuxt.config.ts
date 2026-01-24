@@ -3,7 +3,7 @@ import games from './data/games.json'
 import { fileURLToPath } from 'url'
 
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxtjs/sitemap'],
 
   // Explicitly define the alias
   alias: {
@@ -33,11 +33,32 @@ export default defineNuxtConfig({
     }
   },
 
+  site: {
+    url: 'https://fpscalculator.vercel.app',
+    name: 'MyFPS'
+  },
+
+  sitemap: {
+    sources: [
+      () => {
+        return games.map(game => ({
+          url: `/best-gpu-for-${game.slug}`,
+          changefreq: 'weekly',
+          priority: 0.9
+        }))
+      }
+    ]
+  },
+
   nitro: {
     prerender: {
       routes: (() => {
         const routes: string[] = []
-        // Loop through JSON data to generate pages
+
+        games.forEach(game => {
+          routes.push(`/best-gpu-for-${game.slug}`)
+        })
+
         games.forEach(game => {
           gpus.forEach(gpu => {
             routes.push(`/optimize/${game.slug}/${gpu.slug}`)
