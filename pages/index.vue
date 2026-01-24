@@ -144,6 +144,15 @@
             >→</span
           >
         </button>
+        <div class="mt-4 text-center">
+          <span class="text-sm text-slate-500">or</span>
+          <NuxtLink
+            to="/compare"
+            class="ml-2 text-sm text-primary underline decoration-dashed underline-offset-4 transition-colors hover:text-white"
+          >
+            Compare two GPUs side-by-side
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </div>
