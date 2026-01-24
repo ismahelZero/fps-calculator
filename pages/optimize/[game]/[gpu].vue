@@ -72,7 +72,7 @@
     </main>
 
     <footer class="mt-12 text-sm text-slate-500">
-      Generated automatically by Nuxt 4 Engine
+      Generated automatically by MyFPS
     </footer>
   </div>
 </template>
