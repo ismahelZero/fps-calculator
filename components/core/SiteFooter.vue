@@ -42,21 +42,43 @@
         </div>
 
         <div>
-          <h3 class="mb-4 font-display font-bold text-white">Legal</h3>
-          <ul class="space-y-3 text-sm text-slate-400">
+          <h3 class="mb-4 font-display font-bold text-white">
+            Popular GPU Guides
+          </h3>
+          <ul class="space-y-2 text-sm text-slate-400">
             <li>
-              <a href="#" class="transition-colors hover:text-primary"
-                >Privacy Policy</a
+              <NuxtLink
+                to="/best-gpu-for-cyberpunk-2077-2-0"
+                class="hover:text-primary"
+                >Best GPU for Cyberpunk 2077</NuxtLink
               >
             </li>
             <li>
-              <a href="#" class="transition-colors hover:text-primary"
-                >Terms of Service</a
+              <NuxtLink
+                to="/best-gpu-for-fortnite-performance-mode"
+                class="hover:text-primary"
+                >Best GPU for Fortnite</NuxtLink
               >
             </li>
             <li>
-              <a href="#" class="transition-colors hover:text-primary"
-                >Affiliate Disclosure</a
+              <NuxtLink
+                to="/best-gpu-for-call-of-duty-warzone"
+                class="hover:text-primary"
+                >Best GPU for Warzone</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink
+                to="/best-gpu-for-alan-wake-2"
+                class="hover:text-primary"
+                >Best GPU for Alan Wake 2</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink
+                to="/best-gpu-for-black-myth-wukong"
+                class="hover:text-primary"
+                >Best GPU for Black Myth: Wukong</NuxtLink
               >
             </li>
           </ul>
