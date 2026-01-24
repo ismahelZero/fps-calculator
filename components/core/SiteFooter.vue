@@ -4,11 +4,7 @@
       <div class="grid grid-cols-1 gap-12 md:grid-cols-4">
         <div class="col-span-1 md:col-span-2">
           <div class="mb-4 flex items-center gap-2">
-            <img
-              src="/logo.svg"
-              alt="MyFPS"
-              class="h-8 w-8 opacity-70 grayscale"
-            />
+            <img src="/logo.svg" alt="MyFPS" class="h-10 w-10" />
             <span class="font-display text-xl font-bold text-slate-200"
               >MyFPS</span
             >

@@ -3,7 +3,7 @@
     class="flex flex-col items-center justify-center p-6 font-sans text-slate-100"
   >
     <div class="mb-6 w-full max-w-4xl">
-      <Breadcrumb
+      <FBreadcrumb
         :links="[
           { label: 'Home', to: '/' },
           { label: 'Optimize', to: '/' },

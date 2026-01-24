@@ -1,16 +1,12 @@
 <template>
   <div
-    class="relative flex flex-col items-center justify-center overflow-hidden p-4 py-20 font-sans"
+    class="relative flex flex-col items-center justify-center overflow-hidden p-4 py-40 font-sans"
   >
     <div
       class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-secondary/10 blur-[120px]"
     ></div>
 
     <div class="container relative z-10 max-w-5xl">
-      <Breadcrumb
-        :links="[{ label: 'Home', to: '/' }, { label: 'Compare GPUs' }]"
-      />
-
       <div class="mb-12 text-center">
         <h1
           class="mb-4 font-display text-5xl font-black text-white md:text-7xl"
@@ -30,82 +26,33 @@
         class="rounded-3xl border border-dark-700 bg-dark-800/80 p-8 shadow-2xl backdrop-blur-xl"
       >
         <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-          <div class="relative">
-            <label
-              class="mb-2 block font-display text-xs font-bold uppercase text-slate-500"
-              >1. Select Game</label
-            >
-            <input
-              v-model="searchGame"
-              @focus="showDropdown.game = true"
-              placeholder="e.g. Cyberpunk 2077"
-              class="w-full rounded-xl border border-dark-700 bg-dark-900 px-4 py-3 text-white focus:border-primary focus:outline-none"
-            />
-            <div
-              v-if="showDropdown.game && filteredGames.length"
-              class="absolute z-50 mt-2 max-h-60 w-full overflow-y-auto rounded-xl border border-dark-700 bg-dark-800 shadow-xl"
-            >
-              <div
-                v-for="g in filteredGames"
-                :key="g.id"
-                @click="selectGame(g)"
-                class="cursor-pointer px-4 py-3 text-slate-300 hover:bg-dark-700"
-              >
-                {{ g.name }}
-              </div>
-            </div>
-          </div>
-          <div class="relative">
-            <label
-              class="mb-2 block font-display text-xs font-bold uppercase text-primary"
-              >2. GPU A (Left)</label
-            >
-            <input
-              v-model="searchGpu1"
-              @focus="showDropdown.gpu1 = true"
-              placeholder="e.g. RTX 3060"
-              class="w-full rounded-xl border border-dark-700 bg-dark-900 px-4 py-3 text-white focus:border-primary focus:outline-none"
-            />
-            <div
-              v-if="showDropdown.gpu1 && filteredGpus1.length"
-              class="absolute z-50 mt-2 max-h-60 w-full overflow-y-auto rounded-xl border border-dark-700 bg-dark-800 shadow-xl"
-            >
-              <div
-                v-for="g in filteredGpus1"
-                :key="g.id"
-                @click="selectGpu1(g)"
-                class="cursor-pointer px-4 py-3 text-slate-300 hover:bg-dark-700"
-              >
-                {{ g.name }}
-              </div>
-            </div>
-          </div>
-          <div class="relative">
-            <label
-              class="mb-2 block font-display text-xs font-bold uppercase text-secondary"
-              >3. GPU B (Right)</label
-            >
-            <input
-              v-model="searchGpu2"
-              @focus="showDropdown.gpu2 = true"
-              placeholder="e.g. RTX 4060"
-              class="w-full rounded-xl border border-dark-700 bg-dark-900 px-4 py-3 text-white focus:border-secondary focus:outline-none"
-            />
-            <div
-              v-if="showDropdown.gpu2 && filteredGpus2.length"
-              class="absolute z-50 mt-2 max-h-60 w-full overflow-y-auto rounded-xl border border-dark-700 bg-dark-800 shadow-xl"
-            >
-              <div
-                v-for="g in filteredGpus2"
-                :key="g.id"
-                @click="selectGpu2(g)"
-                class="cursor-pointer px-4 py-3 text-slate-300 hover:bg-dark-700"
-              >
-                {{ g.name }}
-              </div>
-            </div>
-          </div>
+          <FSelect
+            v-model="selectedGame"
+            :options="gamesData"
+            displayKey="name"
+            label="1. Select Game"
+            placeholder="Search Game..."
+          />
+
+          <FSelect
+            v-model="selectedGpu1"
+            :options="availableGpus1"
+            displayKey="name"
+            label="2. GPU A (Left)"
+            placeholder="Select First GPU"
+            color="primary"
+          />
+
+          <FSelect
+            v-model="selectedGpu2"
+            :options="availableGpus2"
+            displayKey="name"
+            label="3. GPU B (Right)"
+            placeholder="Select Second GPU"
+            color="secondary"
+          />
         </div>
+
         <button
           @click="startComparison"
           :disabled="!selectedGame || !selectedGpu1 || !selectedGpu2"
@@ -125,57 +72,24 @@ import gamesData from '~/data/games.json'
 import gpusData from '~/data/gpus.json'
 
 const router = useRouter()
-const searchGame = ref('')
-const searchGpu1 = ref('')
-const searchGpu2 = ref('')
-const selectedGame = ref<null | { name: string; slug: string }>(null)
-const selectedGpu1 = ref<null | { name: string; slug: string }>(null)
-const selectedGpu2 = ref<null | { name: string; slug: string }>(null)
-const showDropdown = ref({ game: false, gpu1: false, gpu2: false })
 
-const filteredGames = computed(() =>
-  searchGame.value
-    ? gamesData
-        .filter(g =>
-          g.name.toLowerCase().includes(searchGame.value.toLowerCase())
-        )
-        .slice(0, 10)
-    : gamesData.slice(0, 10)
-)
-const filteredGpus1 = computed(() =>
-  searchGpu1.value
-    ? gpusData
-        .filter(g =>
-          g.name.toLowerCase().includes(searchGpu1.value.toLowerCase())
-        )
-        .slice(0, 10)
-    : gpusData.slice(0, 10)
-)
-const filteredGpus2 = computed(() =>
-  searchGpu2.value
-    ? gpusData
-        .filter(g =>
-          g.name.toLowerCase().includes(searchGpu2.value.toLowerCase())
-        )
-        .slice(0, 10)
-    : gpusData.slice(0, 10)
-)
+// State
+const selectedGame = ref<null | any>(null)
+const selectedGpu1 = ref<null | any>(null)
+const selectedGpu2 = ref<null | any>(null)
 
-const selectGame = (g: any) => {
-  selectedGame.value = g
-  searchGame.value = g.name
-  showDropdown.value.game = false
-}
-const selectGpu1 = (g: any) => {
-  selectedGpu1.value = g
-  searchGpu1.value = g.name
-  showDropdown.value.gpu1 = false
-}
-const selectGpu2 = (g: any) => {
-  selectedGpu2.value = g
-  searchGpu2.value = g.name
-  showDropdown.value.gpu2 = false
-}
+// --- CROSS FILTERING LOGIC ---
+// If GPU 2 is selected, remove it from GPU 1's list
+const availableGpus1 = computed(() => {
+  if (!selectedGpu2.value) return gpusData
+  return gpusData.filter(g => g.slug !== selectedGpu2.value.slug)
+})
+
+// If GPU 1 is selected, remove it from GPU 2's list
+const availableGpus2 = computed(() => {
+  if (!selectedGpu1.value) return gpusData
+  return gpusData.filter(g => g.slug !== selectedGpu1.value.slug)
+})
 
 const startComparison = () => {
   if (selectedGame.value && selectedGpu1.value && selectedGpu2.value) {

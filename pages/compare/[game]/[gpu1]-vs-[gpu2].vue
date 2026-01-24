@@ -1,7 +1,7 @@
 <template>
   <div class="p-4 font-sans text-white">
     <nav class="container mx-auto mb-8 py-6">
-      <Breadcrumb
+      <FBreadcrumb
         :links="[
           { label: 'Home', to: '/' },
           { label: 'Compare', to: '/compare' },
@@ -66,6 +66,10 @@
               <span class="text-slate-500">VRAM</span
               ><span>{{ gpu1.vram }} GB</span>
             </div>
+            <div class="flex justify-between border-b border-dark-700 pb-2">
+              <span class="text-slate-500">Performance Score</span>
+              <span>{{ gpu1.score }} / 100</span>
+            </div>
           </div>
           <a
             :href="gpu1.affiliateLink"
@@ -102,6 +106,10 @@
             <div class="flex justify-between border-b border-dark-700 pb-2">
               <span class="text-slate-500">VRAM</span
               ><span>{{ gpu2.vram }} GB</span>
+            </div>
+            <div class="flex justify-between border-b border-dark-700 pb-2">
+              <span class="text-slate-500">Performance Score</span>
+              <span>{{ gpu2.score }} / 100</span>
             </div>
           </div>
           <a
