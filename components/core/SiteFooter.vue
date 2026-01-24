@@ -30,6 +30,14 @@
                 >GPU Showdown</NuxtLink
               >
             </li>
+            <li>
+              <NuxtLink
+                to="/build"
+                class="transition-colors hover:text-primary"
+              >
+                PC Builder
+              </NuxtLink>
+            </li>
           </ul>
         </div>
 
@@ -64,3 +72,4 @@
     </div>
   </footer>
 </template>
+<script setup lang="ts"></script>

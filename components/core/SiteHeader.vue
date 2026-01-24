@@ -28,6 +28,13 @@
           active-class="text-primary"
           >Compare GPUs</NuxtLink
         >
+        <NuxtLink
+          to="/build"
+          class="text-sm font-medium text-slate-300 transition-colors hover:text-primary"
+          active-class="text-primary"
+        >
+          PC Builder
+        </NuxtLink>
       </nav>
 
       <NuxtLink to="/compare" class="text-sm font-bold text-primary md:hidden"
@@ -36,3 +43,4 @@
     </div>
   </header>
 </template>
+<script setup lang="ts"></script>

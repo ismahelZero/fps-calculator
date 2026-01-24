@@ -1,0 +1,186 @@
+{
+  "motherboards": {
+    "lga1700": {
+      "entry": {
+        "name": "ASRock B660M Pro RS",
+        "query": "ASRock B660M Pro RS LGA1700 motherboard"
+      },
+      "mid": {
+        "name": "MSI PRO Z790-P WiFi DDR4",
+        "query": "MSI PRO Z790-P WiFi DDR4 motherboard"
+      },
+      "high": {
+        "name": "ASUS TUF Gaming Z790-Plus WiFi (DDR5)",
+        "query": "ASUS TUF Gaming Z790-Plus WiFi LGA1700"
+      },
+      "extreme": {
+        "name": "ASUS ROG Maximus Z790 Dark Hero",
+        "query": "ASUS ROG Maximus Z790 Dark Hero motherboard"
+      }
+    },
+    "lga1851": {
+      "entry": {
+        "name": "ASRock Z890 Pro RS WiFi",
+        "query": "ASRock Z890 Pro RS WiFi motherboard"
+      },
+      "mid": {
+        "name": "MSI MAG Z890 Tomahawk WiFi",
+        "query": "MSI MAG Z890 Tomahawk WiFi motherboard"
+      },
+      "high": {
+        "name": "Gigabyte Z890 AORUS Master",
+        "query": "Gigabyte Z890 AORUS Master motherboard"
+      },
+      "extreme": {
+        "name": "ASUS ROG Maximus Z890 Extreme",
+        "query": "ASUS ROG Maximus Z890 Extreme motherboard"
+      }
+    },
+    "am4": {
+      "entry": {
+        "name": "Gigabyte B450M DS3H WiFi",
+        "query": "Gigabyte B450M DS3H WiFi motherboard"
+      },
+      "mid": {
+        "name": "MSI B550-A PRO",
+        "query": "MSI B550-A PRO AM4 motherboard"
+      },
+      "high": {
+        "name": "ASUS ROG Strix B550-F Gaming WiFi II",
+        "query": "ASUS ROG Strix B550-F Gaming WiFi II"
+      },
+      "extreme": {
+        "name": "ASUS ROG Crosshair VIII Dark Hero",
+        "query": "ASUS ROG Crosshair VIII Dark Hero AM4"
+      }
+    },
+    "am5": {
+      "entry": {
+        "name": "ASRock B650M-HDV/M.2",
+        "query": "ASRock B650M-HDV/M.2 AM5 motherboard"
+      },
+      "mid": {
+        "name": "Gigabyte B650 GAMING X AX",
+        "query": "Gigabyte B650 GAMING X AX motherboard"
+      },
+      "high": {
+        "name": "MSI MAG X670E Tomahawk WiFi",
+        "query": "MSI MAG X670E Tomahawk WiFi motherboard"
+      },
+      "extreme": {
+        "name": "ASUS ROG Crosshair X670E Hero",
+        "query": "ASUS ROG Crosshair X670E Hero motherboard"
+      }
+    }
+  },
+  "coolers": {
+    "entry": {
+      "name": "Thermalright Assassin X 120 SE",
+      "query": "Thermalright Assassin X 120 SE CPU Air Cooler"
+    },
+    "mid": {
+      "name": "Thermalright Peerless Assassin 120 SE",
+      "query": "Thermalright Peerless Assassin 120 SE CPU Cooler"
+    },
+    "high": {
+      "name": "DeepCool LS720 360mm AIO",
+      "query": "DeepCool LS720 360mm Liquid CPU Cooler"
+    },
+    "extreme": {
+      "name": "Corsair iCUE H150i Elite LCD XT",
+      "query": "Corsair iCUE H150i Elite LCD XT Liquid CPU Cooler"
+    }
+  },
+  "ram": {
+    "ddr4": {
+      "entry": {
+        "name": "Silicon Power 16GB (2x8GB) 3200MHz",
+        "query": "Silicon Power 16GB (2x8GB) DDR4 3200MHz RAM"
+      },
+      "mid": {
+        "name": "Corsair Vengeance LPX 32GB (2x16GB) 3600MHz",
+        "query": "Corsair Vengeance LPX 32GB (2x16GB) DDR4 3600MHz"
+      },
+      "high": {
+        "name": "G.SKILL Trident Z RGB 32GB 3600MHz CL16",
+        "query": "G.SKILL Trident Z RGB 32GB DDR4 3600MHz CL16"
+      },
+      "extreme": {
+        "name": "Corsair Dominator Platinum RGB 64GB 3600MHz",
+        "query": "Corsair Dominator Platinum RGB 64GB DDR4 3600MHz"
+      }
+    },
+    "ddr5": {
+      "entry": {
+        "name": "Crucial Pro 32GB (2x16GB) 5600MHz",
+        "query": "Crucial Pro 32GB (2x16GB) DDR5 5600MHz RAM"
+      },
+      "mid": {
+        "name": "G.SKILL Flare X5 32GB (2x16GB) 6000MHz CL30",
+        "query": "G.SKILL Flare X5 32GB DDR5 6000MHz CL30 AMD EXPO"
+      },
+      "high": {
+        "name": "Corsair Vengeance RGB 64GB (2x32GB) 6000MHz CL30",
+        "query": "Corsair Vengeance RGB 64GB DDR5 6000MHz CL30"
+      },
+      "extreme": {
+        "name": "G.SKILL Trident Z5 RGB 64GB 6400MHz CL32",
+        "query": "G.SKILL Trident Z5 RGB 64GB DDR5 6400MHz CL32"
+      }
+    }
+  },
+  "storage": {
+    "entry": {
+      "name": "Kingston NV2 1TB NVMe SSD",
+      "query": "Kingston NV2 1TB M.2 2280 NVMe Internal SSD"
+    },
+    "mid": {
+      "name": "Western Digital Black SN770 1TB",
+      "query": "WD_BLACK 1TB SN770 NVMe Internal Gaming SSD"
+    },
+    "high": {
+      "name": "Samsung 990 PRO 2TB PCIe 4.0",
+      "query": "Samsung 990 PRO 2TB PCIe 4.0 NVMe SSD"
+    },
+    "extreme": {
+      "name": "Crucial T700 2TB Gen5 NVMe (12,000 MB/s)",
+      "query": "Crucial T700 2TB Gen5 NVMe M.2 SSD"
+    }
+  },
+  "psus": {
+    "entry": {
+      "name": "MSI MAG A650BN (650W Bronze)",
+      "query": "MSI MAG A650BN 650W Power Supply"
+    },
+    "mid": {
+      "name": "Corsair RM750e (750W Gold ATX 3.0)",
+      "query": "Corsair RM750e Fully Modular ATX Power Supply"
+    },
+    "high": {
+      "name": "Corsair RM850x Shift (850W Gold)",
+      "query": "Corsair RM850x Shift Fully Modular ATX Power Supply"
+    },
+    "extreme": {
+      "name": "Seasonic Vertex GX-1000 (1000W ATX 3.0)",
+      "query": "Seasonic Vertex GX-1000 ATX 3.0 Power Supply"
+    }
+  },
+  "cases": {
+    "entry": {
+      "name": "Montech AIR 903 Base",
+      "query": "Montech AIR 903 Base Case"
+    },
+    "mid": {
+      "name": "Corsair 4000D Airflow",
+      "query": "Corsair 4000D Airflow Tempered Glass Mid-Tower"
+    },
+    "high": {
+      "name": "NZXT H6 Flow RGB",
+      "query": "NZXT H6 Flow RGB Mid-Tower Case"
+    },
+    "extreme": {
+      "name": "Lian Li O11 Dynamic EVO XL",
+      "query": "Lian Li O11 Dynamic EVO XL"
+    }
+  }
+}
