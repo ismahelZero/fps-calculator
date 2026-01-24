@@ -4,6 +4,10 @@
     "name": "NVIDIA GeForce RTX 4090",
     "score": 100,
     "vram": 24,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4090",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4090&tag=myfps-20"
   },
@@ -12,6 +16,10 @@
     "name": "NVIDIA GeForce RTX 4080 Super",
     "score": 88,
     "vram": 16,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4080-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4080+Super&tag=myfps-20"
   },
@@ -20,6 +28,10 @@
     "name": "NVIDIA GeForce RTX 4080",
     "score": 85,
     "vram": 16,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4080",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4080&tag=myfps-20"
   },
@@ -28,6 +40,10 @@
     "name": "NVIDIA GeForce RTX 4070 Ti Super",
     "score": 78,
     "vram": 16,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4070-ti-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4070+Ti+Super&tag=myfps-20"
   },
@@ -36,6 +52,10 @@
     "name": "NVIDIA GeForce RTX 4070 Ti",
     "score": 72,
     "vram": 12,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4070-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4070+Ti&tag=myfps-20"
   },
@@ -44,6 +64,10 @@
     "name": "NVIDIA GeForce RTX 4070 Super",
     "score": 68,
     "vram": 12,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4070-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4070+Super&tag=myfps-20"
   },
@@ -52,6 +76,10 @@
     "name": "NVIDIA GeForce RTX 4070",
     "score": 65,
     "vram": 12,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4070",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4070&tag=myfps-20"
   },
@@ -60,6 +88,10 @@
     "name": "NVIDIA GeForce RTX 4060 Ti (16GB)",
     "score": 56,
     "vram": 16,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4060-ti-16gb",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4060+Ti+(16GB)&tag=myfps-20"
   },
@@ -68,6 +100,10 @@
     "name": "NVIDIA GeForce RTX 4060 Ti",
     "score": 55,
     "vram": 8,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4060-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4060+Ti&tag=myfps-20"
   },
@@ -76,6 +112,10 @@
     "name": "NVIDIA GeForce RTX 4060",
     "score": 46,
     "vram": 8,
+    "features": [
+      "dlss",
+      "frame_gen"
+    ],
     "slug": "rtx-4060",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+4060&tag=myfps-20"
   },
@@ -84,6 +124,9 @@
     "name": "NVIDIA GeForce RTX 3090 Ti",
     "score": 76,
     "vram": 24,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3090-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3090+Ti&tag=myfps-20"
   },
@@ -92,6 +135,9 @@
     "name": "NVIDIA GeForce RTX 3090",
     "score": 74,
     "vram": 24,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3090",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3090&tag=myfps-20"
   },
@@ -100,6 +146,9 @@
     "name": "NVIDIA GeForce RTX 3080 Ti",
     "score": 70,
     "vram": 12,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3080-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3080+Ti&tag=myfps-20"
   },
@@ -108,6 +157,9 @@
     "name": "NVIDIA GeForce RTX 3080 (12GB)",
     "score": 68,
     "vram": 12,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3080-12gb",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3080+(12GB)&tag=myfps-20"
   },
@@ -116,6 +168,9 @@
     "name": "NVIDIA GeForce RTX 3080",
     "score": 65,
     "vram": 10,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3080",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3080&tag=myfps-20"
   },
@@ -124,6 +179,9 @@
     "name": "NVIDIA GeForce RTX 3070 Ti",
     "score": 58,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3070-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3070+Ti&tag=myfps-20"
   },
@@ -132,6 +190,9 @@
     "name": "NVIDIA GeForce RTX 3070",
     "score": 54,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3070",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3070&tag=myfps-20"
   },
@@ -140,6 +201,9 @@
     "name": "NVIDIA GeForce RTX 3060 Ti",
     "score": 48,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3060-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3060+Ti&tag=myfps-20"
   },
@@ -148,6 +212,9 @@
     "name": "NVIDIA GeForce RTX 3060",
     "score": 42,
     "vram": 12,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3060",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3060&tag=myfps-20"
   },
@@ -156,6 +223,9 @@
     "name": "NVIDIA GeForce RTX 3050",
     "score": 28,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-3050",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+3050&tag=myfps-20"
   },
@@ -164,6 +234,9 @@
     "name": "NVIDIA GeForce RTX 2080 Ti",
     "score": 58,
     "vram": 11,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2080-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2080+Ti&tag=myfps-20"
   },
@@ -172,6 +245,9 @@
     "name": "NVIDIA GeForce RTX 2080 Super",
     "score": 49,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2080-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2080+Super&tag=myfps-20"
   },
@@ -180,6 +256,9 @@
     "name": "NVIDIA GeForce RTX 2080",
     "score": 46,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2080",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2080&tag=myfps-20"
   },
@@ -188,6 +267,9 @@
     "name": "NVIDIA GeForce RTX 2070 Super",
     "score": 44,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2070-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2070+Super&tag=myfps-20"
   },
@@ -196,6 +278,9 @@
     "name": "NVIDIA GeForce RTX 2070",
     "score": 39,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2070",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2070&tag=myfps-20"
   },
@@ -204,6 +289,9 @@
     "name": "NVIDIA GeForce RTX 2060 Super",
     "score": 38,
     "vram": 8,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2060-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2060+Super&tag=myfps-20"
   },
@@ -212,6 +300,9 @@
     "name": "NVIDIA GeForce RTX 2060",
     "score": 34,
     "vram": 6,
+    "features": [
+      "dlss"
+    ],
     "slug": "rtx-2060",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+RTX+2060&tag=myfps-20"
   },
@@ -220,6 +311,7 @@
     "name": "NVIDIA GeForce GTX 1660 Ti",
     "score": 30,
     "vram": 6,
+    "features": [],
     "slug": "gtx-1660-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1660+Ti&tag=myfps-20"
   },
@@ -228,6 +320,7 @@
     "name": "NVIDIA GeForce GTX 1660 Super",
     "score": 29,
     "vram": 6,
+    "features": [],
     "slug": "gtx-1660-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1660+Super&tag=myfps-20"
   },
@@ -236,6 +329,7 @@
     "name": "NVIDIA GeForce GTX 1660",
     "score": 26,
     "vram": 6,
+    "features": [],
     "slug": "gtx-1660",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1660&tag=myfps-20"
   },
@@ -244,6 +338,7 @@
     "name": "NVIDIA GeForce GTX 1650 Super",
     "score": 22,
     "vram": 4,
+    "features": [],
     "slug": "gtx-1650-super",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1650+Super&tag=myfps-20"
   },
@@ -252,6 +347,7 @@
     "name": "NVIDIA GeForce GTX 1650",
     "score": 18,
     "vram": 4,
+    "features": [],
     "slug": "gtx-1650",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1650&tag=myfps-20"
   },
@@ -260,6 +356,7 @@
     "name": "NVIDIA GeForce GTX 1080 Ti",
     "score": 45,
     "vram": 11,
+    "features": [],
     "slug": "gtx-1080-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1080+Ti&tag=myfps-20"
   },
@@ -268,6 +365,7 @@
     "name": "NVIDIA GeForce GTX 1080",
     "score": 35,
     "vram": 8,
+    "features": [],
     "slug": "gtx-1080",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1080&tag=myfps-20"
   },
@@ -276,6 +374,7 @@
     "name": "NVIDIA GeForce GTX 1070 Ti",
     "score": 32,
     "vram": 8,
+    "features": [],
     "slug": "gtx-1070-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1070+Ti&tag=myfps-20"
   },
@@ -284,6 +383,7 @@
     "name": "NVIDIA GeForce GTX 1070",
     "score": 28,
     "vram": 8,
+    "features": [],
     "slug": "gtx-1070",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1070&tag=myfps-20"
   },
@@ -292,6 +392,7 @@
     "name": "NVIDIA GeForce GTX 1060 (6GB)",
     "score": 20,
     "vram": 6,
+    "features": [],
     "slug": "gtx-1060-6gb",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1060+(6GB)&tag=myfps-20"
   },
@@ -300,6 +401,7 @@
     "name": "NVIDIA GeForce GTX 1060 (3GB)",
     "score": 18,
     "vram": 3,
+    "features": [],
     "slug": "gtx-1060-3gb",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1060+(3GB)&tag=myfps-20"
   },
@@ -308,6 +410,7 @@
     "name": "NVIDIA GeForce GTX 1050 Ti",
     "score": 14,
     "vram": 4,
+    "features": [],
     "slug": "gtx-1050-ti",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1050+Ti&tag=myfps-20"
   },
@@ -316,6 +419,7 @@
     "name": "NVIDIA GeForce GTX 1050",
     "score": 11,
     "vram": 2,
+    "features": [],
     "slug": "gtx-1050",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GTX+1050&tag=myfps-20"
   },
@@ -324,6 +428,7 @@
     "name": "NVIDIA GeForce GT 1030",
     "score": 5,
     "vram": 2,
+    "features": [],
     "slug": "gt-1030",
     "affiliateLink": "https://amazon.com/s?k=NVIDIA+GeForce+GT+1030&tag=myfps-20"
   },
@@ -332,6 +437,9 @@
     "name": "AMD Radeon RX 7900 XTX",
     "score": 92,
     "vram": 24,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-7900-xtx",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+7900+XTX&tag=myfps-20"
   },
@@ -340,6 +448,9 @@
     "name": "AMD Radeon RX 7900 XT",
     "score": 80,
     "vram": 20,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-7900-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+7900+XT&tag=myfps-20"
   },
@@ -348,6 +459,9 @@
     "name": "AMD Radeon RX 7800 XT",
     "score": 62,
     "vram": 16,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-7800-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+7800+XT&tag=myfps-20"
   },
@@ -356,6 +470,9 @@
     "name": "AMD Radeon RX 7700 XT",
     "score": 54,
     "vram": 12,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-7700-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+7700+XT&tag=myfps-20"
   },
@@ -364,6 +481,9 @@
     "name": "AMD Radeon RX 7600",
     "score": 40,
     "vram": 8,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-7600",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+7600&tag=myfps-20"
   },
@@ -372,6 +492,9 @@
     "name": "AMD Radeon RX 6950 XT",
     "score": 73,
     "vram": 16,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-6950-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+6950+XT&tag=myfps-20"
   },
@@ -380,6 +503,9 @@
     "name": "AMD Radeon RX 6800 XT",
     "score": 64,
     "vram": 16,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-6800-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+6800+XT&tag=myfps-20"
   },
@@ -388,6 +514,9 @@
     "name": "AMD Radeon RX 6700 XT",
     "score": 48,
     "vram": 12,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-6700-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+6700+XT&tag=myfps-20"
   },
@@ -396,6 +525,9 @@
     "name": "AMD Radeon RX 6600 XT",
     "score": 38,
     "vram": 8,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-6600-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+6600+XT&tag=myfps-20"
   },
@@ -404,6 +536,9 @@
     "name": "AMD Radeon RX 6600",
     "score": 34,
     "vram": 8,
+    "features": [
+      "fsr"
+    ],
     "slug": "rx-6600",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+6600&tag=myfps-20"
   },
@@ -412,6 +547,7 @@
     "name": "AMD Radeon RX 5700 XT",
     "score": 42,
     "vram": 8,
+    "features": [],
     "slug": "rx-5700-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+5700+XT&tag=myfps-20"
   },
@@ -420,6 +556,7 @@
     "name": "AMD Radeon RX 5600 XT",
     "score": 35,
     "vram": 6,
+    "features": [],
     "slug": "rx-5600-xt",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+5600+XT&tag=myfps-20"
   },
@@ -428,6 +565,7 @@
     "name": "AMD Radeon RX 580",
     "score": 19,
     "vram": 8,
+    "features": [],
     "slug": "rx-580",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+580&tag=myfps-20"
   },
@@ -436,6 +574,7 @@
     "name": "AMD Radeon RX 570",
     "score": 17,
     "vram": 4,
+    "features": [],
     "slug": "rx-570",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+RX+570&tag=myfps-20"
   },
@@ -444,6 +583,7 @@
     "name": "Intel Arc A770",
     "score": 44,
     "vram": 16,
+    "features": [],
     "slug": "arc-a770",
     "affiliateLink": "https://amazon.com/s?k=Intel+Arc+A770&tag=myfps-20"
   },
@@ -452,6 +592,7 @@
     "name": "Intel Arc A750",
     "score": 39,
     "vram": 8,
+    "features": [],
     "slug": "arc-a750",
     "affiliateLink": "https://amazon.com/s?k=Intel+Arc+A750&tag=myfps-20"
   },
@@ -460,6 +601,7 @@
     "name": "Intel Arc A380",
     "score": 15,
     "vram": 6,
+    "features": [],
     "slug": "arc-a380",
     "affiliateLink": "https://amazon.com/s?k=Intel+Arc+A380&tag=myfps-20"
   },
@@ -468,6 +610,7 @@
     "name": "Intel UHD Graphics 770",
     "score": 4,
     "vram": 0,
+    "features": [],
     "slug": "intel-uhd-770",
     "affiliateLink": "https://amazon.com/s?k=Intel+UHD+Graphics+770&tag=myfps-20"
   },
@@ -476,6 +619,7 @@
     "name": "AMD Radeon 780M (Handhelds)",
     "score": 18,
     "vram": 4,
+    "features": [],
     "slug": "amd-radeon-780m",
     "affiliateLink": "https://amazon.com/s?k=AMD+Radeon+780M+(Handhelds)&tag=myfps-20"
   }

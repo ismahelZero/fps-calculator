@@ -24,22 +24,55 @@
         <p class="mt-2 text-slate-400">System Performance Report</p>
       </div>
 
-      <div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div class="mb-8 flex flex-col items-center justify-center">
         <div
-          class="rounded-2xl border border-dark-700 bg-dark-900/50 p-6 text-center"
+          class="relative w-full max-w-md rounded-3xl border border-dark-700 bg-dark-900/80 p-8 text-center shadow-2xl"
         >
+          <div v-if="result.ai.enabled" class="absolute right-4 top-4">
+            <button
+              @click="useAi = !useAi"
+              class="border-dark-600 flex items-center gap-2 rounded-full border bg-dark-800 px-3 py-1 text-xs font-bold transition-all hover:bg-dark-700"
+              :class="{
+                'border-primary text-primary': useAi,
+                'text-slate-500': !useAi
+              }"
+            >
+              <span
+                class="h-2 w-2 rounded-full"
+                :class="
+                  useAi ? 'bg-primary shadow-[0_0_8px_cyan]' : 'bg-slate-600'
+                "
+              ></span>
+              {{ result.ai.tech }}
+            </button>
+          </div>
+
           <p
             class="font-display text-xs font-bold uppercase tracking-widest text-slate-500"
           >
-            Est. FPS
+            Estimated Performance
           </p>
-          <p class="mt-2 font-display text-4xl font-black text-white">
-            {{ result.fps }}
-          </p>
-          <p class="mt-1 text-sm font-bold" :class="result.badgeColor">
+
+          <div class="my-4 flex items-baseline justify-center gap-2">
+            <span
+              class="font-display text-7xl font-black text-white transition-all duration-300"
+            >
+              {{ useAi ? result.ai.fps : result.fps }}
+            </span>
+            <span class="text-xl font-bold text-slate-400">FPS</span>
+          </div>
+
+          <p class="text-sm font-bold" :class="result.badgeColor">
             {{ result.settings }} Settings
           </p>
+
+          <p v-if="useAi" class="mt-2 text-xs text-primary">
+            *With {{ result.ai.tech }} Balanced Mode
+          </p>
         </div>
+      </div>
+
+      <div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
         <div
           class="rounded-2xl border border-dark-700 bg-dark-900/50 p-6 text-center"
         >
@@ -154,6 +187,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
 import gpus from '~/data/gpus.json'
 import games from '~/data/games.json'
 import cpus from '~/data/cpus.json'
@@ -175,6 +209,9 @@ if (!game || !gpu) {
 }
 
 const result = useOptimization(gpu, cpu, ram, game)
+
+// State for AI Toggle
+const useAi = ref(false)
 
 // --- SEO META TAGS ---
 useSeoMeta({

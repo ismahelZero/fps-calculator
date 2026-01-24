@@ -1,12 +1,11 @@
 export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
-  const affiliateTag = 'myfps-20' // Your Tag
+  const affiliateTag = 'myfps-20'
 
   let settings = 'Low'
   let fps = 30
   let badgeColor = 'text-error'
   let description = 'Struggling to run.'
 
-  // --- 1. Base GPU Logic ---
   if (gpu.score >= game.requirements.gpu.ultra) {
     settings = 'Ultra'
     fps = 90
@@ -29,7 +28,6 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
     description = 'Playable but with compromised visuals.'
   }
 
-  // --- 2. CPU Bottleneck Logic ---
   let cpuBottleneck = 0
   let cpuStatus = 'Good'
   if (cpu) {
@@ -41,7 +39,21 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
     }
   }
 
-  // --- 3. RAM Logic ---
+  const features = gpu.features || []
+  let aiFps = fps
+  let aiTechnology = null
+
+  if (features.includes('frame_gen')) {
+    aiFps = Math.floor(fps * 1.6)
+    aiTechnology = 'DLSS 3'
+  } else if (features.includes('dlss')) {
+    aiFps = Math.floor(fps * 1.35)
+    aiTechnology = 'DLSS 2'
+  } else if (features.includes('fsr')) {
+    aiFps = Math.floor(fps * 1.3)
+    aiTechnology = 'FSR 2'
+  }
+
   const ramStatus =
     ram < game.requirements.ram.min
       ? 'Critical'
@@ -49,16 +61,12 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
         ? 'Low'
         : 'Good'
 
-  // --- 4. VRAM Logic ---
   const vramWarning =
     gpu.vram < 8 && settings === 'Ultra'
       ? `Note: ${game.name} prefers 8GB+ VRAM. You have ${gpu.vram}GB.`
       : null
 
-  // --- 5. SMART UPGRADE RECOMMENDATIONS (NEW) ---
   const upgrades = []
-
-  // A. Do they need RAM?
   if (ram < game.requirements.ram.rec) {
     upgrades.push({
       type: 'RAM',
@@ -68,10 +76,7 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
       btnText: `Find ${game.requirements.ram.rec}GB RAM`
     })
   }
-
-  // B. Do they need a CPU?
   if (cpuBottleneck > 15) {
-    // Recommend a solid mid-range CPU (i5-13600K is a safe "good" bet for most gaming)
     upgrades.push({
       type: 'CPU',
       title: 'Upgrade Processor (CPU)',
@@ -80,10 +85,7 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
       btnText: 'Find Better CPU'
     })
   }
-
-  // C. Do they need a GPU? (Only if settings are Low/Med)
   if (settings === 'Low' || settings === 'Medium') {
-    // Recommend RTX 4060 as the standard upgrade
     upgrades.push({
       type: 'GPU',
       title: 'Upgrade Graphics Card',
@@ -101,6 +103,7 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
     vramWarning,
     cpu: { status: cpuStatus, bottleneck: cpuBottleneck },
     ram: ramStatus,
-    upgrades // Return the list of needed items
+    upgrades,
+    ai: { fps: aiFps, tech: aiTechnology, enabled: aiTechnology !== null }
   }
 }

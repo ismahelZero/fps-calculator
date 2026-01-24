@@ -3,170 +3,410 @@ import fs from 'fs'
 
 // --- 1. THE GPU DATABASE (100+ GPUs) ---
 const gpus = [
-  // NVIDIA RTX 40 Series
-  { id: 'rtx-4090', name: 'NVIDIA GeForce RTX 4090', score: 100, vram: 24 },
+  // NVIDIA RTX 40 Series (DLSS 3 + Frame Gen)
+  {
+    id: 'rtx-4090',
+    name: 'NVIDIA GeForce RTX 4090',
+    score: 100,
+    vram: 24,
+    features: ['dlss', 'frame_gen']
+  },
   {
     id: 'rtx-4080-super',
     name: 'NVIDIA GeForce RTX 4080 Super',
     score: 88,
-    vram: 16
+    vram: 16,
+    features: ['dlss', 'frame_gen']
   },
-  { id: 'rtx-4080', name: 'NVIDIA GeForce RTX 4080', score: 85, vram: 16 },
+  {
+    id: 'rtx-4080',
+    name: 'NVIDIA GeForce RTX 4080',
+    score: 85,
+    vram: 16,
+    features: ['dlss', 'frame_gen']
+  },
   {
     id: 'rtx-4070-ti-super',
     name: 'NVIDIA GeForce RTX 4070 Ti Super',
     score: 78,
-    vram: 16
+    vram: 16,
+    features: ['dlss', 'frame_gen']
   },
   {
     id: 'rtx-4070-ti',
     name: 'NVIDIA GeForce RTX 4070 Ti',
     score: 72,
-    vram: 12
+    vram: 12,
+    features: ['dlss', 'frame_gen']
   },
   {
     id: 'rtx-4070-super',
     name: 'NVIDIA GeForce RTX 4070 Super',
     score: 68,
-    vram: 12
+    vram: 12,
+    features: ['dlss', 'frame_gen']
   },
-  { id: 'rtx-4070', name: 'NVIDIA GeForce RTX 4070', score: 65, vram: 12 },
+  {
+    id: 'rtx-4070',
+    name: 'NVIDIA GeForce RTX 4070',
+    score: 65,
+    vram: 12,
+    features: ['dlss', 'frame_gen']
+  },
   {
     id: 'rtx-4060-ti-16gb',
     name: 'NVIDIA GeForce RTX 4060 Ti (16GB)',
     score: 56,
-    vram: 16
+    vram: 16,
+    features: ['dlss', 'frame_gen']
   },
-  { id: 'rtx-4060-ti', name: 'NVIDIA GeForce RTX 4060 Ti', score: 55, vram: 8 },
-  { id: 'rtx-4060', name: 'NVIDIA GeForce RTX 4060', score: 46, vram: 8 },
+  {
+    id: 'rtx-4060-ti',
+    name: 'NVIDIA GeForce RTX 4060 Ti',
+    score: 55,
+    vram: 8,
+    features: ['dlss', 'frame_gen']
+  },
+  {
+    id: 'rtx-4060',
+    name: 'NVIDIA GeForce RTX 4060',
+    score: 46,
+    vram: 8,
+    features: ['dlss', 'frame_gen']
+  },
 
-  // NVIDIA RTX 30 Series
+  // NVIDIA RTX 30 Series (DLSS 2)
   {
     id: 'rtx-3090-ti',
     name: 'NVIDIA GeForce RTX 3090 Ti',
     score: 76,
-    vram: 24
+    vram: 24,
+    features: ['dlss']
   },
-  { id: 'rtx-3090', name: 'NVIDIA GeForce RTX 3090', score: 74, vram: 24 },
+  {
+    id: 'rtx-3090',
+    name: 'NVIDIA GeForce RTX 3090',
+    score: 74,
+    vram: 24,
+    features: ['dlss']
+  },
   {
     id: 'rtx-3080-ti',
     name: 'NVIDIA GeForce RTX 3080 Ti',
     score: 70,
-    vram: 12
+    vram: 12,
+    features: ['dlss']
   },
   {
     id: 'rtx-3080-12gb',
     name: 'NVIDIA GeForce RTX 3080 (12GB)',
     score: 68,
-    vram: 12
+    vram: 12,
+    features: ['dlss']
   },
-  { id: 'rtx-3080', name: 'NVIDIA GeForce RTX 3080', score: 65, vram: 10 },
-  { id: 'rtx-3070-ti', name: 'NVIDIA GeForce RTX 3070 Ti', score: 58, vram: 8 },
-  { id: 'rtx-3070', name: 'NVIDIA GeForce RTX 3070', score: 54, vram: 8 },
-  { id: 'rtx-3060-ti', name: 'NVIDIA GeForce RTX 3060 Ti', score: 48, vram: 8 },
-  { id: 'rtx-3060', name: 'NVIDIA GeForce RTX 3060', score: 42, vram: 12 },
-  { id: 'rtx-3050', name: 'NVIDIA GeForce RTX 3050', score: 28, vram: 8 },
+  {
+    id: 'rtx-3080',
+    name: 'NVIDIA GeForce RTX 3080',
+    score: 65,
+    vram: 10,
+    features: ['dlss']
+  },
+  {
+    id: 'rtx-3070-ti',
+    name: 'NVIDIA GeForce RTX 3070 Ti',
+    score: 58,
+    vram: 8,
+    features: ['dlss']
+  },
+  {
+    id: 'rtx-3070',
+    name: 'NVIDIA GeForce RTX 3070',
+    score: 54,
+    vram: 8,
+    features: ['dlss']
+  },
+  {
+    id: 'rtx-3060-ti',
+    name: 'NVIDIA GeForce RTX 3060 Ti',
+    score: 48,
+    vram: 8,
+    features: ['dlss']
+  },
+  {
+    id: 'rtx-3060',
+    name: 'NVIDIA GeForce RTX 3060',
+    score: 42,
+    vram: 12,
+    features: ['dlss']
+  },
+  {
+    id: 'rtx-3050',
+    name: 'NVIDIA GeForce RTX 3050',
+    score: 28,
+    vram: 8,
+    features: ['dlss']
+  },
 
-  // NVIDIA RTX 20 Series
+  // NVIDIA RTX 20 Series (DLSS 2)
   {
     id: 'rtx-2080-ti',
     name: 'NVIDIA GeForce RTX 2080 Ti',
     score: 58,
-    vram: 11
+    vram: 11,
+    features: ['dlss']
   },
   {
     id: 'rtx-2080-super',
     name: 'NVIDIA GeForce RTX 2080 Super',
     score: 49,
-    vram: 8
+    vram: 8,
+    features: ['dlss']
   },
-  { id: 'rtx-2080', name: 'NVIDIA GeForce RTX 2080', score: 46, vram: 8 },
+  {
+    id: 'rtx-2080',
+    name: 'NVIDIA GeForce RTX 2080',
+    score: 46,
+    vram: 8,
+    features: ['dlss']
+  },
   {
     id: 'rtx-2070-super',
     name: 'NVIDIA GeForce RTX 2070 Super',
     score: 44,
-    vram: 8
+    vram: 8,
+    features: ['dlss']
   },
-  { id: 'rtx-2070', name: 'NVIDIA GeForce RTX 2070', score: 39, vram: 8 },
+  {
+    id: 'rtx-2070',
+    name: 'NVIDIA GeForce RTX 2070',
+    score: 39,
+    vram: 8,
+    features: ['dlss']
+  },
   {
     id: 'rtx-2060-super',
     name: 'NVIDIA GeForce RTX 2060 Super',
     score: 38,
-    vram: 8
+    vram: 8,
+    features: ['dlss']
   },
-  { id: 'rtx-2060', name: 'NVIDIA GeForce RTX 2060', score: 34, vram: 6 },
+  {
+    id: 'rtx-2060',
+    name: 'NVIDIA GeForce RTX 2060',
+    score: 34,
+    vram: 6,
+    features: ['dlss']
+  },
 
   // NVIDIA GTX 16/10 Series (Most Popular)
-  { id: 'gtx-1660-ti', name: 'NVIDIA GeForce GTX 1660 Ti', score: 30, vram: 6 },
+  {
+    id: 'gtx-1660-ti',
+    name: 'NVIDIA GeForce GTX 1660 Ti',
+    score: 30,
+    vram: 6,
+    features: []
+  },
   {
     id: 'gtx-1660-super',
     name: 'NVIDIA GeForce GTX 1660 Super',
     score: 29,
-    vram: 6
+    vram: 6,
+    features: []
   },
-  { id: 'gtx-1660', name: 'NVIDIA GeForce GTX 1660', score: 26, vram: 6 },
+  {
+    id: 'gtx-1660',
+    name: 'NVIDIA GeForce GTX 1660',
+    score: 26,
+    vram: 6,
+    features: []
+  },
   {
     id: 'gtx-1650-super',
     name: 'NVIDIA GeForce GTX 1650 Super',
     score: 22,
-    vram: 4
+    vram: 4,
+    features: []
   },
-  { id: 'gtx-1650', name: 'NVIDIA GeForce GTX 1650', score: 18, vram: 4 },
+  {
+    id: 'gtx-1650',
+    name: 'NVIDIA GeForce GTX 1650',
+    score: 18,
+    vram: 4,
+    features: []
+  },
   {
     id: 'gtx-1080-ti',
     name: 'NVIDIA GeForce GTX 1080 Ti',
     score: 45,
-    vram: 11
+    vram: 11,
+    features: []
   },
-  { id: 'gtx-1080', name: 'NVIDIA GeForce GTX 1080', score: 35, vram: 8 },
-  { id: 'gtx-1070-ti', name: 'NVIDIA GeForce GTX 1070 Ti', score: 32, vram: 8 },
-  { id: 'gtx-1070', name: 'NVIDIA GeForce GTX 1070', score: 28, vram: 8 },
+  {
+    id: 'gtx-1080',
+    name: 'NVIDIA GeForce GTX 1080',
+    score: 35,
+    vram: 8,
+    features: []
+  },
+  {
+    id: 'gtx-1070-ti',
+    name: 'NVIDIA GeForce GTX 1070 Ti',
+    score: 32,
+    vram: 8,
+    features: []
+  },
+  {
+    id: 'gtx-1070',
+    name: 'NVIDIA GeForce GTX 1070',
+    score: 28,
+    vram: 8,
+    features: []
+  },
   {
     id: 'gtx-1060-6gb',
     name: 'NVIDIA GeForce GTX 1060 (6GB)',
     score: 20,
-    vram: 6
+    vram: 6,
+    features: []
   },
   {
     id: 'gtx-1060-3gb',
     name: 'NVIDIA GeForce GTX 1060 (3GB)',
     score: 18,
-    vram: 3
+    vram: 3,
+    features: []
   },
-  { id: 'gtx-1050-ti', name: 'NVIDIA GeForce GTX 1050 Ti', score: 14, vram: 4 },
-  { id: 'gtx-1050', name: 'NVIDIA GeForce GTX 1050', score: 11, vram: 2 },
-  { id: 'gt-1030', name: 'NVIDIA GeForce GT 1030', score: 5, vram: 2 },
+  {
+    id: 'gtx-1050-ti',
+    name: 'NVIDIA GeForce GTX 1050 Ti',
+    score: 14,
+    vram: 4,
+    features: []
+  },
+  {
+    id: 'gtx-1050',
+    name: 'NVIDIA GeForce GTX 1050',
+    score: 11,
+    vram: 2,
+    features: []
+  },
+  {
+    id: 'gt-1030',
+    name: 'NVIDIA GeForce GT 1030',
+    score: 5,
+    vram: 2,
+    features: []
+  },
 
-  // AMD Radeon RX 7000/6000
-  { id: 'rx-7900-xtx', name: 'AMD Radeon RX 7900 XTX', score: 92, vram: 24 },
-  { id: 'rx-7900-xt', name: 'AMD Radeon RX 7900 XT', score: 80, vram: 20 },
-  { id: 'rx-7800-xt', name: 'AMD Radeon RX 7800 XT', score: 62, vram: 16 },
-  { id: 'rx-7700-xt', name: 'AMD Radeon RX 7700 XT', score: 54, vram: 12 },
-  { id: 'rx-7600', name: 'AMD Radeon RX 7600', score: 40, vram: 8 },
-  { id: 'rx-6950-xt', name: 'AMD Radeon RX 6950 XT', score: 73, vram: 16 },
-  { id: 'rx-6800-xt', name: 'AMD Radeon RX 6800 XT', score: 64, vram: 16 },
-  { id: 'rx-6700-xt', name: 'AMD Radeon RX 6700 XT', score: 48, vram: 12 },
-  { id: 'rx-6600-xt', name: 'AMD Radeon RX 6600 XT', score: 38, vram: 8 },
-  { id: 'rx-6600', name: 'AMD Radeon RX 6600', score: 34, vram: 8 },
+  // AMD Radeon RX 7000/6000 (FSR)
+  {
+    id: 'rx-7900-xtx',
+    name: 'AMD Radeon RX 7900 XTX',
+    score: 92,
+    vram: 24,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-7900-xt',
+    name: 'AMD Radeon RX 7900 XT',
+    score: 80,
+    vram: 20,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-7800-xt',
+    name: 'AMD Radeon RX 7800 XT',
+    score: 62,
+    vram: 16,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-7700-xt',
+    name: 'AMD Radeon RX 7700 XT',
+    score: 54,
+    vram: 12,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-7600',
+    name: 'AMD Radeon RX 7600',
+    score: 40,
+    vram: 8,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-6950-xt',
+    name: 'AMD Radeon RX 6950 XT',
+    score: 73,
+    vram: 16,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-6800-xt',
+    name: 'AMD Radeon RX 6800 XT',
+    score: 64,
+    vram: 16,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-6700-xt',
+    name: 'AMD Radeon RX 6700 XT',
+    score: 48,
+    vram: 12,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-6600-xt',
+    name: 'AMD Radeon RX 6600 XT',
+    score: 38,
+    vram: 8,
+    features: ['fsr']
+  },
+  {
+    id: 'rx-6600',
+    name: 'AMD Radeon RX 6600',
+    score: 34,
+    vram: 8,
+    features: ['fsr']
+  },
 
   // AMD Older
-  { id: 'rx-5700-xt', name: 'AMD Radeon RX 5700 XT', score: 42, vram: 8 },
-  { id: 'rx-5600-xt', name: 'AMD Radeon RX 5600 XT', score: 35, vram: 6 },
-  { id: 'rx-580', name: 'AMD Radeon RX 580', score: 19, vram: 8 },
-  { id: 'rx-570', name: 'AMD Radeon RX 570', score: 17, vram: 4 },
+  {
+    id: 'rx-5700-xt',
+    name: 'AMD Radeon RX 5700 XT',
+    score: 42,
+    vram: 8,
+    features: []
+  },
+  {
+    id: 'rx-5600-xt',
+    name: 'AMD Radeon RX 5600 XT',
+    score: 35,
+    vram: 6,
+    features: []
+  },
+  { id: 'rx-580', name: 'AMD Radeon RX 580', score: 19, vram: 8, features: [] },
+  { id: 'rx-570', name: 'AMD Radeon RX 570', score: 17, vram: 4, features: [] },
 
   // Intel Arc
-  { id: 'arc-a770', name: 'Intel Arc A770', score: 44, vram: 16 },
-  { id: 'arc-a750', name: 'Intel Arc A750', score: 39, vram: 8 },
-  { id: 'arc-a380', name: 'Intel Arc A380', score: 15, vram: 6 },
+  { id: 'arc-a770', name: 'Intel Arc A770', score: 44, vram: 16, features: [] },
+  { id: 'arc-a750', name: 'Intel Arc A750', score: 39, vram: 8, features: [] },
+  { id: 'arc-a380', name: 'Intel Arc A380', score: 15, vram: 6, features: [] },
 
   // Integrated
-  { id: 'intel-uhd-770', name: 'Intel UHD Graphics 770', score: 4, vram: 0 },
+  {
+    id: 'intel-uhd-770',
+    name: 'Intel UHD Graphics 770',
+    score: 4,
+    vram: 0,
+    features: []
+  },
   {
     id: 'amd-radeon-780m',
     name: 'AMD Radeon 780M (Handhelds)',
     score: 18,
-    vram: 4
+    vram: 4,
+    features: []
   }
 ]
 
