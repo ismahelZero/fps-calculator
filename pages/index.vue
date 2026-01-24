@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="relative min-h-screen overflow-hidden bg-dark-950 font-sans text-white"
-  >
+  <div class="relative overflow-hidden font-sans text-white">
     <div
       class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-secondary/20 blur-[120px]"
     ></div>
@@ -10,7 +8,7 @@
     ></div>
 
     <div
-      class="container relative z-10 mx-auto flex h-screen flex-col items-center justify-center px-4"
+      class="container relative z-10 mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 py-20"
     >
       <div class="mb-10 text-center">
         <h1
@@ -92,7 +90,7 @@
           <div class="relative">
             <label
               class="mb-2 block font-display text-xs font-bold uppercase tracking-wider text-slate-500"
-              >Select CPU (Processor)</label
+              >Select CPU</label
             >
             <input
               v-model="searchQueryCpu"
@@ -144,11 +142,12 @@
             >→</span
           >
         </button>
-        <div class="mt-4 text-center">
+
+        <div class="mt-6 text-center">
           <span class="text-sm text-slate-500">or</span>
           <NuxtLink
             to="/compare"
-            class="ml-2 text-sm text-primary underline decoration-dashed underline-offset-4 transition-colors hover:text-white"
+            class="ml-2 text-sm font-bold text-primary underline decoration-dashed underline-offset-4 transition-colors hover:text-white"
           >
             Compare two GPUs side-by-side
           </NuxtLink>
@@ -170,16 +169,16 @@ const router = useRouter()
 // --- State ---
 const searchQueryGame = ref('')
 const searchQueryGpu = ref('')
-const searchQueryCpu = ref('') // New
-const selectedRam = ref(16) // New (Default 16GB)
+const searchQueryCpu = ref('')
+const selectedRam = ref(16)
 
 const selectedGame = ref<null | { name: string; slug: string }>(null)
 const selectedGpu = ref<null | { name: string; slug: string }>(null)
-const selectedCpu = ref<null | { name: string; id: string }>(null) // New
+const selectedCpu = ref<null | { name: string; id: string }>(null)
 
 const isGameDropdownOpen = ref(false)
 const isGpuDropdownOpen = ref(false)
-const isCpuDropdownOpen = ref(false) // New
+const isCpuDropdownOpen = ref(false)
 
 // --- Search Logic ---
 const filteredGames = computed(() => {
@@ -198,7 +197,6 @@ const filteredGpus = computed(() => {
     )
     .slice(0, 10)
 })
-// New CPU Filter
 const filteredCpus = computed(() => {
   if (!searchQueryCpu.value) return cpusData.slice(0, 50)
   return cpusData
@@ -228,7 +226,6 @@ const selectCpu = (cpu: any) => {
 // --- Navigation ---
 const checkPerformance = () => {
   if (selectedGame.value && selectedGpu.value) {
-    // Pass CPU and RAM as query params
     const query: any = { ram: selectedRam.value }
     if (selectedCpu.value) query.cpu = selectedCpu.value.id
 

@@ -1,7 +1,17 @@
 <template>
   <div
-    class="flex min-h-screen flex-col items-center justify-center bg-dark-950 p-6 font-sans text-slate-100"
+    class="flex flex-col items-center justify-center p-6 font-sans text-slate-100"
   >
+    <div class="mb-6 w-full max-w-4xl">
+      <Breadcrumb
+        :links="[
+          { label: 'Home', to: '/' },
+          { label: 'Optimize', to: '/' },
+          { label: game.name }
+        ]"
+      />
+    </div>
+
     <main
       class="w-full max-w-4xl rounded-3xl border border-dark-700 bg-dark-800/80 p-8 shadow-2xl backdrop-blur-sm"
     >

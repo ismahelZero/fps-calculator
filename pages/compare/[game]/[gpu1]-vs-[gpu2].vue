@@ -1,12 +1,13 @@
 <template>
-  <div class="min-h-screen bg-dark-950 p-4 font-sans text-white">
-    <nav
-      class="container mx-auto mb-8 flex items-center justify-between py-6 text-sm text-slate-400"
-    >
-      <NuxtLink to="/compare" class="hover:text-primary"
-        >← New Comparison</NuxtLink
-      >
-      <span>{{ game.name }} Benchmark</span>
+  <div class="p-4 font-sans text-white">
+    <nav class="container mx-auto mb-8 py-6">
+      <Breadcrumb
+        :links="[
+          { label: 'Home', to: '/' },
+          { label: 'Compare', to: '/compare' },
+          { label: `${gpu1.name} vs ${gpu2.name}` }
+        ]"
+      />
     </nav>
 
     <main class="container mx-auto max-w-6xl">
@@ -44,7 +45,6 @@
           <h2 class="mb-6 font-display text-2xl font-bold text-slate-300">
             {{ gpu1.name }}
           </h2>
-
           <div class="py-8 text-center">
             <div class="mb-2 font-display text-6xl font-black text-white">
               {{ res1.fps }}
@@ -55,31 +55,24 @@
               Est. FPS
             </div>
           </div>
-
           <div class="space-y-4">
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">Settings</span>
-              <span :class="res1.badgeColor" class="font-bold">{{
+              <span class="text-slate-500">Settings</span
+              ><span :class="res1.badgeColor" class="font-bold">{{
                 res1.settings
               }}</span>
             </div>
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">VRAM</span>
-              <span>{{ gpu1.vram }} GB</span>
-            </div>
-            <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">Performance Score</span>
-              <span>{{ gpu1.score }} / 100</span>
+              <span class="text-slate-500">VRAM</span
+              ><span>{{ gpu1.vram }} GB</span>
             </div>
           </div>
-
           <a
             :href="gpu1.affiliateLink"
             target="_blank"
             class="mt-8 block w-full rounded-xl bg-primary/10 py-3 text-center font-bold text-primary transition-all hover:bg-primary hover:text-dark-950"
+            >See Price</a
           >
-            See {{ gpu1.name }} Price
-          </a>
         </div>
 
         <div
@@ -89,7 +82,6 @@
           <h2 class="mb-6 font-display text-2xl font-bold text-slate-300">
             {{ gpu2.name }}
           </h2>
-
           <div class="py-8 text-center">
             <div class="mb-2 font-display text-6xl font-black text-white">
               {{ res2.fps }}
@@ -100,31 +92,24 @@
               Est. FPS
             </div>
           </div>
-
           <div class="space-y-4">
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">Settings</span>
-              <span :class="res2.badgeColor" class="font-bold">{{
+              <span class="text-slate-500">Settings</span
+              ><span :class="res2.badgeColor" class="font-bold">{{
                 res2.settings
               }}</span>
             </div>
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">VRAM</span>
-              <span>{{ gpu2.vram }} GB</span>
-            </div>
-            <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">Performance Score</span>
-              <span>{{ gpu2.score }} / 100</span>
+              <span class="text-slate-500">VRAM</span
+              ><span>{{ gpu2.vram }} GB</span>
             </div>
           </div>
-
           <a
             :href="gpu2.affiliateLink"
             target="_blank"
             class="mt-8 block w-full rounded-xl bg-secondary/10 py-3 text-center font-bold text-secondary transition-all hover:bg-secondary hover:text-white"
+            >See Price</a
           >
-            See {{ gpu2.name }} Price
-          </a>
         </div>
       </div>
     </main>
@@ -153,21 +138,16 @@ if (!game || !gpu1 || !gpu2) {
   throw createError({ statusCode: 404, statusMessage: 'Comparison Not Found' })
 }
 
-// Run Logic Twice
-// Note: We pass null for CPU/RAM to assume "standard" specs for fair GPU comparison
 const res1 = useOptimization(gpu1, null, 16, game)
 const res2 = useOptimization(gpu2, null, 16, game)
-
-// Calculate Difference
 const fpsDiff = res2.fps - res1.fps
 const winner = fpsDiff > 0 ? gpu2 : fpsDiff < 0 ? gpu1 : null
 const diffPercent = Math.round(
   (Math.abs(fpsDiff) / Math.min(res1.fps, res2.fps)) * 100
 )
 
-// SEO
 useSeoMeta({
   title: `${gpu1.name} vs ${gpu2.name} - Which runs ${game.name} better?`,
-  description: `Head-to-head comparison: ${gpu1.name} vs ${gpu2.name} in ${game.name}. See FPS benchmarks and find the winner.`
+  description: `Head-to-head comparison: ${gpu1.name} vs ${gpu2.name} in ${game.name}.`
 })
 </script>

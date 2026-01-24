@@ -1,12 +1,16 @@
 <template>
   <div
-    class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-dark-950 p-4 font-sans"
+    class="relative flex flex-col items-center justify-center overflow-hidden p-4 py-20 font-sans"
   >
     <div
       class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-secondary/10 blur-[120px]"
     ></div>
 
     <div class="container relative z-10 max-w-5xl">
+      <Breadcrumb
+        :links="[{ label: 'Home', to: '/' }, { label: 'Compare GPUs' }]"
+      />
+
       <div class="mb-12 text-center">
         <h1
           class="mb-4 font-display text-5xl font-black text-white md:text-7xl"
@@ -51,7 +55,6 @@
               </div>
             </div>
           </div>
-
           <div class="relative">
             <label
               class="mb-2 block font-display text-xs font-bold uppercase text-primary"
@@ -77,7 +80,6 @@
               </div>
             </div>
           </div>
-
           <div class="relative">
             <label
               class="mb-2 block font-display text-xs font-bold uppercase text-secondary"
@@ -104,7 +106,6 @@
             </div>
           </div>
         </div>
-
         <button
           @click="startComparison"
           :disabled="!selectedGame || !selectedGpu1 || !selectedGpu2"
@@ -124,41 +125,42 @@ import gamesData from '~/data/games.json'
 import gpusData from '~/data/gpus.json'
 
 const router = useRouter()
-
-// State
 const searchGame = ref('')
 const searchGpu1 = ref('')
 const searchGpu2 = ref('')
-
 const selectedGame = ref<null | { name: string; slug: string }>(null)
 const selectedGpu1 = ref<null | { name: string; slug: string }>(null)
 const selectedGpu2 = ref<null | { name: string; slug: string }>(null)
-
 const showDropdown = ref({ game: false, gpu1: false, gpu2: false })
 
-// Filter Logic
-const filteredGames = computed(() => {
-  if (!searchGame.value) return gamesData.slice(0, 50)
-  return gamesData
-    .filter(g => g.name.toLowerCase().includes(searchGame.value.toLowerCase()))
-    .slice(0, 10)
-})
+const filteredGames = computed(() =>
+  searchGame.value
+    ? gamesData
+        .filter(g =>
+          g.name.toLowerCase().includes(searchGame.value.toLowerCase())
+        )
+        .slice(0, 10)
+    : gamesData.slice(0, 10)
+)
+const filteredGpus1 = computed(() =>
+  searchGpu1.value
+    ? gpusData
+        .filter(g =>
+          g.name.toLowerCase().includes(searchGpu1.value.toLowerCase())
+        )
+        .slice(0, 10)
+    : gpusData.slice(0, 10)
+)
+const filteredGpus2 = computed(() =>
+  searchGpu2.value
+    ? gpusData
+        .filter(g =>
+          g.name.toLowerCase().includes(searchGpu2.value.toLowerCase())
+        )
+        .slice(0, 10)
+    : gpusData.slice(0, 10)
+)
 
-const filteredGpus1 = computed(() => {
-  if (!searchGpu1.value) return gpusData.slice(0, 50)
-  return gpusData
-    .filter(g => g.name.toLowerCase().includes(searchGpu1.value.toLowerCase()))
-    .slice(0, 10)
-})
-
-const filteredGpus2 = computed(() => {
-  if (!searchGpu2.value) return gpusData.slice(0, 50)
-  return gpusData
-    .filter(g => g.name.toLowerCase().includes(searchGpu2.value.toLowerCase()))
-    .slice(0, 10)
-})
-
-// Select Handlers
 const selectGame = (g: any) => {
   selectedGame.value = g
   searchGame.value = g.name
@@ -175,7 +177,6 @@ const selectGpu2 = (g: any) => {
   showDropdown.value.gpu2 = false
 }
 
-// Navigation
 const startComparison = () => {
   if (selectedGame.value && selectedGpu1.value && selectedGpu2.value) {
     router.push(
