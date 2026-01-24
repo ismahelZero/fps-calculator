@@ -174,7 +174,7 @@
 
           <div
             v-else
-            class="flex h-full min-h-[400px] flex-col items-center justify-center rounded-3xl border-2 border-dashed border-dark-700 bg-dark-800/30 p-8 text-center"
+            class="flex h-full min-h-[500px] flex-col items-center justify-center rounded-3xl border-2 border-dashed border-dark-700 bg-dark-800/30 p-8 text-center"
           >
             <div class="mb-4 text-6xl opacity-20">🖥️</div>
             <h3 class="font-display text-2xl font-bold text-slate-500">
