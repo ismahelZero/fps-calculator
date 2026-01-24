@@ -1,5 +1,7 @@
+import { useAffiliate } from './useAffiliate'
+
 export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
-  const affiliateTag = 'myfps-20'
+  const { getLink } = useAffiliate()
 
   let settings = 'Low'
   let fps = 30
@@ -72,7 +74,7 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
       type: 'RAM',
       title: `Upgrade to ${game.requirements.ram.rec}GB RAM`,
       reason: `You have ${ram}GB. This game runs best with ${game.requirements.ram.rec}GB.`,
-      link: `https://www.amazon.com/s?k=${game.requirements.ram.rec}GB+DDR4+RAM+Kit&tag=${affiliateTag}`,
+      link: getLink(`${game.requirements.ram.rec}GB DDR4 RAM Kit`),
       btnText: `Find ${game.requirements.ram.rec}GB RAM`
     })
   }
@@ -81,16 +83,17 @@ export const useOptimization = (gpu: any, cpu: any, ram: number, game: any) => {
       type: 'CPU',
       title: 'Upgrade Processor (CPU)',
       reason: `Your ${cpu.name} is slowing you down by ${cpuBottleneck}%.`,
-      link: `https://www.amazon.com/s?k=Intel+Core+i5-13600K+Processor&tag=${affiliateTag}`,
+      link: getLink('Intel Core i5-13600K Processor'),
       btnText: 'Find Better CPU'
     })
   }
+
   if (settings === 'Low' || settings === 'Medium') {
     upgrades.push({
       type: 'GPU',
       title: 'Upgrade Graphics Card',
       reason: 'Your GPU is the main limit for Ultra settings.',
-      link: `https://www.amazon.com/s?k=GeForce+RTX+4060+Graphics+Card&tag=${affiliateTag}`,
+      link: getLink('GeForce RTX 4060 Graphics Card'),
       btnText: 'Shop RTX 4060'
     })
   }
