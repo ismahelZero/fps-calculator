@@ -1,20 +1,4292 @@
 [
   {
-    "id": "cyberpunk-2077",
-    "name": "Cyberpunk 2077",
-    "slug": "cyberpunk-2077",
-    "requirements": { "low": 35, "med": 55, "high": 75, "ultra": 95 }
+    "id": "cyberpunk-2077-2-0",
+    "name": "Cyberpunk 2077 (2.0)",
+    "slug": "cyberpunk-2077-2-0",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
   },
   {
-    "id": "valorant",
-    "name": "Valorant",
-    "slug": "valorant",
-    "requirements": { "low": 10, "med": 20, "high": 30, "ultra": 40 }
+    "id": "alan-wake-2",
+    "name": "Alan Wake 2",
+    "slug": "alan-wake-2",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "black-myth-wukong",
+    "name": "Black Myth: Wukong",
+    "slug": "black-myth-wukong",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "senua-s-saga-hellblade-ii",
+    "name": "Senua's Saga: Hellblade II",
+    "slug": "senua-s-saga-hellblade-ii",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "dragon-s-dogma-2",
+    "name": "Dragon's Dogma 2",
+    "slug": "dragon-s-dogma-2",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "ark-survival-ascended",
+    "name": "Ark: Survival Ascended",
+    "slug": "ark-survival-ascended",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "avatar-frontiers-of-pandora",
+    "name": "Avatar: Frontiers of Pandora",
+    "slug": "avatar-frontiers-of-pandora",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "cities-skylines-ii",
+    "name": "Cities: Skylines II",
+    "slug": "cities-skylines-ii",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "microsoft-flight-simulator-2024",
+    "name": "Microsoft Flight Simulator 2024",
+    "slug": "microsoft-flight-simulator-2024",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "star-wars-outlaws",
+    "name": "Star Wars Outlaws",
+    "slug": "star-wars-outlaws",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "immortals-of-aveum",
+    "name": "Immortals of Aveum",
+    "slug": "immortals-of-aveum",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "lords-of-the-fallen-2023",
+    "name": "Lords of the Fallen (2023)",
+    "slug": "lords-of-the-fallen-2023",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "metro-exodus-enhanced-edition",
+    "name": "Metro Exodus Enhanced Edition",
+    "slug": "metro-exodus-enhanced-edition",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "portal-with-rtx",
+    "name": "Portal with RTX",
+    "slug": "portal-with-rtx",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "minecraft-rtx-on",
+    "name": "Minecraft (RTX On)",
+    "slug": "minecraft-rtx-on",
+    "requirements": {
+      "low": 40,
+      "med": 60,
+      "high": 80,
+      "ultra": 95
+    }
+  },
+  {
+    "id": "starfield",
+    "name": "Starfield",
+    "slug": "starfield",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "hogwarts-legacy",
+    "name": "Hogwarts Legacy",
+    "slug": "hogwarts-legacy",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "the-last-of-us-part-i",
+    "name": "The Last of Us Part I",
+    "slug": "the-last-of-us-part-i",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "name": "God of War Ragnarok",
+    "slug": "god-of-war-ragnarok",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "horizon-forbidden-west",
+    "name": "Horizon Forbidden West",
+    "slug": "horizon-forbidden-west",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "ghost-of-tsushima",
+    "name": "Ghost of Tsushima",
+    "slug": "ghost-of-tsushima",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
   },
   {
     "id": "elden-ring",
     "name": "Elden Ring",
     "slug": "elden-ring",
-    "requirements": { "low": 40, "med": 60, "high": 80, "ultra": 90 }
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "baldur-s-gate-3",
+    "name": "Baldur's Gate 3",
+    "slug": "baldur-s-gate-3",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "helldivers-2",
+    "name": "Helldivers 2",
+    "slug": "helldivers-2",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "final-fantasy-xvi",
+    "name": "Final Fantasy XVI",
+    "slug": "final-fantasy-xvi",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "final-fantasy-vii-rebirth",
+    "name": "Final Fantasy VII Rebirth",
+    "slug": "final-fantasy-vii-rebirth",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "resident-evil-4-remake",
+    "name": "Resident Evil 4 Remake",
+    "slug": "resident-evil-4-remake",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "dead-space-remake",
+    "name": "Dead Space Remake",
+    "slug": "dead-space-remake",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "silent-hill-2-remake",
+    "name": "Silent Hill 2 Remake",
+    "slug": "silent-hill-2-remake",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "tekken-8",
+    "name": "Tekken 8",
+    "slug": "tekken-8",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "mortal-kombat-1",
+    "name": "Mortal Kombat 1",
+    "slug": "mortal-kombat-1",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "street-fighter-6",
+    "name": "Street Fighter 6",
+    "slug": "street-fighter-6",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "armored-core-vi",
+    "name": "Armored Core VI",
+    "slug": "armored-core-vi",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "a-plague-tale-requiem",
+    "name": "A Plague Tale: Requiem",
+    "slug": "a-plague-tale-requiem",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "control",
+    "name": "Control",
+    "slug": "control",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "returnal",
+    "name": "Returnal",
+    "slug": "returnal",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "warhammer-40k-darktide",
+    "name": "Warhammer 40k: Darktide",
+    "slug": "warhammer-40k-darktide",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "warhammer-40k-space-marine-2",
+    "name": "Warhammer 40k: Space Marine 2",
+    "slug": "warhammer-40k-space-marine-2",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "s-t-a-l-k-e-r-2",
+    "name": "S.T.A.L.K.E.R. 2",
+    "slug": "s-t-a-l-k-e-r-2",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "total-war-warhammer-iii",
+    "name": "Total War: Warhammer III",
+    "slug": "total-war-warhammer-iii",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "forza-motorsport-2023",
+    "name": "Forza Motorsport (2023)",
+    "slug": "forza-motorsport-2023",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "assassin-s-creed-mirage",
+    "name": "Assassin's Creed Mirage",
+    "slug": "assassin-s-creed-mirage",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "skull-and-bones",
+    "name": "Skull and Bones",
+    "slug": "skull-and-bones",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "suicide-squad-kill-the-justice-league",
+    "name": "Suicide Squad: Kill the Justice League",
+    "slug": "suicide-squad-kill-the-justice-league",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "gotham-knights",
+    "name": "Gotham Knights",
+    "slug": "gotham-knights",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "marvel-s-spider-man-2",
+    "name": "Marvel's Spider-Man 2",
+    "slug": "marvel-s-spider-man-2",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "marvel-s-spider-man-remastered",
+    "name": "Marvel's Spider-Man Remastered",
+    "slug": "marvel-s-spider-man-remastered",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "marvel-s-miles-morales",
+    "name": "Marvel's Miles Morales",
+    "slug": "marvel-s-miles-morales",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "uncharted-legacy-of-thieves",
+    "name": "Uncharted: Legacy of Thieves",
+    "slug": "uncharted-legacy-of-thieves",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "ratchet-clank-rift-apart",
+    "name": "Ratchet & Clank: Rift Apart",
+    "slug": "ratchet-clank-rift-apart",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "dying-light-2",
+    "name": "Dying Light 2",
+    "slug": "dying-light-2",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "far-cry-6",
+    "name": "Far Cry 6",
+    "slug": "far-cry-6",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "watch-dogs-legion",
+    "name": "Watch Dogs: Legion",
+    "slug": "watch-dogs-legion",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "just-cause-4",
+    "name": "Just Cause 4",
+    "slug": "just-cause-4",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "the-witcher-3-next-gen",
+    "name": "The Witcher 3 (Next Gen)",
+    "slug": "the-witcher-3-next-gen",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "kingdom-come-deliverance",
+    "name": "Kingdom Come: Deliverance",
+    "slug": "kingdom-come-deliverance",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "mount-blade-ii-bannerlord",
+    "name": "Mount & Blade II: Bannerlord",
+    "slug": "mount-blade-ii-bannerlord",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "slug": "rust",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "dayz",
+    "name": "DayZ",
+    "slug": "dayz",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "scum",
+    "name": "Scum",
+    "slug": "scum",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "escape-from-tarkov",
+    "name": "Escape from Tarkov",
+    "slug": "escape-from-tarkov",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "hunt-showdown",
+    "name": "Hunt: Showdown",
+    "slug": "hunt-showdown",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "squad",
+    "name": "Squad",
+    "slug": "squad",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "hell-let-loose",
+    "name": "Hell Let Loose",
+    "slug": "hell-let-loose",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "ready-or-not",
+    "name": "Ready or Not",
+    "slug": "ready-or-not",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "gray-zone-warfare",
+    "name": "Gray Zone Warfare",
+    "slug": "gray-zone-warfare",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "manor-lords",
+    "name": "Manor Lords",
+    "slug": "manor-lords",
+    "requirements": {
+      "low": 30,
+      "med": 45,
+      "high": 65,
+      "ultra": 85
+    }
+  },
+  {
+    "id": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V",
+    "slug": "grand-theft-auto-v",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "call-of-duty-modern-warfare-iii",
+    "name": "Call of Duty: Modern Warfare III",
+    "slug": "call-of-duty-modern-warfare-iii",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "call-of-duty-warzone",
+    "name": "Call of Duty: Warzone",
+    "slug": "call-of-duty-warzone",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "apex-legends",
+    "name": "Apex Legends",
+    "slug": "apex-legends",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "overwatch-2",
+    "name": "Overwatch 2",
+    "slug": "overwatch-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "rainbow-six-siege",
+    "name": "Rainbow Six Siege",
+    "slug": "rainbow-six-siege",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "destiny-2",
+    "name": "Destiny 2",
+    "slug": "destiny-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "warframe",
+    "name": "Warframe",
+    "slug": "warframe",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "the-finals",
+    "name": "The Finals",
+    "slug": "the-finals",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "xdefiant",
+    "name": "XDefiant",
+    "slug": "xdefiant",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "battlefield-2042",
+    "name": "Battlefield 2042",
+    "slug": "battlefield-2042",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "battlefield-v",
+    "name": "Battlefield V",
+    "slug": "battlefield-v",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "battlefield-1",
+    "name": "Battlefield 1",
+    "slug": "battlefield-1",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "star-wars-jedi-survivor",
+    "name": "Star Wars Jedi: Survivor",
+    "slug": "star-wars-jedi-survivor",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "star-wars-jedi-fallen-order",
+    "name": "Star Wars Jedi: Fallen Order",
+    "slug": "star-wars-jedi-fallen-order",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "hitman-3",
+    "name": "Hitman 3",
+    "slug": "hitman-3",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "deathloop",
+    "name": "Deathloop",
+    "slug": "deathloop",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "prey",
+    "name": "Prey",
+    "slug": "prey",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "dishonored-2",
+    "name": "Dishonored 2",
+    "slug": "dishonored-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "doom-eternal",
+    "name": "Doom Eternal",
+    "slug": "doom-eternal",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "wolfenstein-ii-the-new-colossus",
+    "name": "Wolfenstein II: The New Colossus",
+    "slug": "wolfenstein-ii-the-new-colossus",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "monster-hunter-world",
+    "name": "Monster Hunter: World",
+    "slug": "monster-hunter-world",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "monster-hunter-rise",
+    "name": "Monster Hunter Rise",
+    "slug": "monster-hunter-rise",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "dark-souls-iii",
+    "name": "Dark Souls III",
+    "slug": "dark-souls-iii",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "sekiro-shadows-die-twice",
+    "name": "Sekiro: Shadows Die Twice",
+    "slug": "sekiro-shadows-die-twice",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "lies-of-p",
+    "name": "Lies of P",
+    "slug": "lies-of-p",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "nioh-2",
+    "name": "Nioh 2",
+    "slug": "nioh-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "wo-long-fallen-dynasty",
+    "name": "Wo Long: Fallen Dynasty",
+    "slug": "wo-long-fallen-dynasty",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "devil-may-cry-5",
+    "name": "Devil May Cry 5",
+    "slug": "devil-may-cry-5",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "resident-evil-village",
+    "name": "Resident Evil Village",
+    "slug": "resident-evil-village",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "resident-evil-7",
+    "name": "Resident Evil 7",
+    "slug": "resident-evil-7",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "resident-evil-2-remake",
+    "name": "Resident Evil 2 Remake",
+    "slug": "resident-evil-2-remake",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "resident-evil-3-remake",
+    "name": "Resident Evil 3 Remake",
+    "slug": "resident-evil-3-remake",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "dead-island-2",
+    "name": "Dead Island 2",
+    "slug": "dead-island-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "back-4-blood",
+    "name": "Back 4 Blood",
+    "slug": "back-4-blood",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "world-war-z",
+    "name": "World War Z",
+    "slug": "world-war-z",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "aliens-fireteam-elite",
+    "name": "Aliens: Fireteam Elite",
+    "slug": "aliens-fireteam-elite",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "remnant-2",
+    "name": "Remnant 2",
+    "slug": "remnant-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "remnant-from-the-ashes",
+    "name": "Remnant: From the Ashes",
+    "slug": "remnant-from-the-ashes",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "outriders",
+    "name": "Outriders",
+    "slug": "outriders",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "borderlands-3",
+    "name": "Borderlands 3",
+    "slug": "borderlands-3",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "tiny-tina-s-wonderlands",
+    "name": "Tiny Tina's Wonderlands",
+    "slug": "tiny-tina-s-wonderlands",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "fallout-4",
+    "name": "Fallout 4",
+    "slug": "fallout-4",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "fallout-76",
+    "name": "Fallout 76",
+    "slug": "fallout-76",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "the-outer-worlds",
+    "name": "The Outer Worlds",
+    "slug": "the-outer-worlds",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "mass-effect-legendary-edition",
+    "name": "Mass Effect Legendary Edition",
+    "slug": "mass-effect-legendary-edition",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "dragon-age-inquisition",
+    "name": "Dragon Age: Inquisition",
+    "slug": "dragon-age-inquisition",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "skyrim-special-edition",
+    "name": "Skyrim Special Edition",
+    "slug": "skyrim-special-edition",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "no-man-s-sky",
+    "name": "No Man's Sky",
+    "slug": "no-man-s-sky",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "sea-of-thieves",
+    "name": "Sea of Thieves",
+    "slug": "sea-of-thieves",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "grounded",
+    "name": "Grounded",
+    "slug": "grounded",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "subnautica-below-zero",
+    "name": "Subnautica: Below Zero",
+    "slug": "subnautica-below-zero",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "satisfactory",
+    "name": "Satisfactory",
+    "slug": "satisfactory",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "forza-horizon-5",
+    "name": "Forza Horizon 5",
+    "slug": "forza-horizon-5",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "forza-horizon-4",
+    "name": "Forza Horizon 4",
+    "slug": "forza-horizon-4",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "f1-24",
+    "name": "F1 24",
+    "slug": "f1-24",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "need-for-speed-unbound",
+    "name": "Need for Speed Unbound",
+    "slug": "need-for-speed-unbound",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "need-for-speed-heat",
+    "name": "Need for Speed Heat",
+    "slug": "need-for-speed-heat",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "dirt-rally-2-0",
+    "name": "Dirt Rally 2.0",
+    "slug": "dirt-rally-2-0",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "assetto-corsa-competizione",
+    "name": "Assetto Corsa Competizione",
+    "slug": "assetto-corsa-competizione",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "beamng-drive",
+    "name": "BeamNG.drive",
+    "slug": "beamng-drive",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "snowrunner",
+    "name": "SnowRunner",
+    "slug": "snowrunner",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "farming-simulator-22",
+    "name": "Farming Simulator 22",
+    "slug": "farming-simulator-22",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "euro-truck-simulator-2",
+    "name": "Euro Truck Simulator 2",
+    "slug": "euro-truck-simulator-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "american-truck-simulator",
+    "name": "American Truck Simulator",
+    "slug": "american-truck-simulator",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "fifa-23-fc-24",
+    "name": "FIFA 23 / FC 24",
+    "slug": "fifa-23-fc-24",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "nba-2k24",
+    "name": "NBA 2K24",
+    "slug": "nba-2k24",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "madden-nfl-24",
+    "name": "Madden NFL 24",
+    "slug": "madden-nfl-24",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "pga-tour-2k23",
+    "name": "PGA Tour 2K23",
+    "slug": "pga-tour-2k23",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "wwe-2k24",
+    "name": "WWE 2K24",
+    "slug": "wwe-2k24",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "civilization-vi",
+    "name": "Civilization VI",
+    "slug": "civilization-vi",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "age-of-empires-iv",
+    "name": "Age of Empires IV",
+    "slug": "age-of-empires-iv",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "company-of-heroes-3",
+    "name": "Company of Heroes 3",
+    "slug": "company-of-heroes-3",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "anno-1800",
+    "name": "Anno 1800",
+    "slug": "anno-1800",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "frostpunk-2",
+    "name": "Frostpunk 2",
+    "slug": "frostpunk-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "jurassic-world-evolution-2",
+    "name": "Jurassic World Evolution 2",
+    "slug": "jurassic-world-evolution-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "planet-zoo",
+    "name": "Planet Zoo",
+    "slug": "planet-zoo",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "planet-coaster",
+    "name": "Planet Coaster",
+    "slug": "planet-coaster",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "sims-4-with-dlcs",
+    "name": "Sims 4 (With DLCs)",
+    "slug": "sims-4-with-dlcs",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "genshin-impact",
+    "name": "Genshin Impact",
+    "slug": "genshin-impact",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "honkai-star-rail",
+    "name": "Honkai: Star Rail",
+    "slug": "honkai-star-rail",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "wuthering-waves",
+    "name": "Wuthering Waves",
+    "slug": "wuthering-waves",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "tower-of-fantasy",
+    "name": "Tower of Fantasy",
+    "slug": "tower-of-fantasy",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "zenless-zone-zero",
+    "name": "Zenless Zone Zero",
+    "slug": "zenless-zone-zero",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "persona-3-reload",
+    "name": "Persona 3 Reload",
+    "slug": "persona-3-reload",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "persona-5-royal",
+    "name": "Persona 5 Royal",
+    "slug": "persona-5-royal",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "yakuza-like-a-dragon",
+    "name": "Yakuza: Like a Dragon",
+    "slug": "yakuza-like-a-dragon",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "like-a-dragon-infinite-wealth",
+    "name": "Like a Dragon: Infinite Wealth",
+    "slug": "like-a-dragon-infinite-wealth",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "judgement",
+    "name": "Judgement",
+    "slug": "judgement",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "lost-judgment",
+    "name": "Lost Judgment",
+    "slug": "lost-judgment",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "tales-of-arise",
+    "name": "Tales of Arise",
+    "slug": "tales-of-arise",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "granblue-fantasy-relink",
+    "name": "Granblue Fantasy: Relink",
+    "slug": "granblue-fantasy-relink",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "blue-protocol",
+    "name": "Blue Protocol",
+    "slug": "blue-protocol",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "throne-and-liberty",
+    "name": "Throne and Liberty",
+    "slug": "throne-and-liberty",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "black-desert-online",
+    "name": "Black Desert Online",
+    "slug": "black-desert-online",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "new-world",
+    "name": "New World",
+    "slug": "new-world",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "lost-ark",
+    "name": "Lost Ark",
+    "slug": "lost-ark",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "path-of-exile-2",
+    "name": "Path of Exile 2",
+    "slug": "path-of-exile-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "diablo-iv",
+    "name": "Diablo IV",
+    "slug": "diablo-iv",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "last-epoch",
+    "name": "Last Epoch",
+    "slug": "last-epoch",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "v-rising",
+    "name": "V Rising",
+    "slug": "v-rising",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "enshrouded",
+    "name": "Enshrouded",
+    "slug": "enshrouded",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "palworld",
+    "name": "Palworld",
+    "slug": "palworld",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "valheim",
+    "name": "Valheim",
+    "slug": "valheim",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "sons-of-the-forest",
+    "name": "Sons of the Forest",
+    "slug": "sons-of-the-forest",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "the-forest",
+    "name": "The Forest",
+    "slug": "the-forest",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "green-hell",
+    "name": "Green Hell",
+    "slug": "green-hell",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "raft",
+    "name": "Raft",
+    "slug": "raft",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "smalland",
+    "name": "Smalland",
+    "slug": "smalland",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "abiotic-factor",
+    "name": "Abiotic Factor",
+    "slug": "abiotic-factor",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "nightingale",
+    "name": "Nightingale",
+    "slug": "nightingale",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "icarus",
+    "name": "Icarus",
+    "slug": "icarus",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "conan-exiles",
+    "name": "Conan Exiles",
+    "slug": "conan-exiles",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "ark-survival-evolved",
+    "name": "Ark: Survival Evolved",
+    "slug": "ark-survival-evolved",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "7-days-to-die",
+    "name": "7 Days to Die",
+    "slug": "7-days-to-die",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "project-zomboid-heavily-modded",
+    "name": "Project Zomboid (Heavily Modded)",
+    "slug": "project-zomboid-heavily-modded",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "teardown",
+    "name": "Teardown",
+    "slug": "teardown",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "besiege",
+    "name": "Besiege",
+    "slug": "besiege",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "kerbal-space-program-2",
+    "name": "Kerbal Space Program 2",
+    "slug": "kerbal-space-program-2",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "space-engineers",
+    "name": "Space Engineers",
+    "slug": "space-engineers",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "stormworks",
+    "name": "Stormworks",
+    "slug": "stormworks",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "from-the-depths",
+    "name": "From the Depths",
+    "slug": "from-the-depths",
+    "requirements": {
+      "low": 20,
+      "med": 35,
+      "high": 50,
+      "ultra": 70
+    }
+  },
+  {
+    "id": "counter-strike-2",
+    "name": "Counter-Strike 2",
+    "slug": "counter-strike-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "valorant",
+    "name": "Valorant",
+    "slug": "valorant",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "league-of-legends",
+    "name": "League of Legends",
+    "slug": "league-of-legends",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dota-2",
+    "name": "Dota 2",
+    "slug": "dota-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "fortnite-performance-mode",
+    "name": "Fortnite (Performance Mode)",
+    "slug": "fortnite-performance-mode",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "rocket-league",
+    "name": "Rocket League",
+    "slug": "rocket-league",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "team-fortress-2",
+    "name": "Team Fortress 2",
+    "slug": "team-fortress-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "overwatch-2-low-settings",
+    "name": "Overwatch 2 (Low Settings)",
+    "slug": "overwatch-2-low-settings",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "paladins",
+    "name": "Paladins",
+    "slug": "paladins",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "smite",
+    "name": "Smite",
+    "slug": "smite",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dead-by-daylight",
+    "name": "Dead by Daylight",
+    "slug": "dead-by-daylight",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "phasmophobia",
+    "name": "Phasmophobia",
+    "slug": "phasmophobia",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "lethal-company",
+    "name": "Lethal Company",
+    "slug": "lethal-company",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "content-warning",
+    "name": "Content Warning",
+    "slug": "content-warning",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "among-us",
+    "name": "Among Us",
+    "slug": "among-us",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "fall-guys",
+    "name": "Fall Guys",
+    "slug": "fall-guys",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "human-fall-flat",
+    "name": "Human Fall Flat",
+    "slug": "human-fall-flat",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "gang-beasts",
+    "name": "Gang Beasts",
+    "slug": "gang-beasts",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "party-animals",
+    "name": "Party Animals",
+    "slug": "party-animals",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "pummel-party",
+    "name": "Pummel Party",
+    "slug": "pummel-party",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "crab-game",
+    "name": "Crab Game",
+    "slug": "crab-game",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "garry-s-mod",
+    "name": "Garry's Mod",
+    "slug": "garry-s-mod",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "left-4-dead-2",
+    "name": "Left 4 Dead 2",
+    "slug": "left-4-dead-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "portal-2",
+    "name": "Portal 2",
+    "slug": "portal-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "half-life-2",
+    "name": "Half-Life 2",
+    "slug": "half-life-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "black-mesa",
+    "name": "Black Mesa",
+    "slug": "black-mesa",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "deep-rock-galactic",
+    "name": "Deep Rock Galactic",
+    "slug": "deep-rock-galactic",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "risk-of-rain-2",
+    "name": "Risk of Rain 2",
+    "slug": "risk-of-rain-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "gunfire-reborn",
+    "name": "Gunfire Reborn",
+    "slug": "gunfire-reborn",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "roboquest",
+    "name": "Roboquest",
+    "slug": "roboquest",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "borderlands-2",
+    "name": "Borderlands 2",
+    "slug": "borderlands-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "payday-2",
+    "name": "Payday 2",
+    "slug": "payday-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "killing-floor-2",
+    "name": "Killing Floor 2",
+    "slug": "killing-floor-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "warhammer-vermintide-2",
+    "name": "Warhammer: Vermintide 2",
+    "slug": "warhammer-vermintide-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "insurgency-sandstorm",
+    "name": "Insurgency: Sandstorm",
+    "slug": "insurgency-sandstorm",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "rising-storm-2-vietnam",
+    "name": "Rising Storm 2: Vietnam",
+    "slug": "rising-storm-2-vietnam",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "chivalry-2",
+    "name": "Chivalry 2",
+    "slug": "chivalry-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "mordhau",
+    "name": "Mordhau",
+    "slug": "mordhau",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "for-honor",
+    "name": "For Honor",
+    "slug": "for-honor",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "sea-of-thieves-low",
+    "name": "Sea of Thieves (Low)",
+    "slug": "sea-of-thieves-low",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "world-of-tanks",
+    "name": "World of Tanks",
+    "slug": "world-of-tanks",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "world-of-warships",
+    "name": "World of Warships",
+    "slug": "world-of-warships",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "war-thunder",
+    "name": "War Thunder",
+    "slug": "war-thunder",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "enlisted",
+    "name": "Enlisted",
+    "slug": "enlisted",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "crossout",
+    "name": "Crossout",
+    "slug": "crossout",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "eve-online",
+    "name": "Eve Online",
+    "slug": "eve-online",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "albion-online",
+    "name": "Albion Online",
+    "slug": "albion-online",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "runescape-rs3",
+    "name": "Runescape (RS3)",
+    "slug": "runescape-rs3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "old-school-runescape-hd-plugin",
+    "name": "Old School Runescape (HD Plugin)",
+    "slug": "old-school-runescape-hd-plugin",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "guild-wars-2",
+    "name": "Guild Wars 2",
+    "slug": "guild-wars-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "world-of-warcraft-retail",
+    "name": "World of Warcraft (Retail)",
+    "slug": "world-of-warcraft-retail",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "world-of-warcraft-classic",
+    "name": "World of Warcraft (Classic)",
+    "slug": "world-of-warcraft-classic",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "final-fantasy-xiv",
+    "name": "Final Fantasy XIV",
+    "slug": "final-fantasy-xiv",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "elder-scrolls-online",
+    "name": "Elder Scrolls Online",
+    "slug": "elder-scrolls-online",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "star-wars-the-old-republic",
+    "name": "Star Wars: The Old Republic",
+    "slug": "star-wars-the-old-republic",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "lord-of-the-rings-online",
+    "name": "Lord of the Rings Online",
+    "slug": "lord-of-the-rings-online",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "maplestory",
+    "name": "MapleStory",
+    "slug": "maplestory",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "path-of-exile",
+    "name": "Path of Exile",
+    "slug": "path-of-exile",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "torchlight-ii",
+    "name": "Torchlight II",
+    "slug": "torchlight-ii",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "grim-dawn",
+    "name": "Grim Dawn",
+    "slug": "grim-dawn",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "titan-quest",
+    "name": "Titan Quest",
+    "slug": "titan-quest",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "diablo-iii",
+    "name": "Diablo III",
+    "slug": "diablo-iii",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "diablo-ii-resurrected",
+    "name": "Diablo II: Resurrected",
+    "slug": "diablo-ii-resurrected",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "hades",
+    "name": "Hades",
+    "slug": "hades",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "hades-ii",
+    "name": "Hades II",
+    "slug": "hades-ii",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dead-cells",
+    "name": "Dead Cells",
+    "slug": "dead-cells",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "hollow-knight",
+    "name": "Hollow Knight",
+    "slug": "hollow-knight",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "ori-and-the-will-of-the-wisps",
+    "name": "Ori and the Will of the Wisps",
+    "slug": "ori-and-the-will-of-the-wisps",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "ori-and-the-blind-forest",
+    "name": "Ori and the Blind Forest",
+    "slug": "ori-and-the-blind-forest",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "cuphead",
+    "name": "Cuphead",
+    "slug": "cuphead",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "celeste",
+    "name": "Celeste",
+    "slug": "celeste",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "super-meat-boy",
+    "name": "Super Meat Boy",
+    "slug": "super-meat-boy",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "the-binding-of-isaac-repentance",
+    "name": "The Binding of Isaac: Repentance",
+    "slug": "the-binding-of-isaac-repentance",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "enter-the-gungeon",
+    "name": "Enter the Gungeon",
+    "slug": "enter-the-gungeon",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "slay-the-spire",
+    "name": "Slay the Spire",
+    "slug": "slay-the-spire",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "monster-train",
+    "name": "Monster Train",
+    "slug": "monster-train",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "balatro",
+    "name": "Balatro",
+    "slug": "balatro",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "inscryption",
+    "name": "Inscryption",
+    "slug": "inscryption",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "darkest-dungeon",
+    "name": "Darkest Dungeon",
+    "slug": "darkest-dungeon",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "darkest-dungeon-ii",
+    "name": "Darkest Dungeon II",
+    "slug": "darkest-dungeon-ii",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "cult-of-the-lamb",
+    "name": "Cult of the Lamb",
+    "slug": "cult-of-the-lamb",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "don-t-starve-together",
+    "name": "Don't Starve Together",
+    "slug": "don-t-starve-together",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "oxygen-not-included",
+    "name": "Oxygen Not Included",
+    "slug": "oxygen-not-included",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "rimworld",
+    "name": "RimWorld",
+    "slug": "rimworld",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "factorio",
+    "name": "Factorio",
+    "slug": "factorio",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dwarf-fortress-steam",
+    "name": "Dwarf Fortress (Steam)",
+    "slug": "dwarf-fortress-steam",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "prison-architect",
+    "name": "Prison Architect",
+    "slug": "prison-architect",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "two-point-hospital",
+    "name": "Two Point Hospital",
+    "slug": "two-point-hospital",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "cities-skylines-1",
+    "name": "Cities: Skylines (1)",
+    "slug": "cities-skylines-1",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "simcity-4",
+    "name": "SimCity 4",
+    "slug": "simcity-4",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "rollercoaster-tycoon-3",
+    "name": "RollerCoaster Tycoon 3",
+    "slug": "rollercoaster-tycoon-3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "planet-coaster-low",
+    "name": "Planet Coaster (Low)",
+    "slug": "planet-coaster-low",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "zoo-tycoon",
+    "name": "Zoo Tycoon",
+    "slug": "zoo-tycoon",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "spore",
+    "name": "Spore",
+    "slug": "spore",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "the-sims-3",
+    "name": "The Sims 3",
+    "slug": "the-sims-3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "stardew-valley",
+    "name": "Stardew Valley",
+    "slug": "stardew-valley",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "terraria",
+    "name": "Terraria",
+    "slug": "terraria",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "minecraft-java",
+    "name": "Minecraft (Java)",
+    "slug": "minecraft-java",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "minecraft-bedrock",
+    "name": "Minecraft (Bedrock)",
+    "slug": "minecraft-bedrock",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "slug": "roblox",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "unturned",
+    "name": "Unturned",
+    "slug": "unturned",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "subnautica",
+    "name": "Subnautica",
+    "slug": "subnautica",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "raft-low",
+    "name": "Raft (Low)",
+    "slug": "raft-low",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "slime-rancher",
+    "name": "Slime Rancher",
+    "slug": "slime-rancher",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "slime-rancher-2",
+    "name": "Slime Rancher 2",
+    "slug": "slime-rancher-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "house-flipper",
+    "name": "House Flipper",
+    "slug": "house-flipper",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "powerwash-simulator",
+    "name": "PowerWash Simulator",
+    "slug": "powerwash-simulator",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "pc-building-simulator",
+    "name": "PC Building Simulator",
+    "slug": "pc-building-simulator",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "cooking-simulator",
+    "name": "Cooking Simulator",
+    "slug": "cooking-simulator",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "thief-simulator",
+    "name": "Thief Simulator",
+    "slug": "thief-simulator",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "car-mechanic-simulator",
+    "name": "Car Mechanic Simulator",
+    "slug": "car-mechanic-simulator",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "goat-simulator-3",
+    "name": "Goat Simulator 3",
+    "slug": "goat-simulator-3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "untitled-goose-game",
+    "name": "Untitled Goose Game",
+    "slug": "untitled-goose-game",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "stray",
+    "name": "Stray",
+    "slug": "stray",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "kena-bridge-of-spirits",
+    "name": "Kena: Bridge of Spirits",
+    "slug": "kena-bridge-of-spirits",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "tunic",
+    "name": "Tunic",
+    "slug": "tunic",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "outer-wilds",
+    "name": "Outer Wilds",
+    "slug": "outer-wilds",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "firewatch",
+    "name": "Firewatch",
+    "slug": "firewatch",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "what-remains-of-edith-finch",
+    "name": "What Remains of Edith Finch",
+    "slug": "what-remains-of-edith-finch",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "the-stanley-parable",
+    "name": "The Stanley Parable",
+    "slug": "the-stanley-parable",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "superliminal",
+    "name": "Superliminal",
+    "slug": "superliminal",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "undertale",
+    "name": "Undertale",
+    "slug": "undertale",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "deltarune",
+    "name": "Deltarune",
+    "slug": "deltarune",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "omori",
+    "name": "Omori",
+    "slug": "omori",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "lisa-the-painful",
+    "name": "Lisa: The Painful",
+    "slug": "lisa-the-painful",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "yume-nikki",
+    "name": "Yume Nikki",
+    "slug": "yume-nikki",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "vampire-survivors",
+    "name": "Vampire Survivors",
+    "slug": "vampire-survivors",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "brotato",
+    "name": "Brotato",
+    "slug": "brotato",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "halls-of-torment",
+    "name": "Halls of Torment",
+    "slug": "halls-of-torment",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "loop-hero",
+    "name": "Loop Hero",
+    "slug": "loop-hero",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dave-the-diver",
+    "name": "Dave the Diver",
+    "slug": "dave-the-diver",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dredge",
+    "name": "Dredge",
+    "slug": "dredge",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "papers-please",
+    "name": "Papers, Please",
+    "slug": "papers-please",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "obra-dinn",
+    "name": "Obra Dinn",
+    "slug": "obra-dinn",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "disco-elysium",
+    "name": "Disco Elysium",
+    "slug": "disco-elysium",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "citizen-sleeper",
+    "name": "Citizen Sleeper",
+    "slug": "citizen-sleeper",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "pentiment",
+    "name": "Pentiment",
+    "slug": "pentiment",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "hi-fi-rush",
+    "name": "Hi-Fi Rush",
+    "slug": "hi-fi-rush",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "neon-white",
+    "name": "Neon White",
+    "slug": "neon-white",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "hotline-miami",
+    "name": "Hotline Miami",
+    "slug": "hotline-miami",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "hotline-miami-2",
+    "name": "Hotline Miami 2",
+    "slug": "hotline-miami-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "katana-zero",
+    "name": "Katana Zero",
+    "slug": "katana-zero",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "sanabi",
+    "name": "Sanabi",
+    "slug": "sanabi",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "my-friend-pedro",
+    "name": "My Friend Pedro",
+    "slug": "my-friend-pedro",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "superhot",
+    "name": "Superhot",
+    "slug": "superhot",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "ghostrunner",
+    "name": "Ghostrunner",
+    "slug": "ghostrunner",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "mirror-s-edge",
+    "name": "Mirror's Edge",
+    "slug": "mirror-s-edge",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "dishonored",
+    "name": "Dishonored",
+    "slug": "dishonored",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "bioshock-remastered",
+    "name": "Bioshock Remastered",
+    "slug": "bioshock-remastered",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "bioshock-infinite",
+    "name": "Bioshock Infinite",
+    "slug": "bioshock-infinite",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "batman-arkham-asylum",
+    "name": "Batman: Arkham Asylum",
+    "slug": "batman-arkham-asylum",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "batman-arkham-city",
+    "name": "Batman: Arkham City",
+    "slug": "batman-arkham-city",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "batman-arkham-knight",
+    "name": "Batman: Arkham Knight",
+    "slug": "batman-arkham-knight",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "mad-max",
+    "name": "Mad Max",
+    "slug": "mad-max",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "shadow-of-mordor",
+    "name": "Shadow of Mordor",
+    "slug": "shadow-of-mordor",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "shadow-of-war",
+    "name": "Shadow of War",
+    "slug": "shadow-of-war",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "sleeping-dogs",
+    "name": "Sleeping Dogs",
+    "slug": "sleeping-dogs",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "yakuza-0",
+    "name": "Yakuza 0",
+    "slug": "yakuza-0",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "yakuza-kiwami",
+    "name": "Yakuza Kiwami",
+    "slug": "yakuza-kiwami",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "metal-gear-solid-v",
+    "name": "Metal Gear Solid V",
+    "slug": "metal-gear-solid-v",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "metal-gear-rising",
+    "name": "Metal Gear Rising",
+    "slug": "metal-gear-rising",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "nier-automata",
+    "name": "Nier: Automata",
+    "slug": "nier-automata",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "bayonetta",
+    "name": "Bayonetta",
+    "slug": "bayonetta",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "vanquish",
+    "name": "Vanquish",
+    "slug": "vanquish",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "spec-ops-the-line",
+    "name": "Spec Ops: The Line",
+    "slug": "spec-ops-the-line",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "max-payne-3",
+    "name": "Max Payne 3",
+    "slug": "max-payne-3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "la-noire",
+    "name": "LA Noire",
+    "slug": "la-noire",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "bully",
+    "name": "Bully",
+    "slug": "bully",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "manhunt",
+    "name": "Manhunt",
+    "slug": "manhunt",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "grand-theft-auto-iv",
+    "name": "Grand Theft Auto IV",
+    "slug": "grand-theft-auto-iv",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "grand-theft-auto-san-andreas",
+    "name": "Grand Theft Auto: San Andreas",
+    "slug": "grand-theft-auto-san-andreas",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "saints-row-the-third",
+    "name": "Saints Row: The Third",
+    "slug": "saints-row-the-third",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "saints-row-iv",
+    "name": "Saints Row IV",
+    "slug": "saints-row-iv",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "just-cause-3",
+    "name": "Just Cause 3",
+    "slug": "just-cause-3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "far-cry-3",
+    "name": "Far Cry 3",
+    "slug": "far-cry-3",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "far-cry-4",
+    "name": "Far Cry 4",
+    "slug": "far-cry-4",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "far-cry-5",
+    "name": "Far Cry 5",
+    "slug": "far-cry-5",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "far-cry-primal",
+    "name": "Far Cry Primal",
+    "slug": "far-cry-primal",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "assassin-s-creed-iv-black-flag",
+    "name": "Assassin's Creed IV: Black Flag",
+    "slug": "assassin-s-creed-iv-black-flag",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "assassin-s-creed-unity",
+    "name": "Assassin's Creed Unity",
+    "slug": "assassin-s-creed-unity",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "assassin-s-creed-syndicate",
+    "name": "Assassin's Creed Syndicate",
+    "slug": "assassin-s-creed-syndicate",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "assassin-s-creed-origins",
+    "name": "Assassin's Creed Origins",
+    "slug": "assassin-s-creed-origins",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "assassin-s-creed-odyssey",
+    "name": "Assassin's Creed Odyssey",
+    "slug": "assassin-s-creed-odyssey",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "assassin-s-creed-valhalla",
+    "name": "Assassin's Creed Valhalla",
+    "slug": "assassin-s-creed-valhalla",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "watch-dogs-2",
+    "name": "Watch Dogs 2",
+    "slug": "watch-dogs-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "tom-clancy-s-the-division-2",
+    "name": "Tom Clancy's The Division 2",
+    "slug": "tom-clancy-s-the-division-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "tom-clancy-s-ghost-recon-wildlands",
+    "name": "Tom Clancy's Ghost Recon Wildlands",
+    "slug": "tom-clancy-s-ghost-recon-wildlands",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "tom-clancy-s-ghost-recon-breakpoint",
+    "name": "Tom Clancy's Ghost Recon Breakpoint",
+    "slug": "tom-clancy-s-ghost-recon-breakpoint",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "sniper-elite-4",
+    "name": "Sniper Elite 4",
+    "slug": "sniper-elite-4",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "sniper-elite-5",
+    "name": "Sniper Elite 5",
+    "slug": "sniper-elite-5",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "zombie-army-4",
+    "name": "Zombie Army 4",
+    "slug": "zombie-army-4",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "strange-brigade",
+    "name": "Strange Brigade",
+    "slug": "strange-brigade",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "world-war-z-aftermath",
+    "name": "World War Z: Aftermath",
+    "slug": "world-war-z-aftermath",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "state-of-decay-2",
+    "name": "State of Decay 2",
+    "slug": "state-of-decay-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "days-gone",
+    "name": "Days Gone",
+    "slug": "days-gone",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "mad-max",
+    "name": "Mad Max",
+    "slug": "mad-max",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "rage-2",
+    "name": "Rage 2",
+    "slug": "rage-2",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "generation-zero",
+    "name": "Generation Zero",
+    "slug": "generation-zero",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "terminator-resistance",
+    "name": "Terminator: Resistance",
+    "slug": "terminator-resistance",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
+  },
+  {
+    "id": "robocop-rogue-city",
+    "name": "RoboCop: Rogue City",
+    "slug": "robocop-rogue-city",
+    "requirements": {
+      "low": 10,
+      "med": 20,
+      "high": 30,
+      "ultra": 45
+    }
   }
 ]
