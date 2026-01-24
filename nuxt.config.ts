@@ -39,15 +39,13 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    sources: [
-      () => {
-        return games.map(game => ({
-          url: `/best-gpu-for-${game.slug}`,
-          changefreq: 'weekly',
-          priority: 0.9
-        }))
-      }
-    ]
+    urls: async () => {
+      return games.map(game => ({
+        loc: `/best-gpu-for-${game.slug}`,
+        changefreq: 'weekly',
+        priority: 0.9
+      }))
+    }
   },
 
   nitro: {
