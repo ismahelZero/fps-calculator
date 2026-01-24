@@ -129,7 +129,7 @@ import { useRoute } from 'vue-router'
 import { useOptimization } from '@/composables/useOptimization'
 import gpus from '~/data/gpus.json'
 import games from '~/data/games.json'
-import { createError, useSeoMeta } from 'nuxt/app'
+import { createError, useSeoMeta, useHead } from 'nuxt/app'
 
 const route = useRoute()
 const { game: gameSlug } = route.params
@@ -137,7 +137,6 @@ const { game: gameSlug } = route.params
 const slug1 = route.params.gpu1
 const slug2 = route.params.gpu2
 
-// Data Fetching
 const game = games.find(g => g.slug === gameSlug)
 const gpu1 = gpus.find(g => g.slug === slug1)
 const gpu2 = gpus.find(g => g.slug === slug2)
@@ -154,8 +153,39 @@ const diffPercent = Math.round(
   (Math.abs(fpsDiff) / Math.min(res1.fps, res2.fps)) * 100
 )
 
+// --- SEO ---
 useSeoMeta({
-  title: `${gpu1.name} vs ${gpu2.name} - Which runs ${game.name} better?`,
-  description: `Head-to-head comparison: ${gpu1.name} vs ${gpu2.name} in ${game.name}.`
+  title: `${gpu1.name} vs ${gpu2.name} in ${game.name} - Benchmark Test`,
+  description: `Which is faster? ${gpu1.name} vs ${gpu2.name} running ${game.name}. See the side-by-side FPS comparison.`
+})
+
+// --- SCHEMA ---
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `Is ${gpu2.name} better than ${gpu1.name} for ${game.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: winner
+          ? `Yes, the ${winner.name} is about ${diffPercent}% faster in ${game.name}.`
+          : `They offer similar performance in ${game.name}.`
+      }
+    },
+    {
+      '@type': 'Question',
+      name: `How much FPS difference is there between ${gpu1.name} and ${gpu2.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `In ${game.name}, the difference is approximately ${Math.abs(fpsDiff)} FPS.`
+      }
+    }
+  ]
+}
+
+useHead({
+  script: [{ type: 'application/ld+json', children: JSON.stringify(schema) }]
 })
 </script>

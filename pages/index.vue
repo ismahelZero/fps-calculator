@@ -97,7 +97,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useRouter } from 'nuxt/app'
+import { useRouter, useHead } from 'nuxt/app'
 import gamesData from '~/data/games.json'
 import gpusData from '~/data/gpus.json'
 import cpusData from '~/data/cpus.json'
@@ -128,4 +128,26 @@ const checkPerformance = () => {
     })
   }
 }
+
+// --- SCHEMA ---
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'MyFPS',
+        url: 'https://myfps.org',
+        description:
+          'Check if your PC can run games. FPS Calculator and GPU Benchmark tool.',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://myfps.org/?s={search_term_string}',
+          'query-input': 'required name=search_term_string'
+        }
+      })
+    }
+  ]
+})
 </script>

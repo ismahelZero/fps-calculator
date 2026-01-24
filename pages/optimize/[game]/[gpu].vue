@@ -159,7 +159,7 @@ import games from '~/data/games.json'
 import cpus from '~/data/cpus.json'
 import { useRoute } from 'vue-router'
 import { useOptimization } from '@/composables/useOptimization'
-import { createError, useSeoMeta } from 'nuxt/app'
+import { createError, useSeoMeta, useHead } from 'nuxt/app'
 
 const route = useRoute()
 const { game: gameSlug, gpu: gpuSlug } = route.params
@@ -176,8 +176,39 @@ if (!game || !gpu) {
 
 const result = useOptimization(gpu, cpu, ram, game)
 
+// --- SEO META TAGS ---
 useSeoMeta({
-  title: `${game.name} on ${gpu.name} - FPS & Upgrade Guide`,
-  description: `Performance report for ${gpu.name} paired with ${cpu ? cpu.name : 'CPU'} in ${game.name}. Estimated FPS: ${result.fps}.`
+  title: `${game.name} System Requirements on ${gpu.name}`,
+  description: `Can ${gpu.name} run ${game.name}? Yes! It achieves ${result.fps} FPS at ${result.settings} settings. Check full performance benchmarks here.`,
+  ogTitle: `${game.name} on ${gpu.name} - FPS Test`,
+  ogDescription: `Performance results: ${result.fps} FPS on ${result.settings} settings.`
+})
+
+// --- SCHEMA MARKUP (Rich Snippets) ---
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `Can I run ${game.name} on ${gpu.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Yes, the ${gpu.name} can run ${game.name} at an estimated ${result.fps} FPS on ${result.settings} settings.`
+      }
+    },
+    {
+      '@type': 'Question',
+      name: `What FPS will I get in ${game.name} with ${gpu.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `You can expect around ${result.fps} FPS at ${result.settings} graphics settings.`
+      }
+    }
+  ]
+}
+
+useHead({
+  script: [{ type: 'application/ld+json', children: JSON.stringify(schema) }]
 })
 </script>
