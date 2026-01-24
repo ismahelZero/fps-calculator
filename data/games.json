@@ -4,10 +4,21 @@
     "name": "Cyberpunk 2077 (2.0)",
     "slug": "cyberpunk-2077-2-0",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -15,10 +26,21 @@
     "name": "Alan Wake 2",
     "slug": "alan-wake-2",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -26,10 +48,21 @@
     "name": "Black Myth: Wukong",
     "slug": "black-myth-wukong",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -37,10 +70,21 @@
     "name": "Senua's Saga: Hellblade II",
     "slug": "senua-s-saga-hellblade-ii",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -48,10 +92,21 @@
     "name": "Dragon's Dogma 2",
     "slug": "dragon-s-dogma-2",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -59,10 +114,21 @@
     "name": "Ark: Survival Ascended",
     "slug": "ark-survival-ascended",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -70,10 +136,21 @@
     "name": "Avatar: Frontiers of Pandora",
     "slug": "avatar-frontiers-of-pandora",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -81,10 +158,21 @@
     "name": "Cities: Skylines II",
     "slug": "cities-skylines-ii",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -92,10 +180,21 @@
     "name": "Microsoft Flight Simulator 2024",
     "slug": "microsoft-flight-simulator-2024",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -103,10 +202,21 @@
     "name": "Star Wars Outlaws",
     "slug": "star-wars-outlaws",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -114,10 +224,21 @@
     "name": "Immortals of Aveum",
     "slug": "immortals-of-aveum",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -125,10 +246,21 @@
     "name": "Lords of the Fallen (2023)",
     "slug": "lords-of-the-fallen-2023",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -136,10 +268,21 @@
     "name": "Metro Exodus Enhanced Edition",
     "slug": "metro-exodus-enhanced-edition",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -147,10 +290,21 @@
     "name": "Portal with RTX",
     "slug": "portal-with-rtx",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -158,10 +312,21 @@
     "name": "Minecraft (RTX On)",
     "slug": "minecraft-rtx-on",
     "requirements": {
-      "low": 40,
-      "med": 60,
-      "high": 80,
-      "ultra": 95
+      "gpu": {
+        "low": 40,
+        "med": 60,
+        "high": 80,
+        "ultra": 95
+      },
+      "cpu": {
+        "min": 40,
+        "rec": 70
+      },
+      "ram": {
+        "min": 16,
+        "rec": 32
+      },
+      "storage": 100
     }
   },
   {
@@ -169,10 +334,21 @@
     "name": "Starfield",
     "slug": "starfield",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -180,10 +356,21 @@
     "name": "Hogwarts Legacy",
     "slug": "hogwarts-legacy",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -191,10 +378,21 @@
     "name": "The Last of Us Part I",
     "slug": "the-last-of-us-part-i",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -202,10 +400,21 @@
     "name": "Red Dead Redemption 2",
     "slug": "red-dead-redemption-2",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -213,10 +422,21 @@
     "name": "God of War Ragnarok",
     "slug": "god-of-war-ragnarok",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -224,10 +444,21 @@
     "name": "Horizon Forbidden West",
     "slug": "horizon-forbidden-west",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -235,10 +466,21 @@
     "name": "Ghost of Tsushima",
     "slug": "ghost-of-tsushima",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -246,10 +488,21 @@
     "name": "Elden Ring",
     "slug": "elden-ring",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -257,10 +510,21 @@
     "name": "Baldur's Gate 3",
     "slug": "baldur-s-gate-3",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -268,10 +532,21 @@
     "name": "Helldivers 2",
     "slug": "helldivers-2",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -279,10 +554,21 @@
     "name": "Final Fantasy XVI",
     "slug": "final-fantasy-xvi",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -290,10 +576,21 @@
     "name": "Final Fantasy VII Rebirth",
     "slug": "final-fantasy-vii-rebirth",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -301,10 +598,21 @@
     "name": "Resident Evil 4 Remake",
     "slug": "resident-evil-4-remake",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -312,10 +620,21 @@
     "name": "Dead Space Remake",
     "slug": "dead-space-remake",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -323,10 +642,21 @@
     "name": "Silent Hill 2 Remake",
     "slug": "silent-hill-2-remake",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -334,10 +664,21 @@
     "name": "Tekken 8",
     "slug": "tekken-8",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -345,10 +686,21 @@
     "name": "Mortal Kombat 1",
     "slug": "mortal-kombat-1",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -356,10 +708,21 @@
     "name": "Street Fighter 6",
     "slug": "street-fighter-6",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -367,10 +730,21 @@
     "name": "Armored Core VI",
     "slug": "armored-core-vi",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -378,10 +752,21 @@
     "name": "A Plague Tale: Requiem",
     "slug": "a-plague-tale-requiem",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -389,10 +774,21 @@
     "name": "Control",
     "slug": "control",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -400,10 +796,21 @@
     "name": "Returnal",
     "slug": "returnal",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -411,10 +818,21 @@
     "name": "Warhammer 40k: Darktide",
     "slug": "warhammer-40k-darktide",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -422,10 +840,21 @@
     "name": "Warhammer 40k: Space Marine 2",
     "slug": "warhammer-40k-space-marine-2",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -433,10 +862,21 @@
     "name": "S.T.A.L.K.E.R. 2",
     "slug": "s-t-a-l-k-e-r-2",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -444,10 +884,21 @@
     "name": "Total War: Warhammer III",
     "slug": "total-war-warhammer-iii",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -455,10 +906,21 @@
     "name": "Forza Motorsport (2023)",
     "slug": "forza-motorsport-2023",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -466,10 +928,21 @@
     "name": "Assassin's Creed Mirage",
     "slug": "assassin-s-creed-mirage",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -477,10 +950,21 @@
     "name": "Skull and Bones",
     "slug": "skull-and-bones",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -488,10 +972,21 @@
     "name": "Suicide Squad: Kill the Justice League",
     "slug": "suicide-squad-kill-the-justice-league",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -499,10 +994,21 @@
     "name": "Gotham Knights",
     "slug": "gotham-knights",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -510,10 +1016,21 @@
     "name": "Marvel's Spider-Man 2",
     "slug": "marvel-s-spider-man-2",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -521,10 +1038,21 @@
     "name": "Marvel's Spider-Man Remastered",
     "slug": "marvel-s-spider-man-remastered",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -532,10 +1060,21 @@
     "name": "Marvel's Miles Morales",
     "slug": "marvel-s-miles-morales",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -543,10 +1082,21 @@
     "name": "Uncharted: Legacy of Thieves",
     "slug": "uncharted-legacy-of-thieves",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -554,10 +1104,21 @@
     "name": "Ratchet & Clank: Rift Apart",
     "slug": "ratchet-clank-rift-apart",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -565,10 +1126,21 @@
     "name": "Dying Light 2",
     "slug": "dying-light-2",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -576,10 +1148,21 @@
     "name": "Far Cry 6",
     "slug": "far-cry-6",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -587,10 +1170,21 @@
     "name": "Watch Dogs: Legion",
     "slug": "watch-dogs-legion",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -598,10 +1192,21 @@
     "name": "Just Cause 4",
     "slug": "just-cause-4",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -609,10 +1214,21 @@
     "name": "The Witcher 3 (Next Gen)",
     "slug": "the-witcher-3-next-gen",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -620,10 +1236,21 @@
     "name": "Kingdom Come: Deliverance",
     "slug": "kingdom-come-deliverance",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -631,10 +1258,21 @@
     "name": "Mount & Blade II: Bannerlord",
     "slug": "mount-blade-ii-bannerlord",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -642,10 +1280,21 @@
     "name": "Rust",
     "slug": "rust",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -653,10 +1302,21 @@
     "name": "DayZ",
     "slug": "dayz",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -664,10 +1324,21 @@
     "name": "Scum",
     "slug": "scum",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -675,10 +1346,21 @@
     "name": "Escape from Tarkov",
     "slug": "escape-from-tarkov",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -686,10 +1368,21 @@
     "name": "Hunt: Showdown",
     "slug": "hunt-showdown",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -697,10 +1390,21 @@
     "name": "Squad",
     "slug": "squad",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -708,10 +1412,21 @@
     "name": "Hell Let Loose",
     "slug": "hell-let-loose",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -719,10 +1434,21 @@
     "name": "Ready or Not",
     "slug": "ready-or-not",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -730,10 +1456,21 @@
     "name": "Gray Zone Warfare",
     "slug": "gray-zone-warfare",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -741,10 +1478,21 @@
     "name": "Manor Lords",
     "slug": "manor-lords",
     "requirements": {
-      "low": 30,
-      "med": 45,
-      "high": 65,
-      "ultra": 85
+      "gpu": {
+        "low": 30,
+        "med": 45,
+        "high": 65,
+        "ultra": 85
+      },
+      "cpu": {
+        "min": 30,
+        "rec": 60
+      },
+      "ram": {
+        "min": 16,
+        "rec": 16
+      },
+      "storage": 80
     }
   },
   {
@@ -752,10 +1500,21 @@
     "name": "Grand Theft Auto V",
     "slug": "grand-theft-auto-v",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -763,10 +1522,21 @@
     "name": "Call of Duty: Modern Warfare III",
     "slug": "call-of-duty-modern-warfare-iii",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -774,10 +1544,21 @@
     "name": "Call of Duty: Warzone",
     "slug": "call-of-duty-warzone",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -785,10 +1566,21 @@
     "name": "Apex Legends",
     "slug": "apex-legends",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -796,10 +1588,21 @@
     "name": "Overwatch 2",
     "slug": "overwatch-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -807,10 +1610,21 @@
     "name": "Rainbow Six Siege",
     "slug": "rainbow-six-siege",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -818,10 +1632,21 @@
     "name": "Destiny 2",
     "slug": "destiny-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -829,10 +1654,21 @@
     "name": "Warframe",
     "slug": "warframe",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -840,10 +1676,21 @@
     "name": "The Finals",
     "slug": "the-finals",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -851,10 +1698,21 @@
     "name": "XDefiant",
     "slug": "xdefiant",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -862,10 +1720,21 @@
     "name": "Battlefield 2042",
     "slug": "battlefield-2042",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -873,10 +1742,21 @@
     "name": "Battlefield V",
     "slug": "battlefield-v",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -884,10 +1764,21 @@
     "name": "Battlefield 1",
     "slug": "battlefield-1",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -895,10 +1786,21 @@
     "name": "Star Wars Jedi: Survivor",
     "slug": "star-wars-jedi-survivor",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -906,10 +1808,21 @@
     "name": "Star Wars Jedi: Fallen Order",
     "slug": "star-wars-jedi-fallen-order",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -917,10 +1830,21 @@
     "name": "Hitman 3",
     "slug": "hitman-3",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -928,10 +1852,21 @@
     "name": "Deathloop",
     "slug": "deathloop",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -939,10 +1874,21 @@
     "name": "Prey",
     "slug": "prey",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -950,10 +1896,21 @@
     "name": "Dishonored 2",
     "slug": "dishonored-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -961,10 +1918,21 @@
     "name": "Doom Eternal",
     "slug": "doom-eternal",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -972,10 +1940,21 @@
     "name": "Wolfenstein II: The New Colossus",
     "slug": "wolfenstein-ii-the-new-colossus",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -983,10 +1962,21 @@
     "name": "Monster Hunter: World",
     "slug": "monster-hunter-world",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -994,10 +1984,21 @@
     "name": "Monster Hunter Rise",
     "slug": "monster-hunter-rise",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1005,10 +2006,21 @@
     "name": "Dark Souls III",
     "slug": "dark-souls-iii",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1016,10 +2028,21 @@
     "name": "Sekiro: Shadows Die Twice",
     "slug": "sekiro-shadows-die-twice",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1027,10 +2050,21 @@
     "name": "Lies of P",
     "slug": "lies-of-p",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1038,10 +2072,21 @@
     "name": "Nioh 2",
     "slug": "nioh-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1049,10 +2094,21 @@
     "name": "Wo Long: Fallen Dynasty",
     "slug": "wo-long-fallen-dynasty",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1060,10 +2116,21 @@
     "name": "Devil May Cry 5",
     "slug": "devil-may-cry-5",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1071,10 +2138,21 @@
     "name": "Resident Evil Village",
     "slug": "resident-evil-village",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1082,10 +2160,21 @@
     "name": "Resident Evil 7",
     "slug": "resident-evil-7",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1093,10 +2182,21 @@
     "name": "Resident Evil 2 Remake",
     "slug": "resident-evil-2-remake",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1104,10 +2204,21 @@
     "name": "Resident Evil 3 Remake",
     "slug": "resident-evil-3-remake",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1115,10 +2226,21 @@
     "name": "Dead Island 2",
     "slug": "dead-island-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1126,10 +2248,21 @@
     "name": "Back 4 Blood",
     "slug": "back-4-blood",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1137,10 +2270,21 @@
     "name": "World War Z",
     "slug": "world-war-z",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1148,10 +2292,21 @@
     "name": "Aliens: Fireteam Elite",
     "slug": "aliens-fireteam-elite",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1159,10 +2314,21 @@
     "name": "Remnant 2",
     "slug": "remnant-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1170,10 +2336,21 @@
     "name": "Remnant: From the Ashes",
     "slug": "remnant-from-the-ashes",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1181,10 +2358,21 @@
     "name": "Outriders",
     "slug": "outriders",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1192,10 +2380,21 @@
     "name": "Borderlands 3",
     "slug": "borderlands-3",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1203,10 +2402,21 @@
     "name": "Tiny Tina's Wonderlands",
     "slug": "tiny-tina-s-wonderlands",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1214,10 +2424,21 @@
     "name": "Fallout 4",
     "slug": "fallout-4",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1225,10 +2446,21 @@
     "name": "Fallout 76",
     "slug": "fallout-76",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1236,10 +2468,21 @@
     "name": "The Outer Worlds",
     "slug": "the-outer-worlds",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1247,10 +2490,21 @@
     "name": "Mass Effect Legendary Edition",
     "slug": "mass-effect-legendary-edition",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1258,10 +2512,21 @@
     "name": "Dragon Age: Inquisition",
     "slug": "dragon-age-inquisition",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1269,10 +2534,21 @@
     "name": "Skyrim Special Edition",
     "slug": "skyrim-special-edition",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1280,10 +2556,21 @@
     "name": "No Man's Sky",
     "slug": "no-man-s-sky",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1291,10 +2578,21 @@
     "name": "Sea of Thieves",
     "slug": "sea-of-thieves",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1302,10 +2600,21 @@
     "name": "Grounded",
     "slug": "grounded",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1313,10 +2622,21 @@
     "name": "Subnautica: Below Zero",
     "slug": "subnautica-below-zero",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1324,10 +2644,21 @@
     "name": "Satisfactory",
     "slug": "satisfactory",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1335,10 +2666,21 @@
     "name": "Forza Horizon 5",
     "slug": "forza-horizon-5",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1346,10 +2688,21 @@
     "name": "Forza Horizon 4",
     "slug": "forza-horizon-4",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1357,10 +2710,21 @@
     "name": "F1 24",
     "slug": "f1-24",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1368,10 +2732,21 @@
     "name": "Need for Speed Unbound",
     "slug": "need-for-speed-unbound",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1379,10 +2754,21 @@
     "name": "Need for Speed Heat",
     "slug": "need-for-speed-heat",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1390,10 +2776,21 @@
     "name": "Dirt Rally 2.0",
     "slug": "dirt-rally-2-0",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1401,10 +2798,21 @@
     "name": "Assetto Corsa Competizione",
     "slug": "assetto-corsa-competizione",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1412,10 +2820,21 @@
     "name": "BeamNG.drive",
     "slug": "beamng-drive",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1423,10 +2842,21 @@
     "name": "SnowRunner",
     "slug": "snowrunner",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1434,10 +2864,21 @@
     "name": "Farming Simulator 22",
     "slug": "farming-simulator-22",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1445,10 +2886,21 @@
     "name": "Euro Truck Simulator 2",
     "slug": "euro-truck-simulator-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1456,10 +2908,21 @@
     "name": "American Truck Simulator",
     "slug": "american-truck-simulator",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1467,10 +2930,21 @@
     "name": "FIFA 23 / FC 24",
     "slug": "fifa-23-fc-24",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1478,10 +2952,21 @@
     "name": "NBA 2K24",
     "slug": "nba-2k24",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1489,10 +2974,21 @@
     "name": "Madden NFL 24",
     "slug": "madden-nfl-24",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1500,10 +2996,21 @@
     "name": "PGA Tour 2K23",
     "slug": "pga-tour-2k23",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1511,10 +3018,21 @@
     "name": "WWE 2K24",
     "slug": "wwe-2k24",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1522,10 +3040,21 @@
     "name": "Civilization VI",
     "slug": "civilization-vi",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1533,10 +3062,21 @@
     "name": "Age of Empires IV",
     "slug": "age-of-empires-iv",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1544,10 +3084,21 @@
     "name": "Company of Heroes 3",
     "slug": "company-of-heroes-3",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1555,10 +3106,21 @@
     "name": "Anno 1800",
     "slug": "anno-1800",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1566,10 +3128,21 @@
     "name": "Frostpunk 2",
     "slug": "frostpunk-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1577,10 +3150,21 @@
     "name": "Jurassic World Evolution 2",
     "slug": "jurassic-world-evolution-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1588,10 +3172,21 @@
     "name": "Planet Zoo",
     "slug": "planet-zoo",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1599,10 +3194,21 @@
     "name": "Planet Coaster",
     "slug": "planet-coaster",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1610,10 +3216,21 @@
     "name": "Sims 4 (With DLCs)",
     "slug": "sims-4-with-dlcs",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1621,10 +3238,21 @@
     "name": "Genshin Impact",
     "slug": "genshin-impact",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1632,10 +3260,21 @@
     "name": "Honkai: Star Rail",
     "slug": "honkai-star-rail",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1643,10 +3282,21 @@
     "name": "Wuthering Waves",
     "slug": "wuthering-waves",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1654,10 +3304,21 @@
     "name": "Tower of Fantasy",
     "slug": "tower-of-fantasy",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1665,10 +3326,21 @@
     "name": "Zenless Zone Zero",
     "slug": "zenless-zone-zero",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1676,10 +3348,21 @@
     "name": "Persona 3 Reload",
     "slug": "persona-3-reload",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1687,10 +3370,21 @@
     "name": "Persona 5 Royal",
     "slug": "persona-5-royal",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1698,10 +3392,21 @@
     "name": "Yakuza: Like a Dragon",
     "slug": "yakuza-like-a-dragon",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1709,10 +3414,21 @@
     "name": "Like a Dragon: Infinite Wealth",
     "slug": "like-a-dragon-infinite-wealth",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1720,10 +3436,21 @@
     "name": "Judgement",
     "slug": "judgement",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1731,10 +3458,21 @@
     "name": "Lost Judgment",
     "slug": "lost-judgment",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1742,10 +3480,21 @@
     "name": "Tales of Arise",
     "slug": "tales-of-arise",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1753,10 +3502,21 @@
     "name": "Granblue Fantasy: Relink",
     "slug": "granblue-fantasy-relink",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1764,10 +3524,21 @@
     "name": "Blue Protocol",
     "slug": "blue-protocol",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1775,10 +3546,21 @@
     "name": "Throne and Liberty",
     "slug": "throne-and-liberty",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1786,10 +3568,21 @@
     "name": "Black Desert Online",
     "slug": "black-desert-online",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1797,10 +3590,21 @@
     "name": "New World",
     "slug": "new-world",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1808,10 +3612,21 @@
     "name": "Lost Ark",
     "slug": "lost-ark",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1819,10 +3634,21 @@
     "name": "Path of Exile 2",
     "slug": "path-of-exile-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1830,10 +3656,21 @@
     "name": "Diablo IV",
     "slug": "diablo-iv",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1841,10 +3678,21 @@
     "name": "Last Epoch",
     "slug": "last-epoch",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1852,10 +3700,21 @@
     "name": "V Rising",
     "slug": "v-rising",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1863,10 +3722,21 @@
     "name": "Enshrouded",
     "slug": "enshrouded",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1874,10 +3744,21 @@
     "name": "Palworld",
     "slug": "palworld",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1885,10 +3766,21 @@
     "name": "Valheim",
     "slug": "valheim",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1896,10 +3788,21 @@
     "name": "Sons of the Forest",
     "slug": "sons-of-the-forest",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1907,10 +3810,21 @@
     "name": "The Forest",
     "slug": "the-forest",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1918,10 +3832,21 @@
     "name": "Green Hell",
     "slug": "green-hell",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1929,10 +3854,21 @@
     "name": "Raft",
     "slug": "raft",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1940,10 +3876,21 @@
     "name": "Smalland",
     "slug": "smalland",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1951,10 +3898,21 @@
     "name": "Abiotic Factor",
     "slug": "abiotic-factor",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1962,10 +3920,21 @@
     "name": "Nightingale",
     "slug": "nightingale",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1973,10 +3942,21 @@
     "name": "Icarus",
     "slug": "icarus",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1984,10 +3964,21 @@
     "name": "Conan Exiles",
     "slug": "conan-exiles",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -1995,10 +3986,21 @@
     "name": "Ark: Survival Evolved",
     "slug": "ark-survival-evolved",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2006,10 +4008,21 @@
     "name": "7 Days to Die",
     "slug": "7-days-to-die",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2017,10 +4030,21 @@
     "name": "Project Zomboid (Heavily Modded)",
     "slug": "project-zomboid-heavily-modded",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2028,10 +4052,21 @@
     "name": "Teardown",
     "slug": "teardown",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2039,10 +4074,21 @@
     "name": "Besiege",
     "slug": "besiege",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2050,10 +4096,21 @@
     "name": "Kerbal Space Program 2",
     "slug": "kerbal-space-program-2",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2061,10 +4118,21 @@
     "name": "Space Engineers",
     "slug": "space-engineers",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2072,10 +4140,21 @@
     "name": "Stormworks",
     "slug": "stormworks",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2083,10 +4162,21 @@
     "name": "From the Depths",
     "slug": "from-the-depths",
     "requirements": {
-      "low": 20,
-      "med": 35,
-      "high": 50,
-      "ultra": 70
+      "gpu": {
+        "low": 20,
+        "med": 35,
+        "high": 50,
+        "ultra": 70
+      },
+      "cpu": {
+        "min": 20,
+        "rec": 45
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 60
     }
   },
   {
@@ -2094,10 +4184,21 @@
     "name": "Counter-Strike 2",
     "slug": "counter-strike-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2105,10 +4206,21 @@
     "name": "Valorant",
     "slug": "valorant",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2116,10 +4228,21 @@
     "name": "League of Legends",
     "slug": "league-of-legends",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2127,10 +4250,21 @@
     "name": "Dota 2",
     "slug": "dota-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2138,10 +4272,21 @@
     "name": "Fortnite (Performance Mode)",
     "slug": "fortnite-performance-mode",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2149,10 +4294,21 @@
     "name": "Rocket League",
     "slug": "rocket-league",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2160,10 +4316,21 @@
     "name": "Team Fortress 2",
     "slug": "team-fortress-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2171,10 +4338,21 @@
     "name": "Overwatch 2 (Low Settings)",
     "slug": "overwatch-2-low-settings",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2182,10 +4360,21 @@
     "name": "Paladins",
     "slug": "paladins",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2193,10 +4382,21 @@
     "name": "Smite",
     "slug": "smite",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2204,10 +4404,21 @@
     "name": "Dead by Daylight",
     "slug": "dead-by-daylight",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2215,10 +4426,21 @@
     "name": "Phasmophobia",
     "slug": "phasmophobia",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2226,10 +4448,21 @@
     "name": "Lethal Company",
     "slug": "lethal-company",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2237,10 +4470,21 @@
     "name": "Content Warning",
     "slug": "content-warning",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2248,10 +4492,21 @@
     "name": "Among Us",
     "slug": "among-us",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2259,10 +4514,21 @@
     "name": "Fall Guys",
     "slug": "fall-guys",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2270,10 +4536,21 @@
     "name": "Human Fall Flat",
     "slug": "human-fall-flat",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2281,10 +4558,21 @@
     "name": "Gang Beasts",
     "slug": "gang-beasts",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2292,10 +4580,21 @@
     "name": "Party Animals",
     "slug": "party-animals",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2303,10 +4602,21 @@
     "name": "Pummel Party",
     "slug": "pummel-party",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2314,10 +4624,21 @@
     "name": "Crab Game",
     "slug": "crab-game",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2325,10 +4646,21 @@
     "name": "Garry's Mod",
     "slug": "garry-s-mod",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2336,10 +4668,21 @@
     "name": "Left 4 Dead 2",
     "slug": "left-4-dead-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2347,10 +4690,21 @@
     "name": "Portal 2",
     "slug": "portal-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2358,10 +4712,21 @@
     "name": "Half-Life 2",
     "slug": "half-life-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2369,10 +4734,21 @@
     "name": "Black Mesa",
     "slug": "black-mesa",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2380,10 +4756,21 @@
     "name": "Deep Rock Galactic",
     "slug": "deep-rock-galactic",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2391,10 +4778,21 @@
     "name": "Risk of Rain 2",
     "slug": "risk-of-rain-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2402,10 +4800,21 @@
     "name": "Gunfire Reborn",
     "slug": "gunfire-reborn",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2413,10 +4822,21 @@
     "name": "Roboquest",
     "slug": "roboquest",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2424,10 +4844,21 @@
     "name": "Borderlands 2",
     "slug": "borderlands-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2435,10 +4866,21 @@
     "name": "Payday 2",
     "slug": "payday-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2446,10 +4888,21 @@
     "name": "Killing Floor 2",
     "slug": "killing-floor-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2457,10 +4910,21 @@
     "name": "Warhammer: Vermintide 2",
     "slug": "warhammer-vermintide-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2468,10 +4932,21 @@
     "name": "Insurgency: Sandstorm",
     "slug": "insurgency-sandstorm",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2479,10 +4954,21 @@
     "name": "Rising Storm 2: Vietnam",
     "slug": "rising-storm-2-vietnam",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2490,10 +4976,21 @@
     "name": "Chivalry 2",
     "slug": "chivalry-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2501,10 +4998,21 @@
     "name": "Mordhau",
     "slug": "mordhau",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2512,10 +5020,21 @@
     "name": "For Honor",
     "slug": "for-honor",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2523,10 +5042,21 @@
     "name": "Sea of Thieves (Low)",
     "slug": "sea-of-thieves-low",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2534,10 +5064,21 @@
     "name": "World of Tanks",
     "slug": "world-of-tanks",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2545,10 +5086,21 @@
     "name": "World of Warships",
     "slug": "world-of-warships",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2556,10 +5108,21 @@
     "name": "War Thunder",
     "slug": "war-thunder",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2567,10 +5130,21 @@
     "name": "Enlisted",
     "slug": "enlisted",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2578,10 +5152,21 @@
     "name": "Crossout",
     "slug": "crossout",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2589,10 +5174,21 @@
     "name": "Eve Online",
     "slug": "eve-online",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2600,10 +5196,21 @@
     "name": "Albion Online",
     "slug": "albion-online",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2611,10 +5218,21 @@
     "name": "Runescape (RS3)",
     "slug": "runescape-rs3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2622,10 +5240,21 @@
     "name": "Old School Runescape (HD Plugin)",
     "slug": "old-school-runescape-hd-plugin",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2633,10 +5262,21 @@
     "name": "Guild Wars 2",
     "slug": "guild-wars-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2644,10 +5284,21 @@
     "name": "World of Warcraft (Retail)",
     "slug": "world-of-warcraft-retail",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2655,10 +5306,21 @@
     "name": "World of Warcraft (Classic)",
     "slug": "world-of-warcraft-classic",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2666,10 +5328,21 @@
     "name": "Final Fantasy XIV",
     "slug": "final-fantasy-xiv",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2677,10 +5350,21 @@
     "name": "Elder Scrolls Online",
     "slug": "elder-scrolls-online",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2688,10 +5372,21 @@
     "name": "Star Wars: The Old Republic",
     "slug": "star-wars-the-old-republic",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2699,10 +5394,21 @@
     "name": "Lord of the Rings Online",
     "slug": "lord-of-the-rings-online",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2710,10 +5416,21 @@
     "name": "MapleStory",
     "slug": "maplestory",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2721,10 +5438,21 @@
     "name": "Path of Exile",
     "slug": "path-of-exile",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2732,10 +5460,21 @@
     "name": "Torchlight II",
     "slug": "torchlight-ii",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2743,10 +5482,21 @@
     "name": "Grim Dawn",
     "slug": "grim-dawn",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2754,10 +5504,21 @@
     "name": "Titan Quest",
     "slug": "titan-quest",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2765,10 +5526,21 @@
     "name": "Diablo III",
     "slug": "diablo-iii",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2776,10 +5548,21 @@
     "name": "Diablo II: Resurrected",
     "slug": "diablo-ii-resurrected",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2787,10 +5570,21 @@
     "name": "Hades",
     "slug": "hades",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2798,10 +5592,21 @@
     "name": "Hades II",
     "slug": "hades-ii",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2809,10 +5614,21 @@
     "name": "Dead Cells",
     "slug": "dead-cells",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2820,10 +5636,21 @@
     "name": "Hollow Knight",
     "slug": "hollow-knight",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2831,10 +5658,21 @@
     "name": "Ori and the Will of the Wisps",
     "slug": "ori-and-the-will-of-the-wisps",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2842,10 +5680,21 @@
     "name": "Ori and the Blind Forest",
     "slug": "ori-and-the-blind-forest",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2853,10 +5702,21 @@
     "name": "Cuphead",
     "slug": "cuphead",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2864,10 +5724,21 @@
     "name": "Celeste",
     "slug": "celeste",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2875,10 +5746,21 @@
     "name": "Super Meat Boy",
     "slug": "super-meat-boy",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2886,10 +5768,21 @@
     "name": "The Binding of Isaac: Repentance",
     "slug": "the-binding-of-isaac-repentance",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2897,10 +5790,21 @@
     "name": "Enter the Gungeon",
     "slug": "enter-the-gungeon",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2908,10 +5812,21 @@
     "name": "Slay the Spire",
     "slug": "slay-the-spire",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2919,10 +5834,21 @@
     "name": "Monster Train",
     "slug": "monster-train",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2930,10 +5856,21 @@
     "name": "Balatro",
     "slug": "balatro",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2941,10 +5878,21 @@
     "name": "Inscryption",
     "slug": "inscryption",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2952,10 +5900,21 @@
     "name": "Darkest Dungeon",
     "slug": "darkest-dungeon",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2963,10 +5922,21 @@
     "name": "Darkest Dungeon II",
     "slug": "darkest-dungeon-ii",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2974,10 +5944,21 @@
     "name": "Cult of the Lamb",
     "slug": "cult-of-the-lamb",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2985,10 +5966,21 @@
     "name": "Don't Starve Together",
     "slug": "don-t-starve-together",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -2996,10 +5988,21 @@
     "name": "Oxygen Not Included",
     "slug": "oxygen-not-included",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3007,10 +6010,21 @@
     "name": "RimWorld",
     "slug": "rimworld",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3018,10 +6032,21 @@
     "name": "Factorio",
     "slug": "factorio",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3029,10 +6054,21 @@
     "name": "Dwarf Fortress (Steam)",
     "slug": "dwarf-fortress-steam",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3040,10 +6076,21 @@
     "name": "Prison Architect",
     "slug": "prison-architect",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3051,10 +6098,21 @@
     "name": "Two Point Hospital",
     "slug": "two-point-hospital",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3062,10 +6120,21 @@
     "name": "Cities: Skylines (1)",
     "slug": "cities-skylines-1",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3073,10 +6142,21 @@
     "name": "SimCity 4",
     "slug": "simcity-4",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3084,10 +6164,21 @@
     "name": "RollerCoaster Tycoon 3",
     "slug": "rollercoaster-tycoon-3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3095,10 +6186,21 @@
     "name": "Planet Coaster (Low)",
     "slug": "planet-coaster-low",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3106,10 +6208,21 @@
     "name": "Zoo Tycoon",
     "slug": "zoo-tycoon",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3117,10 +6230,21 @@
     "name": "Spore",
     "slug": "spore",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3128,10 +6252,21 @@
     "name": "The Sims 3",
     "slug": "the-sims-3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3139,10 +6274,21 @@
     "name": "Stardew Valley",
     "slug": "stardew-valley",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3150,10 +6296,21 @@
     "name": "Terraria",
     "slug": "terraria",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3161,10 +6318,21 @@
     "name": "Minecraft (Java)",
     "slug": "minecraft-java",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3172,10 +6340,21 @@
     "name": "Minecraft (Bedrock)",
     "slug": "minecraft-bedrock",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3183,10 +6362,21 @@
     "name": "Roblox",
     "slug": "roblox",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3194,10 +6384,21 @@
     "name": "Unturned",
     "slug": "unturned",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3205,10 +6406,21 @@
     "name": "Subnautica",
     "slug": "subnautica",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3216,10 +6428,21 @@
     "name": "Raft (Low)",
     "slug": "raft-low",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3227,10 +6450,21 @@
     "name": "Slime Rancher",
     "slug": "slime-rancher",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3238,10 +6472,21 @@
     "name": "Slime Rancher 2",
     "slug": "slime-rancher-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3249,10 +6494,21 @@
     "name": "House Flipper",
     "slug": "house-flipper",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3260,10 +6516,21 @@
     "name": "PowerWash Simulator",
     "slug": "powerwash-simulator",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3271,10 +6538,21 @@
     "name": "PC Building Simulator",
     "slug": "pc-building-simulator",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3282,10 +6560,21 @@
     "name": "Cooking Simulator",
     "slug": "cooking-simulator",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3293,10 +6582,21 @@
     "name": "Thief Simulator",
     "slug": "thief-simulator",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3304,10 +6604,21 @@
     "name": "Car Mechanic Simulator",
     "slug": "car-mechanic-simulator",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3315,10 +6626,21 @@
     "name": "Goat Simulator 3",
     "slug": "goat-simulator-3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3326,10 +6648,21 @@
     "name": "Untitled Goose Game",
     "slug": "untitled-goose-game",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3337,10 +6670,21 @@
     "name": "Stray",
     "slug": "stray",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3348,10 +6692,21 @@
     "name": "Kena: Bridge of Spirits",
     "slug": "kena-bridge-of-spirits",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3359,10 +6714,21 @@
     "name": "Tunic",
     "slug": "tunic",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3370,10 +6736,21 @@
     "name": "Outer Wilds",
     "slug": "outer-wilds",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3381,10 +6758,21 @@
     "name": "Firewatch",
     "slug": "firewatch",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3392,10 +6780,21 @@
     "name": "What Remains of Edith Finch",
     "slug": "what-remains-of-edith-finch",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3403,10 +6802,21 @@
     "name": "The Stanley Parable",
     "slug": "the-stanley-parable",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3414,10 +6824,21 @@
     "name": "Superliminal",
     "slug": "superliminal",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3425,10 +6846,21 @@
     "name": "Undertale",
     "slug": "undertale",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3436,10 +6868,21 @@
     "name": "Deltarune",
     "slug": "deltarune",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3447,10 +6890,21 @@
     "name": "Omori",
     "slug": "omori",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3458,10 +6912,21 @@
     "name": "Lisa: The Painful",
     "slug": "lisa-the-painful",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3469,10 +6934,21 @@
     "name": "Yume Nikki",
     "slug": "yume-nikki",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3480,10 +6956,21 @@
     "name": "Vampire Survivors",
     "slug": "vampire-survivors",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3491,10 +6978,21 @@
     "name": "Brotato",
     "slug": "brotato",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3502,10 +7000,21 @@
     "name": "Halls of Torment",
     "slug": "halls-of-torment",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3513,10 +7022,21 @@
     "name": "Loop Hero",
     "slug": "loop-hero",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3524,10 +7044,21 @@
     "name": "Dave the Diver",
     "slug": "dave-the-diver",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3535,10 +7066,21 @@
     "name": "Dredge",
     "slug": "dredge",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3546,10 +7088,21 @@
     "name": "Papers, Please",
     "slug": "papers-please",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3557,10 +7110,21 @@
     "name": "Obra Dinn",
     "slug": "obra-dinn",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3568,10 +7132,21 @@
     "name": "Disco Elysium",
     "slug": "disco-elysium",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3579,10 +7154,21 @@
     "name": "Citizen Sleeper",
     "slug": "citizen-sleeper",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3590,10 +7176,21 @@
     "name": "Pentiment",
     "slug": "pentiment",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3601,10 +7198,21 @@
     "name": "Hi-Fi Rush",
     "slug": "hi-fi-rush",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3612,10 +7220,21 @@
     "name": "Neon White",
     "slug": "neon-white",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3623,10 +7242,21 @@
     "name": "Hotline Miami",
     "slug": "hotline-miami",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3634,10 +7264,21 @@
     "name": "Hotline Miami 2",
     "slug": "hotline-miami-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3645,10 +7286,21 @@
     "name": "Katana Zero",
     "slug": "katana-zero",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3656,10 +7308,21 @@
     "name": "Sanabi",
     "slug": "sanabi",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3667,10 +7330,21 @@
     "name": "My Friend Pedro",
     "slug": "my-friend-pedro",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3678,10 +7352,21 @@
     "name": "Superhot",
     "slug": "superhot",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3689,10 +7374,21 @@
     "name": "Ghostrunner",
     "slug": "ghostrunner",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3700,10 +7396,21 @@
     "name": "Mirror's Edge",
     "slug": "mirror-s-edge",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3711,10 +7418,21 @@
     "name": "Dishonored",
     "slug": "dishonored",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3722,10 +7440,21 @@
     "name": "Bioshock Remastered",
     "slug": "bioshock-remastered",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3733,10 +7462,21 @@
     "name": "Bioshock Infinite",
     "slug": "bioshock-infinite",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3744,10 +7484,21 @@
     "name": "Batman: Arkham Asylum",
     "slug": "batman-arkham-asylum",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3755,10 +7506,21 @@
     "name": "Batman: Arkham City",
     "slug": "batman-arkham-city",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3766,10 +7528,21 @@
     "name": "Batman: Arkham Knight",
     "slug": "batman-arkham-knight",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3777,10 +7550,21 @@
     "name": "Mad Max",
     "slug": "mad-max",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3788,10 +7572,21 @@
     "name": "Shadow of Mordor",
     "slug": "shadow-of-mordor",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3799,10 +7594,21 @@
     "name": "Shadow of War",
     "slug": "shadow-of-war",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3810,10 +7616,21 @@
     "name": "Sleeping Dogs",
     "slug": "sleeping-dogs",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3821,10 +7638,21 @@
     "name": "Yakuza 0",
     "slug": "yakuza-0",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3832,10 +7660,21 @@
     "name": "Yakuza Kiwami",
     "slug": "yakuza-kiwami",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3843,10 +7682,21 @@
     "name": "Metal Gear Solid V",
     "slug": "metal-gear-solid-v",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3854,10 +7704,21 @@
     "name": "Metal Gear Rising",
     "slug": "metal-gear-rising",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3865,10 +7726,21 @@
     "name": "Nier: Automata",
     "slug": "nier-automata",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3876,10 +7748,21 @@
     "name": "Bayonetta",
     "slug": "bayonetta",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3887,10 +7770,21 @@
     "name": "Vanquish",
     "slug": "vanquish",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3898,10 +7792,21 @@
     "name": "Spec Ops: The Line",
     "slug": "spec-ops-the-line",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3909,10 +7814,21 @@
     "name": "Max Payne 3",
     "slug": "max-payne-3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3920,10 +7836,21 @@
     "name": "LA Noire",
     "slug": "la-noire",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3931,10 +7858,21 @@
     "name": "Bully",
     "slug": "bully",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3942,10 +7880,21 @@
     "name": "Manhunt",
     "slug": "manhunt",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3953,10 +7902,21 @@
     "name": "Grand Theft Auto IV",
     "slug": "grand-theft-auto-iv",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3964,10 +7924,21 @@
     "name": "Grand Theft Auto: San Andreas",
     "slug": "grand-theft-auto-san-andreas",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3975,10 +7946,21 @@
     "name": "Saints Row: The Third",
     "slug": "saints-row-the-third",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3986,10 +7968,21 @@
     "name": "Saints Row IV",
     "slug": "saints-row-iv",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -3997,10 +7990,21 @@
     "name": "Just Cause 3",
     "slug": "just-cause-3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4008,10 +8012,21 @@
     "name": "Far Cry 3",
     "slug": "far-cry-3",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4019,10 +8034,21 @@
     "name": "Far Cry 4",
     "slug": "far-cry-4",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4030,10 +8056,21 @@
     "name": "Far Cry 5",
     "slug": "far-cry-5",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4041,10 +8078,21 @@
     "name": "Far Cry Primal",
     "slug": "far-cry-primal",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4052,10 +8100,21 @@
     "name": "Assassin's Creed IV: Black Flag",
     "slug": "assassin-s-creed-iv-black-flag",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4063,10 +8122,21 @@
     "name": "Assassin's Creed Unity",
     "slug": "assassin-s-creed-unity",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4074,10 +8144,21 @@
     "name": "Assassin's Creed Syndicate",
     "slug": "assassin-s-creed-syndicate",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4085,10 +8166,21 @@
     "name": "Assassin's Creed Origins",
     "slug": "assassin-s-creed-origins",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4096,10 +8188,21 @@
     "name": "Assassin's Creed Odyssey",
     "slug": "assassin-s-creed-odyssey",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4107,10 +8210,21 @@
     "name": "Assassin's Creed Valhalla",
     "slug": "assassin-s-creed-valhalla",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4118,10 +8232,21 @@
     "name": "Watch Dogs 2",
     "slug": "watch-dogs-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4129,10 +8254,21 @@
     "name": "Tom Clancy's The Division 2",
     "slug": "tom-clancy-s-the-division-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4140,10 +8276,21 @@
     "name": "Tom Clancy's Ghost Recon Wildlands",
     "slug": "tom-clancy-s-ghost-recon-wildlands",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4151,10 +8298,21 @@
     "name": "Tom Clancy's Ghost Recon Breakpoint",
     "slug": "tom-clancy-s-ghost-recon-breakpoint",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4162,10 +8320,21 @@
     "name": "Sniper Elite 4",
     "slug": "sniper-elite-4",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4173,10 +8342,21 @@
     "name": "Sniper Elite 5",
     "slug": "sniper-elite-5",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4184,10 +8364,21 @@
     "name": "Zombie Army 4",
     "slug": "zombie-army-4",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4195,10 +8386,21 @@
     "name": "Strange Brigade",
     "slug": "strange-brigade",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4206,10 +8408,21 @@
     "name": "World War Z: Aftermath",
     "slug": "world-war-z-aftermath",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4217,10 +8430,21 @@
     "name": "State of Decay 2",
     "slug": "state-of-decay-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4228,10 +8452,21 @@
     "name": "Days Gone",
     "slug": "days-gone",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4239,10 +8474,21 @@
     "name": "Mad Max",
     "slug": "mad-max",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4250,10 +8496,21 @@
     "name": "Rage 2",
     "slug": "rage-2",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4261,10 +8518,21 @@
     "name": "Generation Zero",
     "slug": "generation-zero",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4272,10 +8540,21 @@
     "name": "Terminator: Resistance",
     "slug": "terminator-resistance",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   },
   {
@@ -4283,10 +8562,21 @@
     "name": "RoboCop: Rogue City",
     "slug": "robocop-rogue-city",
     "requirements": {
-      "low": 10,
-      "med": 20,
-      "high": 30,
-      "ultra": 45
+      "gpu": {
+        "low": 10,
+        "med": 20,
+        "high": 30,
+        "ultra": 45
+      },
+      "cpu": {
+        "min": 15,
+        "rec": 30
+      },
+      "ram": {
+        "min": 8,
+        "rec": 16
+      },
+      "storage": 40
     }
   }
 ]

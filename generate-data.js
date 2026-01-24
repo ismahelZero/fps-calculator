@@ -170,28 +170,74 @@ const gpus = [
   }
 ]
 
+const cpus = [
+  { id: 'i9-14900k', name: 'Intel Core i9-14900K', score: 100, cores: 24 },
+  { id: 'r7-7800x3d', name: 'AMD Ryzen 7 7800X3D', score: 95, cores: 8 },
+  { id: 'i7-13700k', name: 'Intel Core i7-13700K', score: 85, cores: 16 },
+  { id: 'i5-13600k', name: 'Intel Core i5-13600K', score: 75, cores: 14 },
+  { id: 'r5-7600x', name: 'AMD Ryzen 5 7600X', score: 65, cores: 6 },
+  { id: 'i5-12400f', name: 'Intel Core i5-12400F', score: 50, cores: 6 },
+  { id: 'r5-5600x', name: 'AMD Ryzen 5 5600X', score: 48, cores: 6 },
+  { id: 'i7-8700k', name: 'Intel Core i7-8700K', score: 40, cores: 6 },
+  { id: 'r5-3600', name: 'AMD Ryzen 5 3600', score: 35, cores: 6 },
+  { id: 'i7-7700k', name: 'Intel Core i7-7700K', score: 30, cores: 4 },
+  { id: 'i5-7400', name: 'Intel Core i5-7400', score: 20, cores: 4 },
+  { id: 'i3-10100', name: 'Intel Core i3-10100', score: 22, cores: 4 },
+  { id: 'i3-9100f', name: 'Intel Core i3-9100F', score: 18, cores: 4 },
+  { id: 'fx-8350', name: 'AMD FX-8350', score: 15, cores: 8 },
+  { id: 'i5-2500k', name: 'Intel Core i5-2500K', score: 12, cores: 4 }
+]
+
 // Add slugs and affiliate links automatically
 const processedGPUs = gpus.map(gpu => ({
   ...gpu,
   slug: gpu.id,
   affiliateLink: `https://amazon.com/s?k=${gpu.name.replace(/ /g, '+')}&tag=myfps-20`
 }))
+const processedCPUs = cpus.map(c => ({
+  ...c,
+  affiliateLink: `https://amazon.com/s?k=${c.name.replace(/ /g, '+')}&tag=myfps-20`
+}))
 
 // --- 2. THE GAME DATABASE (TIER SYSTEM) ---
 
 const tiers = {
-  // TIER S: Path Tracing / Next Gen (Requires 40-series or high 30-series for Ultra)
-  S: { low: 40, med: 60, high: 80, ultra: 95 },
-  // TIER A: Heavy AAA (Unreal Engine 5, Open World)
-  A: { low: 30, med: 45, high: 65, ultra: 85 },
-  // TIER B: Standard AAA (Well optimized, recent)
-  B: { low: 20, med: 35, high: 50, ultra: 70 },
-  // TIER C: Older AAA / Competitive Shooters (1080p Standard)
-  C: { low: 10, med: 20, high: 30, ultra: 45 },
-  // TIER D: Light Esports / Indie 3D
-  D: { low: 5, med: 10, high: 15, ultra: 25 },
-  // TIER E: 2D / Potato PC Friendly
-  E: { low: 1, med: 3, high: 5, ultra: 10 }
+  S: {
+    gpu: { low: 40, med: 60, high: 80, ultra: 95 },
+    cpu: { min: 40, rec: 70 },
+    ram: { min: 16, rec: 32 },
+    storage: 100
+  },
+  A: {
+    gpu: { low: 30, med: 45, high: 65, ultra: 85 },
+    cpu: { min: 30, rec: 60 },
+    ram: { min: 16, rec: 16 },
+    storage: 80
+  },
+  B: {
+    gpu: { low: 20, med: 35, high: 50, ultra: 70 },
+    cpu: { min: 20, rec: 45 },
+    ram: { min: 8, rec: 16 },
+    storage: 60
+  },
+  C: {
+    gpu: { low: 10, med: 20, high: 30, ultra: 45 },
+    cpu: { min: 15, rec: 30 },
+    ram: { min: 8, rec: 16 },
+    storage: 40
+  },
+  D: {
+    gpu: { low: 5, med: 10, high: 15, ultra: 25 },
+    cpu: { min: 10, rec: 20 },
+    ram: { min: 4, rec: 8 },
+    storage: 20
+  },
+  E: {
+    gpu: { low: 1, med: 3, high: 5, ultra: 10 },
+    cpu: { min: 5, rec: 10 },
+    ram: { min: 2, rec: 4 },
+    storage: 5
+  }
 }
 
 const gameList = [
@@ -610,7 +656,9 @@ const processedGames = gameList.map(game => ({
 
 // --- 4. OUTPUT TO FILES ---
 fs.writeFileSync('data/gpus.json', JSON.stringify(processedGPUs, null, 2))
+fs.writeFileSync('data/cpus.json', JSON.stringify(processedCPUs, null, 2))
 fs.writeFileSync('data/games.json', JSON.stringify(processedGames, null, 2))
 
-console.log(`✅ Generated ${processedGPUs.length} GPUs`)
-console.log(`✅ Generated ${processedGames.length} Games`)
+console.log(
+  `✅ Generated ${processedGPUs.length} GPUs, ${processedCPUs.length} CPUs, ${processedGames.length} Games`
+)
