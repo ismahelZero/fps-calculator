@@ -209,6 +209,12 @@ const schema = {
 }
 
 useHead({
-  script: [{ type: 'application/ld+json', children: JSON.stringify(schema) }]
+  script: [
+    {
+      key: 'schema-faq',
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(schema)
+    }
+  ]
 })
 </script>
