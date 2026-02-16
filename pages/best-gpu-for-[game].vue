@@ -412,6 +412,7 @@ const { getLink } = useAffiliate()
 // 1. Get Game Data
 const gameSlug = route.params.game as string
 const game = games.find(g => g.slug === gameSlug)
+const gameName = game?.name
 
 if (!game) {
   throw createError({ statusCode: 404, statusMessage: 'Game Not Found' })
@@ -484,7 +485,8 @@ const picks = computed(() => {
 
 // 4. SEO Meta
 useSeoMeta({
-  title: `Best GPU for ${game.name} - 2026 Guide`,
-  description: `Top 3 graphics cards for ${game.name}. ${selectedCpu.value ? 'Optimized for ' + selectedCpu.value.name : 'Benchmarks for 4K, 1440p, and 1080p'}.`
+  title: `Best GPU for ${game.name} - FPS Benchmarks`,
+  description: `Top 3 graphics cards for ${game.name}. ${selectedCpu.value ? 'Optimized for ' + selectedCpu.value.name : 'Benchmarks for 4K, 1440p, and 1080p'}.`,
+  ogTitle: `Best GPU for ${game.name}`
 })
 </script>

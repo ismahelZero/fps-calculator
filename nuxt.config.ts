@@ -38,7 +38,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://fpscalculator.vercel.app',
+    url: 'https://www.myfps.app',
     name: 'MyFPS',
     description: 'PC Performance Calculator & Hardware component picker',
     defaultLocale: 'en'
@@ -77,6 +77,25 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/', '/build', '/compare', '/what-can-i-play', '/sitemap.xml'],
       ignore: []
+    }
+  },
+
+  app: {
+    head: {
+      title: 'FPS Calculator - Check Gaming Performance',
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          name: 'description',
+          content:
+            'Check if your PC can run any game. FPS calculator, GPU benchmarks, and performance optimization for over 1000 games.'
+        }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+        { rel: 'apple-touch-icon', href: '/logo.svg' }
+      ]
     }
   },
 

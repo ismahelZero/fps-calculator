@@ -97,7 +97,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useRouter, useHead } from 'nuxt/app'
+import { useRouter, useHead, useSeoMeta } from 'nuxt/app'
 import gamesData from '~/data/games.json'
 import gpusData from '~/data/gpus.json'
 import cpusData from '~/data/cpus.json'
@@ -139,16 +139,27 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'MyFPS',
-        url: 'https://myfps.org',
+        url: 'https://myfps.app',
         description:
           'Check if your PC can run games. FPS Calculator and GPU Benchmark tool.',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://myfps.org/?s={search_term_string}',
+          target: 'https://myfps.app/?s={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       })
     }
   ]
+})
+
+useSeoMeta({
+  title: 'FPS Calculator - Test Your PC Performance',
+  description:
+    'Can I run it? Check FPS estimates for thousands of games with your GPU and CPU.',
+  ogTitle: 'FPS Calculator - MyFPS.app',
+  ogDescription:
+    'Check FPS estimates for thousands of games with your GPU and CPU.',
+  ogImage: 'https://www.myfps.app/logo.svg',
+  twitterCard: 'summary_large_image'
 })
 </script>
