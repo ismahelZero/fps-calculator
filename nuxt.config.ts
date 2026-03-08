@@ -91,6 +91,13 @@ export default defineNuxtConfig({
             'Check if your PC can run any game. FPS calculator, GPU benchmarks, and performance optimization for over 1000 games.'
         }
       ],
+      script: [
+        {
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5009121739741215',
+          async: true,
+          crossorigin: 'anonymous'
+        }
+      ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },

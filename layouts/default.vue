@@ -4,6 +4,8 @@
   >
     <SiteHeader />
     <main class="flex-grow">
+      <AdBanner />
+
       <slot />
     </main>
     <SiteFooter />
@@ -12,4 +14,5 @@
 <script setup lang="ts">
 import SiteHeader from '@/components/core/SiteHeader.vue'
 import SiteFooter from '@/components/core/SiteFooter.vue'
+import AdBanner from '@/components/AdBanner.vue'
 </script>
