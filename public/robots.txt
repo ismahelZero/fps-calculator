@@ -1,4 +1,7 @@
 User-Agent: *
-Disallow:
+Allow: /
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /_payload.json
 
 Sitemap: https://myfps.app/sitemap.xml
