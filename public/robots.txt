@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
 
-Sitemap: https://fpscalculator.vercel.app/sitemap.xml
+Sitemap: https://myfps.app/sitemap.xml
