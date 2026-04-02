@@ -92,6 +92,57 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <section
+        class="mx-auto mb-24 mt-16 max-w-5xl px-4 text-gray-300 sm:px-6 lg:px-8"
+      >
+        <div class="rounded-2xl border border-gray-800 bg-gray-900/50 p-8">
+          <h2 class="mb-4 text-2xl font-bold text-white sm:text-3xl">
+            How Our FPS Calculator Works
+          </h2>
+          <p class="mb-6 leading-relaxed">
+            Building the perfect gaming PC or upgrading your current rig can be
+            a daunting task. Our platform analyzes hardware benchmarks across
+            popular titles to give you an accurate frame rate estimation.
+            Whether you are trying to hit an unwavering 144Hz in competitive
+            shooters or want to enjoy AAA single-player games at maximum
+            graphical fidelity, understanding your potential hardware
+            bottlenecks is the first step.
+          </p>
+
+          <h3 class="mb-6 mt-10 text-xl font-bold text-white">
+            Frequently Asked Questions
+          </h3>
+          <div class="space-y-6">
+            <div>
+              <h4 class="text-lg font-semibold text-white">
+                What causes low FPS in games?
+              </h4>
+              <p class="mt-2 text-gray-400">
+                Low frame rates are typically caused by a hardware bottleneck,
+                usually either your CPU (processor) or GPU (graphics card)
+                reaching 100% utilization. Other contributing factors include
+                insufficient RAM speed, outdated graphics drivers, or thermal
+                throttling when components get too hot.
+              </p>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white">
+                CPU vs. GPU Bottleneck: Which is worse?
+              </h4>
+              <p class="mt-2 text-gray-400">
+                A GPU bottleneck is generally preferred because it means your
+                graphics card is rendering as many frames as it possibly can. A
+                CPU bottleneck often results in severe stuttering and frame
+                timing issues, making gameplay feel incredibly choppy even if
+                average frame rates seem high.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 

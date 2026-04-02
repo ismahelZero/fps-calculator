@@ -124,9 +124,27 @@
       <div
         class="mt-12 border-t border-white/5 pt-8 text-center text-xs text-slate-600"
       >
-        &copy; {{ new Date().getFullYear() }} MyFPS. All rights reserved. Game
-        content and materials are trademarks and copyrights of their respective
-        publisher and its licensors.
+        <div
+          class="mx-auto flex max-w-7xl flex-col items-center justify-between px-4 md:flex-row"
+        >
+          <div class="mb-4 text-gray-500 md:mb-0">
+            © {{ new Date().getFullYear() }} FPS Calculator. All rights
+            reserved.
+          </div>
+
+          <nav class="flex space-x-6 text-sm">
+            <NuxtLink
+              to="/about"
+              class="text-slate-400 transition-colors hover:text-primary"
+              >About Us</NuxtLink
+            >
+            <NuxtLink
+              to="/privacy-policy"
+              class="text-slate-400 transition-colors hover:text-primary"
+              >Privacy Policy</NuxtLink
+            >
+          </nav>
+        </div>
       </div>
     </div>
   </footer>

@@ -392,6 +392,18 @@
           </div>
         </main>
       </div>
+      <div class="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
+        <article
+          class="mb-8 rounded-xl border border-gray-800 bg-gray-900 p-6 shadow-lg md:p-8"
+        >
+          <h1 class="mb-4 text-3xl font-extrabold text-white md:text-4xl">
+            Best GPU for {{ gameName || 'this game' }}
+          </h1>
+          <p class="text-lg leading-relaxed text-gray-300">
+            {{ dynamicSeoText }}
+          </p>
+        </article>
+      </div>
     </div>
   </div>
 </template>
@@ -481,6 +493,11 @@ const picks = computed(() => {
       bottleneck: budgetResult.cpu.bottleneck
     }
   }
+})
+
+const dynamicSeoText = computed(() => {
+  if (!game) return ''
+  return `Finding the best graphics card for ${gameName} depends entirely on your target resolution and desired visual settings. Released as a demanding title, ${gameName} relies heavily on a robust GPU architecture to render its complex environments without dropping frames. For competitive players, maintaining a consistent frame rate is crucial for reducing input latency. Below, we break down how different tiers of modern graphics cards handle this game's engine to help you optimize your build.`
 })
 
 // 4. SEO Meta
