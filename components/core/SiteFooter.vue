@@ -136,13 +136,27 @@
             <NuxtLink
               to="/about"
               class="text-slate-400 transition-colors hover:text-primary"
-              >About Us</NuxtLink
             >
+              About Us
+            </NuxtLink>
             <NuxtLink
               to="/privacy-policy"
               class="text-slate-400 transition-colors hover:text-primary"
-              >Privacy Policy</NuxtLink
             >
+              Privacy Policy
+            </NuxtLink>
+            <NuxtLink
+              to="/terms"
+              class="text-slate-400 transition-colors hover:text-primary"
+            >
+              Terms of Service
+            </NuxtLink>
+            <a
+              href="mailto:godark.ty@gmail.com"
+              class="text-slate-400 transition-colors hover:text-primary"
+            >
+              Contact
+            </a>
           </nav>
         </div>
       </div>

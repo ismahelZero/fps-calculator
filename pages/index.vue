@@ -2,10 +2,10 @@
   <div class="relative overflow-hidden font-sans text-white">
     <div
       class="pointer-events-none absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-secondary/20 blur-[120px]"
-    ></div>
+    />
     <div
       class="pointer-events-none absolute bottom-[-10%] right-[-10%] h-[500px] w-[500px] rounded-full bg-primary/20 blur-[120px]"
-    ></div>
+    />
 
     <div
       class="container relative z-10 mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 py-20"
@@ -93,56 +93,112 @@
       </div>
     </div>
 
-    <div>
-      <section
-        class="mx-auto mb-24 mt-16 max-w-5xl px-4 text-gray-300 sm:px-6 lg:px-8"
-      >
-        <div class="rounded-2xl border border-gray-800 bg-gray-900/50 p-8">
-          <h2 class="mb-4 text-2xl font-bold text-white sm:text-3xl">
-            How Our FPS Calculator Works
-          </h2>
-          <p class="mb-6 leading-relaxed">
-            Building the perfect gaming PC or upgrading your current rig can be
-            a daunting task. Our platform analyzes hardware benchmarks across
-            popular titles to give you an accurate frame rate estimation.
-            Whether you are trying to hit an unwavering 144Hz in competitive
-            shooters or want to enjoy AAA single-player games at maximum
-            graphical fidelity, understanding your potential hardware
-            bottlenecks is the first step.
-          </p>
+    <section
+      class="mx-auto mb-24 mt-16 max-w-5xl px-4 text-gray-300 sm:px-6 lg:px-8"
+    >
+      <div class="rounded-2xl border border-gray-800 bg-dark-900 p-8">
+        <h2 class="mb-4 text-2xl font-bold text-white sm:text-3xl">
+          How Our FPS Calculator Works
+        </h2>
+        <p class="mb-6 leading-relaxed">
+          Building the perfect gaming PC or upgrading your current rig can be a
+          daunting task. Our platform analyzes hardware benchmarks across
+          popular titles to give you an accurate frame rate estimation. Whether
+          you are trying to hit an unwavering 144Hz in competitive shooters or
+          want to enjoy AAA single-player games at maximum graphical fidelity,
+          understanding your potential hardware bottlenecks is the first step.
+        </p>
 
-          <h3 class="mb-6 mt-10 text-xl font-bold text-white">
-            Frequently Asked Questions
-          </h3>
-          <div class="space-y-6">
-            <div>
-              <h4 class="text-lg font-semibold text-white">
-                What causes low FPS in games?
-              </h4>
-              <p class="mt-2 text-gray-400">
-                Low frame rates are typically caused by a hardware bottleneck,
-                usually either your CPU (processor) or GPU (graphics card)
-                reaching 100% utilization. Other contributing factors include
-                insufficient RAM speed, outdated graphics drivers, or thermal
-                throttling when components get too hot.
-              </p>
-            </div>
-            <div>
-              <h4 class="text-lg font-semibold text-white">
-                CPU vs. GPU Bottleneck: Which is worse?
-              </h4>
-              <p class="mt-2 text-gray-400">
-                A GPU bottleneck is generally preferred because it means your
-                graphics card is rendering as many frames as it possibly can. A
-                CPU bottleneck often results in severe stuttering and frame
-                timing issues, making gameplay feel incredibly choppy even if
-                average frame rates seem high.
-              </p>
-            </div>
+        <h3 class="mb-6 mt-10 text-xl font-bold text-white">
+          Frequently Asked Questions
+        </h3>
+        <div class="space-y-6">
+          <div>
+            <h4 class="text-lg font-semibold text-white">
+              What causes low FPS in games?
+            </h4>
+            <p class="mt-2 text-gray-400">
+              Low frame rates are typically caused by a hardware bottleneck,
+              usually either your CPU (processor) or GPU (graphics card)
+              reaching 100% utilization. Other contributing factors include
+              insufficient RAM speed, outdated graphics drivers, or thermal
+              throttling when components get too hot.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold text-white">
+              CPU vs. GPU Bottleneck: Which is worse?
+            </h4>
+            <p class="mt-2 text-gray-400">
+              A GPU bottleneck is generally preferred because it means your
+              graphics card is rendering as many frames as it possibly can. A
+              CPU bottleneck often results in severe stuttering and frame timing
+              issues, making gameplay feel incredibly choppy even if average
+              frame rates seem high.
+            </p>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <section
+      class="mx-auto mb-12 mt-24 max-w-6xl rounded-2xl border border-dark-800 bg-dark-900 p-8"
+    >
+      <h2 class="mb-6 text-3xl font-bold text-primary">
+        Why Use an FPS Calculator?
+      </h2>
+
+      <div class="grid gap-8 leading-relaxed text-gray-300 md:grid-cols-2">
+        <div>
+          <h3 class="mb-2 text-xl font-semibold text-white">
+            Avoid Hardware Bottlenecks
+          </h3>
+          <p class="mb-4">
+            A hardware bottleneck occurs when one PC component limits the
+            potential of another. For example, pairing a high-end NVIDIA RTX
+            4090 with an older Intel Core i3 processor will cause the GPU to
+            wait for the CPU, resulting in stuttering and lower frame rates. Our
+            FPS calculator helps you identify potential bottlenecks before you
+            buy, ensuring you get the perfect balance of CPU and GPU power for
+            your budget.
+          </p>
+          <h3 class="mb-2 text-xl font-semibold text-white">
+            Optimize In-Game Settings
+          </h3>
+          <p>
+            Different games demand different resources. Competitive tactical
+            shooters like Valorant and CS2 rely heavily on CPU performance to
+            push 240+ FPS for high refresh rate monitors. Meanwhile, visually
+            immersive games like Cyberpunk 2077 or Red Dead Redemption 2 demand
+            immense graphical processing power (GPU). By using our tool, you can
+            see exactly which settings (Low, Medium, High, Ultra) your current
+            rig can handle at 1080p, 1440p, or 4K.
+          </p>
+        </div>
+        <div>
+          <h3 class="mb-2 text-xl font-semibold text-white">
+            Plan Your PC Build
+          </h3>
+          <p class="mb-4">
+            Building a gaming PC is a big investment. Don't guess how your
+            system will perform. Simply select your desired processor, graphics
+            card, and the games you want to play. Our extensive benchmark
+            database will calculate estimated frame rates instantly. Compare
+            different GPU architectures, test AMD Ryzen against Intel Core
+            processors, and find the sweet spot for your gaming needs.
+          </p>
+          <h3 class="mb-2 text-xl font-semibold text-white">
+            Constantly Updated Data
+          </h3>
+          <p>
+            The gaming hardware landscape moves fast. As new drivers are
+            released and games receive optimization patches, performance metrics
+            change. MyFPS is dedicated to providing up-to-date hardware
+            statistics and frame rate estimates so you can stay ahead of the
+            curve.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
