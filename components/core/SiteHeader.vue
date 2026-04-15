@@ -41,6 +41,13 @@
         >
           PC Builder
         </NuxtLink>
+        <NuxtLink
+          to="/guides"
+          class="text-sm font-bold text-slate-400 transition-colors hover:text-white"
+          active-class="text-white"
+        >
+          Guides
+        </NuxtLink>
 
         <NuxtLink
           to="/what-can-i-play"

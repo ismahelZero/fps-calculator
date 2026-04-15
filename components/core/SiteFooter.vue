@@ -140,6 +140,12 @@
               About Us
             </NuxtLink>
             <NuxtLink
+              to="/guides"
+              class="text-slate-400 transition-colors hover:text-primary"
+            >
+              Guides
+            </NuxtLink>
+            <NuxtLink
               to="/privacy-policy"
               class="text-slate-400 transition-colors hover:text-primary"
             >
