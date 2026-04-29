@@ -8,7 +8,7 @@
     />
 
     <div
-      class="container relative z-10 mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 py-20"
+      class="container relative z-10 mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 pt-20"
     >
       <div class="mb-10 text-center">
         <h1
@@ -93,9 +93,7 @@
       </div>
     </div>
 
-    <section
-      class="mx-auto mb-24 mt-16 max-w-5xl px-4 text-gray-300 sm:px-6 lg:px-8"
-    >
+    <section class="mx-auto my-12 max-w-5xl px-4 text-gray-300 sm:px-6 lg:px-8">
       <div class="rounded-2xl border border-gray-800 bg-dark-900 p-8">
         <h2 class="mb-4 text-2xl font-bold text-white sm:text-3xl">
           How Our FPS Calculator Works
@@ -141,7 +139,7 @@
       </div>
     </section>
     <section
-      class="mx-auto mb-12 mt-24 max-w-6xl rounded-2xl border border-dark-800 bg-dark-900 p-8"
+      class="mx-auto my-12 max-w-6xl rounded-2xl border border-dark-800 bg-dark-900 p-8"
     >
       <h2 class="mb-6 text-3xl font-bold text-primary">
         Why Use an FPS Calculator?
@@ -195,6 +193,51 @@
             change. MyFPS is dedicated to providing up-to-date hardware
             statistics and frame rate estimates so you can stay ahead of the
             curve.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto my-10 max-w-4xl px-6">
+      <h2 class="mb-8 text-center text-3xl font-extrabold text-white">
+        Frequently Asked Questions
+      </h2>
+
+      <div class="space-y-6">
+        <div class="rounded-xl border border-dark-800 bg-dark-900 p-6">
+          <h3 class="mb-2 text-xl font-bold text-primary">
+            How accurate is this FPS calculator?
+          </h3>
+          <p class="text-gray-300">
+            Our tool uses a massive aggregate database of real-world benchmarks,
+            game engine limits, and hardware profiling. While individual results
+            may vary based on your specific RAM speed and cooling setup, our
+            estimates provide a highly reliable baseline for 1080p, 1440p, and
+            4K gaming.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-dark-800 bg-dark-900 p-6">
+          <h3 class="mb-2 text-xl font-bold text-primary">
+            What is a CPU bottleneck?
+          </h3>
+          <p class="text-gray-300">
+            A bottleneck happens when your graphics card is generating frames
+            faster than your processor can handle. If you pair an RTX 4090 with
+            an old i5 processor, you won't get the maximum FPS. Our calculator
+            helps you find the perfect hardware balance.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-dark-800 bg-dark-900 p-6">
+          <h3 class="mb-2 text-xl font-bold text-primary">
+            Are these benchmarks for Ultra or Low settings?
+          </h3>
+          <p class="text-gray-300">
+            Our standard predictions are based on High/Max settings at standard
+            resolutions. For competitive shooters like Valorant or CS2, we also
+            factor in typical competitive settings (Low Shadows, Anti-Aliasing
+            off) to accurately reflect how real players experience the game.
           </p>
         </div>
       </div>

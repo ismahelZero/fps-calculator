@@ -350,6 +350,38 @@
           >
         </a>
       </div>
+      <div
+        class="mx-auto mt-12 w-full max-w-4xl rounded-2xl border border-dark-700 bg-dark-900/50 p-8 text-left"
+      >
+        <h2 class="mb-4 text-2xl font-bold text-primary">
+          Optimization Analysis: {{ gpu.name }} running {{ game.name }}
+        </h2>
+
+        <div
+          class="prose prose-invert max-w-none space-y-4 leading-relaxed text-gray-300"
+        >
+          <p>
+            Getting the best performance out of
+            <strong>{{ game.name }}</strong> with your
+            <strong>{{ gpu.name }}</strong> requires finding the perfect balance
+            between visual fidelity and frame rate. Based on our extensive
+            benchmark database, this hardware configuration is expected to
+            achieve around <strong>{{ result.fps }} FPS</strong> on
+            <strong>{{ result.settings }}</strong> settings.
+          </p>
+
+          <p>
+            {{ optimizationSummary }}
+          </p>
+
+          <h3 class="mb-2 mt-6 text-xl font-semibold text-white">
+            Tweaking Advice
+          </h3>
+          <p>
+            {{ tweakingAdvice }}
+          </p>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -477,6 +509,20 @@ watch([selectedCpu, ram], () => {
 const result = computed(() =>
   useOptimization(gpu, selectedCpu.value, ram.value, game)
 )
+
+const optimizationSummary = computed(() => {
+  if (result.value.fps >= 144) {
+    return `With an estimated frame rate of ${result.value.fps} FPS, your ${gpu.name} is handling ${game.name} exceptionally well. This setup is perfectly optimized for high-refresh-rate monitors (144Hz or 240Hz). You have enough graphical headroom to maintain these frames, making it ideal for competitive gaming where low latency is crucial.`
+  } else if (result.value.fps >= 60) {
+    return `At ${result.value.fps} FPS, you will experience a very smooth and highly playable session in ${game.name}. The ${gpu.name} provides a solid middle-ground, easily surpassing the 60 FPS gold standard for PC gaming without requiring you to drop all your graphical settings to the minimum.`
+  } else {
+    return `Achieving ${result.value.fps} FPS means your ${gpu.name} might struggle slightly with ${game.name} during intense scenes or heavy particle effects. To improve this, consider lowering your shadow quality, turning off volumetric fog, and utilizing upscaling technologies like NVIDIA DLSS or AMD FSR if your card supports it.`
+  }
+})
+
+const tweakingAdvice = computed(() => {
+  return `While the ${gpu.name} features ${gpu.vram}GB of VRAM, make sure you keep your graphics drivers fully updated. If you notice micro-stutters in ${game.name} despite a high average FPS, check your CPU utilization using Task Manager, as a processor bottleneck could be holding your graphics card back.`
+})
 
 useSeoMeta({
   title: `${game.name} on ${gpu.name} - FPS & Settings`,

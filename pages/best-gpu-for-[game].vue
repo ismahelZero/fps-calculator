@@ -390,11 +390,42 @@
               Go to PC Builder <span>→</span>
             </NuxtLink>
           </div>
+
+          <div
+            class="mx-auto mt-16 w-full max-w-5xl rounded-2xl border border-dark-700 bg-dark-900/50 p-8"
+          >
+            <h2 class="mb-4 text-2xl font-bold text-primary">
+              Hardware Requirements for {{ game.name }}
+            </h2>
+
+            <div
+              class="prose prose-invert max-w-none space-y-4 leading-relaxed text-gray-300"
+            >
+              <p>
+                {{ gameReview }}
+              </p>
+
+              <p>
+                Our automated tier list above categorizes graphics cards into
+                Budget, Recommended, and Enthusiast tiers based on their
+                predicted frame rates. We constantly update our benchmark data
+                to ensure you are getting accurate recommendations before you
+                make a purchase.
+              </p>
+
+              <h3 class="mb-2 mt-6 text-xl font-semibold text-white">
+                Upgrade Considerations
+              </h3>
+              <p>
+                {{ upgradeAdvice }}
+              </p>
+            </div>
+          </div>
         </main>
       </div>
       <div class="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
         <article
-          class="mb-8 rounded-xl border border-gray-800 bg-gray-900 p-6 shadow-lg md:p-8"
+          class="mb-8 rounded-xl border border-dark-700 bg-dark-900/50 p-6 shadow-lg md:p-8"
         >
           <h1 class="mb-4 text-3xl font-extrabold text-white md:text-4xl">
             Best GPU for {{ gameName || 'this game' }}
@@ -498,6 +529,14 @@ const picks = computed(() => {
 const dynamicSeoText = computed(() => {
   if (!game) return ''
   return `Finding the best graphics card for ${gameName} depends entirely on your target resolution and desired visual settings. Released as a demanding title, ${gameName} relies heavily on a robust GPU architecture to render its complex environments without dropping frames. For competitive players, maintaining a consistent frame rate is crucial for reducing input latency. Below, we break down how different tiers of modern graphics cards handle this game's engine to help you optimize your build.`
+})
+
+const gameReview = computed(() => {
+  return `Finding the best graphics card for ${game.name} depends heavily on your target resolution and desired frame rate. Different game engines utilize hardware in unique ways. Some titles are highly CPU-bound, relying on processor speeds to calculate physics and AI, while others push your GPU to its absolute limits rendering 4K textures and ray-traced shadows.`
+})
+
+const upgradeAdvice = computed(() => {
+  return `When upgrading your PC specifically to play ${game.name}, pay close attention to the VRAM (Video RAM) specifications of the GPUs listed above. As modern games become more demanding, having 8GB to 12GB of VRAM is quickly becoming the new baseline for avoiding texture pop-in and stuttering at 1440p resolutions.`
 })
 
 // 4. SEO Meta

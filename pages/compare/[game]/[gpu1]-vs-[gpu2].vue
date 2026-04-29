@@ -11,7 +11,7 @@
     </div>
 
     <main class="mx-auto max-w-6xl">
-      <div class="mb-16 text-center">
+      <div class="mb-10 text-center">
         <h1 class="mb-4 font-display text-4xl font-black md:text-6xl">
           <span class="text-primary">{{ gpu1.name }}</span>
           <span class="mx-4 align-middle text-2xl text-slate-600">VS</span>
@@ -28,6 +28,39 @@
           class="inline-block rounded-full bg-dark-800 px-6 py-2 font-bold text-slate-400"
         >
           It's a Tie!
+        </div>
+      </div>
+
+      <div
+        class="mb-12 mt-4 rounded-2xl border border-dark-700 bg-dark-900/50 p-8"
+      >
+        <h2 class="mb-4 text-2xl font-bold text-primary">
+          Performance Verdict: {{ gpu1.name }} vs {{ gpu2.name }} in
+          {{ game.name }}
+        </h2>
+
+        <div
+          class="prose prose-invert max-w-none space-y-4 leading-relaxed text-gray-300"
+        >
+          <p>
+            Choosing the right graphics card can make or break your experience
+            when playing highly demanding titles. Based on our estimated
+            hardware benchmarks, the <strong>{{ gpu1.name }}</strong> delivers
+            an average of <strong>{{ res1.fps }} FPS</strong>, while the
+            <strong>{{ gpu2.name }}</strong> pushes around
+            <strong>{{ res2.fps }} FPS</strong>.
+          </p>
+
+          <p>
+            {{ performanceSummary }}
+          </p>
+
+          <h3 class="mb-2 mt-6 text-xl font-semibold text-white">
+            Final Recommendation
+          </h3>
+          <p>
+            {{ buyingAdvice }}
+          </p>
         </div>
       </div>
 
@@ -57,14 +90,14 @@
           </div>
           <div class="space-y-4">
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">Settings</span
-              ><span :class="res1.badgeColor" class="font-bold">{{
-                res1.settings
-              }}</span>
+              <span class="text-slate-500">Settings</span>
+              <span :class="res1.badgeColor" class="font-bold">
+                {{ res1.settings }}
+              </span>
             </div>
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">VRAM</span
-              ><span>{{ gpu1.vram }} GB</span>
+              <span class="text-slate-500">VRAM</span>
+              <span>{{ gpu1.vram }} GB</span>
             </div>
             <div class="flex justify-between border-b border-dark-700 pb-2">
               <span class="text-slate-500">Performance Score</span>
@@ -75,8 +108,9 @@
             :href="gpu1.affiliateLink"
             target="_blank"
             class="mt-8 block w-full rounded-xl bg-primary/10 py-3 text-center font-bold text-primary transition-all hover:bg-primary hover:text-dark-950"
-            >See Price</a
           >
+            See Price
+          </a>
         </div>
 
         <div
@@ -98,14 +132,14 @@
           </div>
           <div class="space-y-4">
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">Settings</span
-              ><span :class="res2.badgeColor" class="font-bold">{{
-                res2.settings
-              }}</span>
+              <span class="text-slate-500">Settings</span>
+              <span :class="res2.badgeColor" class="font-bold">
+                {{ res2.settings }}
+              </span>
             </div>
             <div class="flex justify-between border-b border-dark-700 pb-2">
-              <span class="text-slate-500">VRAM</span
-              ><span>{{ gpu2.vram }} GB</span>
+              <span class="text-slate-500">VRAM</span>
+              <span>{{ gpu2.vram }} GB</span>
             </div>
             <div class="flex justify-between border-b border-dark-700 pb-2">
               <span class="text-slate-500">Performance Score</span>
@@ -116,8 +150,9 @@
             :href="gpu2.affiliateLink"
             target="_blank"
             class="mt-8 block w-full rounded-xl bg-secondary/10 py-3 text-center font-bold text-secondary transition-all hover:bg-secondary hover:text-white"
-            >See Price</a
           >
+            See Price
+          </a>
         </div>
       </div>
     </main>
@@ -130,6 +165,7 @@ import { useOptimization } from '@/composables/useOptimization'
 import gpus from '~/data/gpus.json'
 import games from '~/data/games.json'
 import { createError, useSeoMeta, useHead } from 'nuxt/app'
+import { computed } from 'vue'
 
 const route = useRoute()
 const { game: gameSlug } = route.params
@@ -184,6 +220,25 @@ const schema = {
     }
   ]
 }
+
+const performanceSummary = computed(() => {
+  const diff = Math.abs(res1.fps - res2.fps)
+  const winnerGpu = res1.fps > res2.fps ? gpu1.name : gpu2.name
+  const loserGpu = res1.fps > res2.fps ? gpu2.name : gpu1.name
+
+  if (diff < 5) {
+    return `When analyzing the benchmark data for ${game.name}, both graphics cards perform almost identically. The architecture differences between the ${winnerGpu} and ${loserGpu} don't heavily impact the frame times here. You will likely not notice a visual difference in smooth gameplay between either setup at 1080p settings.`
+  } else if (diff >= 5 && diff <= 15) {
+    return `In this hardware matchup, the ${winnerGpu} takes a slight lead, offering roughly ${diff} more frames per second on average. While this isn't a massive gap, it does provide a slightly smoother experience and better 1% lows during heavy combat or intense visual scenarios in ${game.name} compared to the ${loserGpu}.`
+  } else {
+    return `The ${winnerGpu} completely dominates the ${loserGpu} when rendering ${game.name}, boasting a significant performance lead of ${diff} FPS. If you are aiming for high-refresh-rate competitive gaming or want to push your monitor to its absolute limits, the ${winnerGpu} is the clear choice for this specific title.`
+  }
+})
+
+const buyingAdvice = computed(() => {
+  const winnerGpu = res1.fps > res2.fps ? gpu1.name : gpu2.name
+  return `Ultimately, upgrading your PC build to include the ${winnerGpu} will ensure that you avoid visual bottlenecks in ${game.name}. Keep in mind that your CPU, RAM speed, and thermal cooling will also play a crucial role in maintaining these frame rates consistently over long gaming sessions.`
+})
 
 useHead({
   script: [
